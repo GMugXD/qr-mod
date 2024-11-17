@@ -4,7 +4,7 @@
     "health": 600,
     "size": 1,
     "range": 1000,
-    "instructionsPerTick": 25,
+    "instructionsPerTick": 250,
     "alwaysUnlocked": true,
     "hasShadow": false,
     "requirements": [
