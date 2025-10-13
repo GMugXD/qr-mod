@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Overgrown Stone Wall",
+    "health": 600,
+    "size": 1,
+    "variants": 4,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "coal/6"
+    ],
+    "category": "production",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "Sorter",
+  "name": "Configurable Memory Cell",
+  "health": 600,
+  "size": 1,
+  "alwaysUnlocked": true,
+  "requirements": [
+  ],
+  "category": "distribution"
+}

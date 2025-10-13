@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Chiseled Surge Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "surge-alloy/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,14 @@
+{    
+    "type": "LogicDisplay",
+    "name": "4x4 Projector",
+    "health": 100,
+    "size": 1,
+    "displaySize": 128,
+    "clipSize": 32,
+    "requirements": [
+        "metaglass/50",
+        "camod-green/25"
+    
+    ],
+    "category": "logic"
+}

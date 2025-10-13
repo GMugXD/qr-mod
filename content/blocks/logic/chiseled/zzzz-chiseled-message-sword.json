@@ -1,0 +1,17 @@
+{    
+    "type": "MessageBlock",
+    "name": "Chiseled Msg Sword",
+    "health": 600,
+    "size": 1,
+    "maxNewlines": 2000,
+    "maxTextLength": 22000,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "copper/5",
+     "graphite/6"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

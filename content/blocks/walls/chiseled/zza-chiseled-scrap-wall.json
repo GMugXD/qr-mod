@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Chiseled Scrap Wall",
+    "health": 600,
+    "size": 2,
+  "variants": 4,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "scrap/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,15 @@
+{    
+    "type": "Sorter",
+    "name": "Flat Duct Router",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

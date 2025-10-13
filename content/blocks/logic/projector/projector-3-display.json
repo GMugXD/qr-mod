@@ -1,0 +1,14 @@
+{    
+    "type": "LogicDisplay",
+    "name": "3x3 Projector",
+    "health": 100,
+    "size": 1,
+    "displaySize": 96,
+    "clipSize": 24,
+    "requirements": [
+        "metaglass/50",
+        "camod-green/25"
+    
+    ],
+    "category": "logic"
+}

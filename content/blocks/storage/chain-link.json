@@ -1,0 +1,28 @@
+{    
+    "type": "PowerSource",
+    "name": "Chain Link",
+    "health": 600,
+    "size": 1,
+    "laserScale": 1,
+    "laserRange": 25,
+    "alwaysUnlocked": true,
+    "hasShadow": false,
+    "range": 500,
+    "requirements": [
+     "metaglass/6"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+    "placeEffect": {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sides": 6,
+    "sizeFrom": 10,
+    "sizeTo": 20,
+    "strokeFrom": 10,
+    "strokeTo": 0,
+    "colour": ffffff,
+  }
+}

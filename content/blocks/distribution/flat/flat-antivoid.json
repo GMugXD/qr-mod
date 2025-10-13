@@ -1,0 +1,15 @@
+{    
+    "type": "ItemSource",
+    "name": "Flat Item Antivoid",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

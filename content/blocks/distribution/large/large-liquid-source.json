@@ -1,0 +1,13 @@
+{    
+    "type": "LiquidSource",
+    "name": "Large Liquid Source",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "blockGroup": "transportation",
+    "requirements": [],
+    "category": "liquid",
+    "research": {
+    
+    }
+}

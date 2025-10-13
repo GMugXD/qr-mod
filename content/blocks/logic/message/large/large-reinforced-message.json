@@ -1,0 +1,17 @@
+{    
+    "type": "MessageBlock",
+    "name": "Large Reinforced Msg",
+    "health": 600,
+    "size": 2,
+    "maxNewlines": 2000,
+    "maxTextLength": 22000,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "beryllium/8",
+        "graphite/16"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

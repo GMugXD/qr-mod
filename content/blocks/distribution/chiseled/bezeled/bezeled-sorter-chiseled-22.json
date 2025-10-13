@@ -1,0 +1,16 @@
+{    
+    "type": "Sorter",
+    "name": "Chiseled Bezeled Sorter",
+    "health": 600,
+    "size": 1,
+    "rotate": true,
+    "alwaysUnlocked": true,
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Chiseled Reinforced Surge Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "tungsten/8",
+         "surge-alloy/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

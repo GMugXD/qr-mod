@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Large Brown Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-orange/24",
+         "camod-black/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

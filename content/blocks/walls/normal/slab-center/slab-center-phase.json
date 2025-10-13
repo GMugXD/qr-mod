@@ -1,0 +1,17 @@
+{    
+    "type": "Wall",
+    "name": "Centered Phase Slab",
+    "health": 600,
+    "size": 1,
+    "rotate": true,
+    "alwaysUnlocked": true,
+    "chanceDeflect": 10,
+    "flashHit": true,
+    "requirements": [
+     "phase-fabric/3"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

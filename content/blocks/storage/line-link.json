@@ -1,0 +1,19 @@
+{    
+    "type": "PowerSource",
+    "name": "Line Link",
+    "health": 600,
+    "size": 1,
+    "laserScale": 0.5,
+    "laserLength": 2,
+    "laserRange": 24,
+    "alwaysUnlocked": true,
+    "hasShadow": false,
+    "range": 500,
+    "requirements": [
+     "metaglass/6"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}

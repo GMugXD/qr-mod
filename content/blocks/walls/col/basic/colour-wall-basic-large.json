@@ -1,0 +1,13 @@
+{
+    "type": "Unloader",
+    "name": "Large Colour Wall",
+    "health": 600,
+    "size": 2,
+    "buildVisibility": "shown",
+    "blockGroup": "walls",
+    "requirements": [
+     "spectral/24"
+    ],
+    "category": "defense",
+    "research": {}
+}

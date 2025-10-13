@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Huge Omega Wall",
+    "health": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+    "size": 3,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "copper/69"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

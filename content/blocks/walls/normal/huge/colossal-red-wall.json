@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Huge Crimson Wall",
+    "health": 600,
+    "size": 3,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-red/54"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

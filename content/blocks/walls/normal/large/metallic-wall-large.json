@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Large Metallic Wall",
+    "health": 2400,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "copper/24",
+     "graphite/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

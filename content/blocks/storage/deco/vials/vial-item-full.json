@@ -1,0 +1,17 @@
+{    
+    "type": "ItemSource",
+    "name": "Full Item Vial",
+    "health": 600,
+    "size": 1,
+    "invert": true,
+    "rotate": rotate,
+    "alwaysUnlocked": true,
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}

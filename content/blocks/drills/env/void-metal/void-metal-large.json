@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Large Void Metal Wall",
+    "health": 200,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "coal/6"
+    ],
+    "category": "production",
+    "research": {
+    
+    }
+}

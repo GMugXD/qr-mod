@@ -1,0 +1,17 @@
+{    
+    "type": "SwitchBlock",
+    "name": "Invis Switch",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "hasShadow": false,
+    "requirements": [
+     "copper/8",
+        "graphite/8",
+        "silicon/2"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,16 @@
+{    
+    "type": "Wall",
+    "name": "Sand Wall",
+    "description": "t h e  p h a r a o h s  c u r s e",
+    "health": 600,
+    "size": 1,
+    "variants": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "sand/6"
+    ],
+    "category": "production",
+    "research": {
+    
+    }
+}

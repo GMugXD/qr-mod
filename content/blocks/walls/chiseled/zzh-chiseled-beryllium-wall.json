@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Chiseled Beryllium Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "beryllium/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

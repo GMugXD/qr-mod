@@ -1,0 +1,20 @@
+name: camod
+displayName: "Quantum Realm Mod"
+subtitle: "80% was made in 3 hours | v7"
+description: "An extremely large mod solely dedicated for mindustry roleplaying and builds alike.
+
+V7 has been released after lots of procrastination!
+
+Version v7"
+author: "
+Adrift - Main Dev
+Xaoc - Original Mod
+T4SC, 4.b1, Hurb - Major help with everything
+Molten - Major help with effects and units
+HanLarence, petal - Major help with sprites and more
+Click, Hurb, Nameless - Minor help with sprites and ideas"
+repo: "GMugXD/qr-mod"
+minGameVersion: 143
+version: 7
+hidden: false
+dependecies: []

@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Large Cyan Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-cyan2/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

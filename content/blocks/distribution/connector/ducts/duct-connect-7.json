@@ -1,0 +1,16 @@
+{    
+    "type": "Sorter",
+    "name": "Connector Duct",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "rotate": true,
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

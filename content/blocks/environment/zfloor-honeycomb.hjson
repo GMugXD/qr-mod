@@ -1,0 +1,5 @@
+type: Floor
+name: Honeycomb
+variants: 6
+category: production
+buildVisibility: sandboxOnly

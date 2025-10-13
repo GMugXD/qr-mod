@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Centered Titanium Chunk",
+    "health": 600,
+    "size": 1,
+    "rotate": true,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "titanium/3"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

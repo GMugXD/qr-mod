@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Huge Beryllium Wall",
+    "health": 600,
+    "size": 3,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "beryllium/54"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,11 @@
+{
+"type": "DuctBridge",
+"name": "Infinite Duct Bridge",
+"range": 500,
+"health": 200,
+"size": 1,
+  "requirements": [
+   "beryllium/12"
+  ],
+  "category": "distribution",
+}

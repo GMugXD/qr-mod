@@ -1,0 +1,16 @@
+{    
+    "type": "CanvasBlock",
+    "name": "32Canvas",
+    "health": 600,
+    "size": 2,
+    "canvasSize": 32,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "beryllium/10",
+        "silicon/10"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

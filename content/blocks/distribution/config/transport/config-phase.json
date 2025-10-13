@@ -1,0 +1,10 @@
+{
+  "type": "Unloader",
+  "name": "Configurable Phase Conveyor",
+  "health": 600,
+  "size": 1,
+  "alwaysUnlocked": true,
+  "requirements": [
+  ],
+  "category": "distribution"
+}

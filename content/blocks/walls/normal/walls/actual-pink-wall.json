@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Pink Wall",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-pink/6"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

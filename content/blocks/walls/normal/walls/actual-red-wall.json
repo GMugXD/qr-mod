@@ -1,0 +1,27 @@
+{    
+    "type": "Wall",
+    "name": "Red Wall",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-red/6"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}
+    
+   
+
+   
+
+ 
+
+    
+
+    
+   
+
+   

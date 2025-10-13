@@ -1,0 +1,17 @@
+{    
+    "type": "ItemSource",
+    "name": "Open Item Vial",
+    "health": 600,
+    "size": 1,
+    "invert": true,
+    "rotate": true,
+    "alwaysUnlocked": true,
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}
