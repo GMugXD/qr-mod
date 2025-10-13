@@ -1,5 +1,0 @@
-type: Floor
-name: Red Sand
-variants: 3
-category: production
-buildVisibility: sandboxOnly
