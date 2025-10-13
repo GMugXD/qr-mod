@@ -1,0 +1,5 @@
+type: OverlayFloor
+name: Green Overlay
+variants: 1
+category: production
+buildVisibility: sandboxOnly

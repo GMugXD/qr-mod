@@ -1,6 +1,6 @@
 {    
     "type": "Sorter",
-    "name": "[LEGACY] Static Borderless Sorter",
+    "name": "Static Borderless Sorter",
     "health": 600,
     "size": 1,
     "variants": 16,
@@ -10,7 +10,7 @@
         "copper/2",
         "lead/2"
     ],
-    "category": "turret",
+    "category": "distribution",
     "research": {
     
     }

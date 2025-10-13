@@ -1,0 +1,13 @@
+{    
+    "type": "ItemSource",
+    "name": "Green Item Source",
+    "health": 600,
+    "size": 1,
+    "rotate": false,
+    "alwaysUnlocked": true,
+    "requirements": [],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

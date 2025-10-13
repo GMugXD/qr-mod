@@ -1,6 +1,6 @@
 {
     "type": "Unloader",
-    "name": "Large Snow Colour Wall",
+    "name": "Large Stone Colour Wall",
     "health": 600,
     "size": 2,
     "buildVisibility": "shown",

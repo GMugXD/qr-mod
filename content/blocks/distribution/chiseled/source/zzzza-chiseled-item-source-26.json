@@ -1,0 +1,13 @@
+{    
+    "type": "ItemSource",
+    "name": "Chiseled Source Seven",
+    "health": 600,
+    "size": 1,
+    "rotate": true,
+    "alwaysUnlocked": true,
+    "requirements": [],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

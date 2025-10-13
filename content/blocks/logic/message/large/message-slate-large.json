@@ -1,6 +1,6 @@
 {    
     "type": "MessageBlock",
-    "name": "Large Omega Msg",
+    "name": "Large Slate Msg",
     "health": 600,
     "size": 2,
     "maxNewlines": 2000,

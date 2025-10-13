@@ -1,0 +1,31 @@
+name: "Wind SFX Block"
+type: ItemTurret
+health: 500
+size: 1
+reload: 240
+range: 1
+squareSprite: false
+top: false
+hitEffect: none
+despawnEffect: none
+shootEffect: none
+shootSound: wind
+drawer: {
+  type: drawTurret
+  basePrefix: sfx-wind
+}
+ammoTypes: {
+  zd-clear: {
+    type: BasicBulletType
+    sprite: none
+    height: 0
+    width: 0
+    hitEffect: none
+    despawnEffect: none
+    shootEffect: none
+    despawnHit: true
+  }
+}       
+requirements: [
+]
+category: turret

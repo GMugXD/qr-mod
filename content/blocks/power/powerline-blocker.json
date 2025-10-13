@@ -1,0 +1,18 @@
+{    
+    "type": "Wall",
+    "name": "Powerline Blocker",
+    "health": 600,
+    "size": 1,
+    "insulated": true,
+    "absorbLasers": true,
+    "hasShadow": false,
+    "schematicPriority": 10,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "plastanium/54"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}

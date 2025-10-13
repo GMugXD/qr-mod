@@ -1,6 +1,6 @@
 {    
     "type": "Sorter",
-    "name": "Flat Unloader",
+    "name": "Flat Surge Router",
     "health": 600,
     "size": 1,
     "alwaysUnlocked": true,

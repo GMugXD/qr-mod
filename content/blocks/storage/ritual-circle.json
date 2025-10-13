@@ -1,0 +1,26 @@
+{    
+    "type": "Unloader",
+    "name": "[]",
+    "health": 600,
+    "size": 1,
+    "hasShadow": false,
+    "rotate": true,
+    "alwaysUnlocked": true,
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "effect",
+    "research": {
+    }
+    "placeSound": camod-ritual,
+    "placeEffect": {
+    "type": WaveEffect,
+    "lifetime": 200,
+    "sizeFrom": 0
+    "sizeTo": 1000
+    "colourFrom": ffffff,
+    "colourTo": ff0000,
+    "sides": 980
+}
+}

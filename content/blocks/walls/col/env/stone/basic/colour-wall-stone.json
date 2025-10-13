@@ -1,6 +1,6 @@
 {
     "type": "Unloader",
-    "name": "Snow Colour Wall",
+    "name": "Stone Colour Wall",
     "itemsPerSecond": 0,
     "health": 600,
     "size": 1,
