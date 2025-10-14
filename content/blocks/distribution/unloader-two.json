@@ -1,5 +1,5 @@
 {    
-    "type": "Sorter",
+    "type": "Unloader",
     "name": "Unloader Two",
     "health": 600,
     "size": 1,
