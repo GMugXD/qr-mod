@@ -1,0 +1,12 @@
+{
+    "type": "Unloader",
+    "name": "Highlighted Wall",
+    "health": 600,
+    "size": 1,
+    "buildVisibility": "shown",
+    "blockGroup": "walls",
+    "requirements": [
+    ],
+    "category": "defense",
+    "research": {}
+}

@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Pastel Cyan Wall",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-black/6"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

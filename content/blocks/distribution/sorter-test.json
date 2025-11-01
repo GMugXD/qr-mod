@@ -1,0 +1,16 @@
+{    
+    "type": "ItemSource",
+    "name": "Invisible Item Sorter",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "hasShadow": false,
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

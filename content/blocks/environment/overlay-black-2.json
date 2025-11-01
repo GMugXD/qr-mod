@@ -1,0 +1,5 @@
+type: OverlayFloor
+name: Black Overlay Two
+variants: 1
+category: production
+buildVisibility: sandboxOnly

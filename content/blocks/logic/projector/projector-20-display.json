@@ -1,0 +1,14 @@
+{    
+    "type": "LogicDisplay",
+    "name": "20x20 Projector",
+    "health": 100,
+    "size": 1,
+    "displaySize": 640,
+    "clipSize": 160,
+    "requirements": [
+        "metaglass/50",
+        "camod-green/25"
+    
+    ],
+    "category": "logic"
+}

@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Gargantuan Metallic Wall",
+    "health": 9600,
+    "size": 4,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "copper/96",
+     "graphite/96"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

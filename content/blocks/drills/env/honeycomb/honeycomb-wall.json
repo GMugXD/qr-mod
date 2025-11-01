@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Honeycomb Wall",
+    "health": 50,
+    "size": 1,
+    "variants": 6,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "coal/6"
+    ],
+    "category": "production",
+    "research": {
+    
+    }
+}

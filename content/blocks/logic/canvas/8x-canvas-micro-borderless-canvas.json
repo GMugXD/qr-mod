@@ -1,0 +1,16 @@
+{    
+    "type": "CanvasBlock",
+    "name": "Micro 8xCanvas",
+    "health": 600,
+    "size": 1,
+    "canvasSize": 8,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "beryllium/10",
+        "silicon/10"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

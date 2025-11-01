@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Large Savannah Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "coal/24"
+    ],
+    "category": "production",
+    "research": {
+    
+    }
+}

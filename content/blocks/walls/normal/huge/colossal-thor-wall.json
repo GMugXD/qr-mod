@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Huge Thorium Wall",
+    "health": 600,
+    "size": 3,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "thorium/54"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,17 @@
+{    
+    "type": "Unloader",
+    "name": "Large Inverted Sorter",
+    "health": 600,
+    "size": 2,
+    "invert": true,
+    "alwaysUnlocked": true,
+    "blockGroup": "transportation",
+    "requirements": [
+     "copper/3",
+        "lead/3"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

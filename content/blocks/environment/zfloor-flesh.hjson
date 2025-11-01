@@ -1,0 +1,6 @@
+type: Floor
+name: Flesh
+variants: 4
+category: production
+buildVisibility: sandboxOnly
+blockGroup: 5

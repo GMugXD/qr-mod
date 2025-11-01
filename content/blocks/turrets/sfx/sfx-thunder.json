@@ -1,0 +1,31 @@
+name: "Thunder SFX Block"
+type: ItemTurret
+health: 500
+size: 1
+reload: 70
+range: 1
+squareSprite: false
+top: false
+hitEffect: none
+despawnEffect: none
+shootEffect: none
+shootSound: thunder
+drawer: {
+  type: drawTurret
+  basePrefix: sfx-thunder
+}
+ammoTypes: {
+  zd-clear: {
+    type: BasicBulletType
+    sprite: none
+    height: 0
+    width: 0
+    hitEffect: none
+    despawnEffect: none
+    shootEffect: none
+    despawnHit: true
+  }
+}       
+requirements: [
+]
+category: turret

@@ -1,0 +1,13 @@
+{    
+    "type": "Unloader",
+    "name": "Lined Invisorter",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "blockGroup": "transportation",
+    "requirements": [],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

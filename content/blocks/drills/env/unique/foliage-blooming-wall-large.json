@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Large Blooming Foliage Wall",
+    "health": 600,
+    "variants": 3,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "coal/6"
+    ],
+    "category": "production",
+    "research": {
+    
+    }
+}

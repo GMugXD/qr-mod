@@ -1,0 +1,18 @@
+{    
+    "type": "LogicDisplay",
+    "name": "Micro HD Display",
+    "health": 400,
+    "size": 1,
+    "rotate": true,
+    "displaySize": 160,
+    "scaleFactor": 0.2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "silicon/50",
+     "metaglass/50"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

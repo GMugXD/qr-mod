@@ -1,0 +1,13 @@
+{
+    "type": "Unloader",
+    "name": "Dark Metal Colour Wall",
+    "itemsPerSecond": 0,
+    "health": 600,
+    "size": 1,
+    "buildVisibility": "shown",
+    "requirements": [
+     "spectral/24"
+    ],
+    "category": "production",
+    "research": {}
+}

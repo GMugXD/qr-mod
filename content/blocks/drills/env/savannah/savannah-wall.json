@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Savannah Wall",
+    "health": 600,
+    "size": 1,
+    "variants": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "coal/6"
+    ],
+    "category": "production",
+    "research": {
+    
+    }
+}

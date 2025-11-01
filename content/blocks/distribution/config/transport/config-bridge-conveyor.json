@@ -1,0 +1,10 @@
+{
+  "type": "Sorter",
+  "name": "Configurable Bridge Conveyor",
+  "health": 600,
+  "size": 1,
+  "alwaysUnlocked": true,
+  "requirements": [
+  ],
+  "category": "distribution"
+}

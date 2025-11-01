@@ -1,0 +1,15 @@
+{    
+    "type": "MessageBlock",
+    "name": "Book of Romance",
+    "health": 600,
+    "size": 1,
+     "maxNewlines": 2000,
+    "maxTextLength": 22000,
+    "alwaysUnlocked": true,
+    "requirements": [
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

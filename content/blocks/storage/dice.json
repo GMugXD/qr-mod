@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Dice",
+    "health": 600,
+    "size": 1,
+  "variants": 10,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "metaglass/6"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}

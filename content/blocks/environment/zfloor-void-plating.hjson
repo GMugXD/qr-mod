@@ -1,0 +1,5 @@
+type: Floor
+name: Void Plating
+variants: 4
+category: production
+buildVisibility: sandboxOnly

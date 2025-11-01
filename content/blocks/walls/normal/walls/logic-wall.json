@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Logic Wall",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "copper/69"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

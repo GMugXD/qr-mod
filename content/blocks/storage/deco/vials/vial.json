@@ -1,0 +1,17 @@
+{    
+    "type": "LiquidSource",
+    "name": "Vial",
+    "health": 600,
+    "size": 1,
+    "invert": true,
+    "rotate": false,
+    "alwaysUnlocked": true,
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}

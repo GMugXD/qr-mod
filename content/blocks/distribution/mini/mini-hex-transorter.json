@@ -1,0 +1,18 @@
+{    
+    "type": "LightBlock",
+    "name": "Hex Mini Transorter",
+    "health": 600,
+    "size": 1,
+    "brightness": 0,
+    "radius": 0,
+    "alwaysUnlocked": true,
+    "blockGroup": "transportation",
+    "hasShadow": false,
+    "requirements": [
+     "camod-spectral/6"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

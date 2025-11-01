@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Large Salmon Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-black/6"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

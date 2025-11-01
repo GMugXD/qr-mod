@@ -1,0 +1,9 @@
+{
+"localizedName": "Light",
+"description": "Not a scientist, but im sure light isnt a fucking gas.",
+"gas": true,
+"cache": "ozone",
+"color": "ffffffff",
+"research": {
+}
+}

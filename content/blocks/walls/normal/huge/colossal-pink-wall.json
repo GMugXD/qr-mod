@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Huge Magenta Wall",
+    "health": 600,
+    "size": 3,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-pink/54"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

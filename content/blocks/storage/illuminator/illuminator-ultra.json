@@ -1,0 +1,14 @@
+{    
+    "type": "LightBlock",
+    "name": "Ultra Illuminator",
+    "health": 600,
+    "size": 1,
+    "brightness": 100,
+    "radius": 150,
+    "alwaysUnlocked": true,
+    "requirements": [],
+    "category": "effect",
+    "research": {
+    
+    }
+}

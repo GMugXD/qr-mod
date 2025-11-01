@@ -1,0 +1,27 @@
+{    
+    "type": "Door",
+    "name": "Huge Door",
+    "health": 600,
+    "size": 3,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "scrap/6"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}
+    
+   
+
+   
+
+ 
+
+    
+
+    
+   
+
+   

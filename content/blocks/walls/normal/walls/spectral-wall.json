@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Spectral Wall",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-spectral/6"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

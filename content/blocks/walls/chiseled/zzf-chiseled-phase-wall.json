@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Chiseled Phase Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "phase-fabric/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

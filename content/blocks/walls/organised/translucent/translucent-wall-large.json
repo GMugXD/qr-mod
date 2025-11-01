@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Large Translucent Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "hasShadow": false,
+    "requirements": [
+     "camod-black/6"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

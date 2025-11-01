@@ -1,0 +1,16 @@
+{    
+    "type": "LightBlock",
+    "name": "Pastel Wall",
+    "health": 600,
+    "size": 1,
+    "brightness": 0,
+    "radius": 0,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-spectral/6"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}

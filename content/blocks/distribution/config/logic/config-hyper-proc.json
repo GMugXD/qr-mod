@@ -1,0 +1,10 @@
+{
+  "type": "Unloader",
+  "name": "Configurable Hyper Processor",
+  "health": 600,
+  "size": 3,
+  "alwaysUnlocked": true,
+  "requirements": [
+  ],
+  "category": "distribution"
+}

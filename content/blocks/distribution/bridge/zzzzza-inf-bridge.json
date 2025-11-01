@@ -1,0 +1,11 @@
+{
+"type": "ItemBridge",
+"name": "Infinite Bridge",
+"range": 500,
+"health": 200,
+"size": 1,
+  "requirements": [
+   "copper/12"
+  ],
+  "category": "distribution",
+}

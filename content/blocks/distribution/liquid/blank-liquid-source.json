@@ -1,0 +1,14 @@
+{    
+    "type": "LiquidSource",
+    "name": "Borderless Liquid Source",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     
+    ],
+    "category": "liquid",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,18 @@
+{    
+    "type": "LogicDisplay",
+    "name": "Mini HD Display",
+    "health": 400,
+    "size": 2,
+    "rotate": true,
+    "displaySize": 320,
+    "scaleFactor": 0.2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "silicon/50",
+     "metaglass/50"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

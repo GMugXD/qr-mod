@@ -1,0 +1,16 @@
+{    
+    "type": "Unloader",
+    "name": "Bluetinted Borderless Sorter",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "blockGroup": "transport",
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

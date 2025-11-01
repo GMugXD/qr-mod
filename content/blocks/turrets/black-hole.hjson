@@ -1,0 +1,135 @@
+name: A Black Hole
+description: What did you expect?
+type: ContinuousTurret
+health: 500
+size: 1
+rotateSpeed: 0
+reload: 5
+range: 1
+squareSprite: false
+alwaysShooting: true
+sound: beam
+shootY: 0
+recoil: 0
+shootSound: none
+shootType: {
+		type: BasicBulletType
+   recoil: 0
+   splashDamage: 0
+   splashDamageRadius: 0
+   lifetime: 0
+   sprite: none
+   width: 20
+   height: 20
+   collidesAir: true
+   frontColor: 3c9ff1
+   backColor: 3c9ff1
+   trailEffect: missileTrail
+   trailColor: 3c9ff1
+   trailWidth: 1.5
+   trailLength: 3.5
+   speed: 0
+   shootEffect: {
+     type: MultiEffect
+     layer: 1
+     effects: [
+       {
+         type: ParticleEffect
+         particles: 3
+         line: true
+					 lifetime: 30
+         length: 290
+         baseLength: -290
+					 strokeFrom: 4
+					 strokeTo: 4
+					 lenFrom: 0
+					 lenTo: 11
+         //layer: 1
+				 	 colorFrom: ffe27f
+					 colorTo: ffe27f
+         
+				 }
+       {
+         type: ParticleEffect
+         particles: 3
+         line: false
+					 lifetime: 30
+         length: 290
+         baseLength: -290
+					 sizeFrom: 0
+					 sizeTo: 11				 
+         //layer: 1
+				 	 colorFrom: ffe27f
+					 colorTo: ffe27f
+				 }
+       {
+         type: ParticleEffect
+         particles: 4
+         line: false
+					 lifetime: 30
+         length: 290
+         baseLength: -290
+					 sizeFrom: 0
+					 sizeTo: 9		 
+         //layer: 1
+				 	 colorFrom: ffe27f
+					 colorTo: ffe27f
+				 }
+       {
+         type: ParticleEffect
+         particles: 1
+         line: false
+					 lifetime: 30
+         length: 290
+         baseLength: -290
+					 sizeFrom: 0
+					 sizeTo: 21			 
+         //layer: 1
+				 	 colorFrom: ffe27f
+					 colorTo: ffe27f
+				 }
+       {
+         type: ParticleEffect
+         particles: 1
+         region: camod-warp-vortex
+					 lifetime: 60
+         length: 0
+         cone: 0
+         clip: 480
+         baseLength: 0
+					 sizeFrom: 50
+					 sizeTo: 50
+         //layer: 1
+				 	 colorFrom: ffe27f
+					 colorTo: ffe27f
+         spin: 6
+				 }
+     ]
+   }
+   hitColor: ffe27f
+   despawnHit: true
+}
+
+loopSound: spellLoop
+loopSoundVolume: 2
+
+drawer: {
+	type: DrawTurret
+	parts: [
+   {
+      type: RegionPart
+      name: circle
+      xScl: 1
+      yScl: 1
+      progress: reload
+      moveRot: 720
+      outline: false
+      color: 000000
+      layer: 120
+    } 
+  ]
+}
+
+requirements:[
+]
+category: turret

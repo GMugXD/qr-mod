@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Chiseled Titanium Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "titanium/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}
