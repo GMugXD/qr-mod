@@ -4,7 +4,11 @@
     "health": 600,
     "size": 1,
     "invert": true,
+<<<<<<< HEAD
+    "rotate": false,
+=======
     "rotate": true,
+>>>>>>> origin/v7.1
     "alwaysUnlocked": true,
     "requirements": [
         "copper/2",

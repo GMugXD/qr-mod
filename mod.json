@@ -1,10 +1,20 @@
 name: camod
 displayName: "Quantum Realm Mod"
+<<<<<<< HEAD
+subtitle: "N/O Network I/O errors! | v7.1"
+description: "[#f]Your schemes and saves are prone to corruption. Export your data before updating.[]
+
+An extremely large mod solely dedicated for mindustry roleplaying and builds alike.
+
+QRM V7.1 aims to fix most of the bugs found after v7's release.
+QRM v7 Changelog:
+=======
 subtitle: "80%, was made in 3 hours. | v7"
 description: "An extremely large mod solely dedicated for mindustry roleplaying and builds alike.
 
 V7 has been released after lots of procrastination!
 Changelog:
+>>>>>>> origin/v7.1
 Added
 - Beveled sorters, Highlighted sorters, and Unloader Two chiseled sets
 - Way, way more chiseled diagonal variants 
@@ -35,16 +45,50 @@ Fixed
 - Unloader two a sorter now
 - Revert noise sorter changes, now unlegacy'd
 
+<<<<<<< HEAD
+QRM v7.1 Changelog
+Fixed
+- Bezeled chiseled side-line being offset
+- Transperant, white, black item source having the wrong name
+- Liquid router source not having a texture
+- Particle generators not being invisible 
+- Normal, inverted, highlight, bezel, spectral, source centered corners, diagonal router corner 3 being offset
+- Config stuff not being flat
+- Sorter gray colour 5 being olive
+- Open Item Vial not being able to rotate
+- Full liquid vials being able to rotate, even they can't visually
+- Books resprite
+
+Added
+- Borderless item source (for SFX turrets)
+- Flat beveled, highlight sorters
+- More books
+- Duct router catears
+
+Removed
+- Extra surge router slope corner
+
+Version v7.1 "
+=======
 Version v7 "
+>>>>>>> origin/v7.1
 author: "
 Adrift - Main Dev
 Xaoc - Original Mod
 T4SC, 4.b1, Hurb - Major help with everything
 Molten - Major help with effects and units
 HanLarence, petal - Major help with sprites and more
+<<<<<<< HEAD
+Click, Hurb, Nameless - Minor help with sprites and ideas
+Eris - Troubleshooting"
+repo: "GMugXD/qr-mod"
+minGameVersion: 143
+version: 7.1
+=======
 Click, Hurb, Nameless - Minor help with sprites and ideas"
 repo: "GMugXD/qr-mod"
 minGameVersion: 143
 version: 7
+>>>>>>> origin/v7.1
 hidden: false
 dependecies: []

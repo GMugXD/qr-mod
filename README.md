@@ -1,11 +1,21 @@
 # The Quantum Realm Mod
 
+<<<<<<< HEAD
+***Your schemes and saves are prone to corruption. Export your data before updating.***
+
+=======
+>>>>>>> origin/v7.1
 *An extremely large Mindustry mod, solely dedicated for mindustry roleplaying and builds alike.*
 
 Official mod of the Quantum Realm, and the Chaotican Archives.
 
+<<<<<<< HEAD
+# QRM v7.1 has been released.
+**QRM v7 Changelog**
+=======
 # QRM v7 is out. 
 **Changelog**
+>>>>>>> origin/v7.1
 Added
 - Beveled sorters, Highlighted sorters, and Unloader Two chiseled sets
 - Way, way more chiseled diagonal variants 
@@ -35,3 +45,28 @@ Fixed
 - Config nodes having glow
 - Unloader two a sorter now
 - Revert noise sorter changes, now unlegacy'd
+<<<<<<< HEAD
+
+**QRM v7.1 Changelog**
+Fixed
+- Bezeled chiseled side-line being offset
+- Transperant, white, black item source having the wrong name
+- Liquid router source not having a texture
+- Particle generators not being invisible 
+- Normal, inverted, highlight, bezel, spectral, source centered corners, diagonal router corner 3 being offset
+- Config stuff not being flat
+- Sorter gray colour 5 being olive
+- Open Item Vial not being able to rotate
+- Full liquid vials being able to rotate, even they can't visually
+- Books resprite
+
+Added
+- Borderless item source (for SFX turrets)
+- Flat beveled, highlight sorters
+- More books
+- Duct router catears
+
+Removed
+- Extra surge router slope corner
+=======
+>>>>>>> origin/v7.1

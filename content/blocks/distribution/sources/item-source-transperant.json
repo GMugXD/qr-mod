@@ -1,6 +1,10 @@
 {    
     "type": "ItemSource",
+<<<<<<< HEAD
+    "name": "Transperant Item Source",
+=======
     "name": "Blue Item Source",
+>>>>>>> origin/v7.1
     "health": 600,
     "size": 1,
     "rotate": false,

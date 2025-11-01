@@ -11,7 +11,11 @@
     "requirements": [
      "plastanium/54"
     ],
+<<<<<<< HEAD
+    "category": "power",
+=======
     "category": "effect",
+>>>>>>> origin/v7.1
     "research": {
     
     }

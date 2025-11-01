@@ -1,6 +1,10 @@
 {    
     "type": "MessageBlock",
+<<<<<<< HEAD
+    "name": "Book of Death",
+=======
     "name": "Book of Void",
+>>>>>>> origin/v7.1
     "health": 600,
     "size": 1,
      "maxNewlines": 2000,

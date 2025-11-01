@@ -1,6 +1,10 @@
 {    
     "type": "MessageBlock",
+<<<<<<< HEAD
+    "name": "Yellow Book",
+=======
     "name": "Book",
+>>>>>>> origin/v7.1
     "health": 600,
     "size": 1,
      "maxNewlines": 2000,
