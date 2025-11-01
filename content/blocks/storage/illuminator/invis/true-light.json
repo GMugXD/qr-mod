@@ -1,0 +1,19 @@
+{    
+    "type": "LightBlock",
+    "name": "3x3 Illumination",
+    "description": "aka true light"
+    "health": 600,
+    "size": 1,
+    "brightness": 100,
+    "radius": 10,
+    "alwaysUnlocked": true,
+    "hasShadow": false,
+    "requirements": [
+     "camod-spectral/1",
+        "camod-white/1"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}

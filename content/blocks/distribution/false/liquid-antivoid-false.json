@@ -1,0 +1,14 @@
+{    
+    "type": "ItemSource",
+    "name": "False Liquid Antivoid",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     
+    ],
+    "category": "liquid",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,17 @@
+{    
+    "type": "MessageBlock",
+    "name": "Infinite Message",
+    "health": 600,
+    "size": 1,
+    "maxNewlines": 2000,
+    "maxTextLength": 22000,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "graphite/5",
+     "copper/5"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

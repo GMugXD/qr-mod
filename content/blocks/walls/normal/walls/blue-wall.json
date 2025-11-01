@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Navy Wall",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-blue/6"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

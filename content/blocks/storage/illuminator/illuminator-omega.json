@@ -1,0 +1,14 @@
+{    
+    "type": "LightBlock",
+    "name": "Omega Illuminator",
+    "health": 600,
+    "size": 1,
+    "brightness": 100,
+    "radius": 200,
+    "alwaysUnlocked": true,
+    "requirements": [],
+    "category": "effect",
+    "research": {
+    
+    }
+}

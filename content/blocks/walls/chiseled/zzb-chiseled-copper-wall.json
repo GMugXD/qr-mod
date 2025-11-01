@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Chiseled Copper Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "copper/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

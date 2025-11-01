@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Plastanium Stair",
+    "health": 600,
+    "size": 1,
+    "rotate": true,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "plastanium/4"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

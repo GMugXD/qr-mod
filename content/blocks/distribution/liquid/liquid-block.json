@@ -1,0 +1,14 @@
+{    
+    "type": "LiquidRouter",
+    "name": "Borderless Liquid Router",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "metaglass/1"
+    ],
+    "category": "liquid",
+    "research": {
+    
+    }
+}

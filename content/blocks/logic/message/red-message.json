@@ -1,0 +1,18 @@
+{    
+    "type": "MessageBlock",
+    "name": "Red Msg",
+    "health": 600,
+    "size": 1,
+    "maxNewlines": 2000,
+    "maxTextLength": 22000,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "copper/5",
+        "graphite/5",
+        "camod-red/1"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

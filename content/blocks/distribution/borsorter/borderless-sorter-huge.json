@@ -1,0 +1,16 @@
+{    
+    "type": "Unloader",
+    "name": "Huge* Borderless Sorter",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "blockGroup": "transportation",
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

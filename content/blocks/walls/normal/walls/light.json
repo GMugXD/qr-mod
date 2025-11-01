@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Light",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-white/6"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

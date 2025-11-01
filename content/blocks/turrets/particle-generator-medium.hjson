@@ -1,0 +1,88 @@
+name: "[UNFINISHED] Particle Generator Medium"
+type: ContinuousTurret
+health: 500
+size: 1
+base: turbase
+
+rotateSpeed: 99999
+reload: 5
+
+range: 1
+
+squareSprite: false
+alwaysShooting: true
+hitEffect: none
+despawnEffect: none
+shootEffect: none
+
+shootY: 0
+recoil: 0
+shootSound: none
+shootType: {
+		type: BasicBulletType
+   recoil: 0
+   splashDamage: 0
+   splashDamageRadius: 0
+   lifetime: 0
+   sprite: none
+   width: 2
+   height: 2
+   hitEffect: none
+   despawnEffect: none
+   collidesAir: true
+   frontColor: 3c9ff1
+   backColor: 3c9ff1
+   traillEffect: missileTrail
+   trailColor: 3c9ff1
+   trailWidth: 1.5
+   trailLength: 3.5
+   speed: 0
+   shootEffect: none
+   hitColor: ffe27f
+   despawnHit: true
+   fragSpread: 360
+   fragRandomSpread: 360
+   fragBullets: 1
+   fragBullet: {
+     type: BasicBulletType
+     lifetime: 0
+     despawnHit: true
+     despawnEffect: none
+     shootEffect: none
+     hitEffect: [
+       {
+         type: ParticleEffect
+         region: camod-transparticle
+         lifetime: 120
+         despawnEffect: none
+         particles: 2
+         length: 40
+         colorFrom: 3c9ff1
+         colorTo: 3c9ff1
+         sizeFrom: 8
+         sizeTo: 0
+         line:false
+      }
+      {
+         type: ParticleEffect
+         region: camod-transparticle
+         lifetime: 120
+         despawnEffect: none
+         particles: 2
+         length: 60
+         colorFrom: 3c9ff1
+         colorTo: 3c9ff1
+         sizeFrom: 5
+         sizeTo: 0
+         line:false
+      }
+    ]
+  }         
+}
+
+loopSound: spellLoop
+loopSoundVolume: 0.5
+requirements: [
+]
+
+category: turret

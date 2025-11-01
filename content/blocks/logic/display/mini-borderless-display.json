@@ -1,0 +1,17 @@
+{    
+    "type": "LogicDisplay",
+    "name": "Mini Borderless Display",
+    "health": 400,
+    "size": 2,
+    "rotate": true,
+    "displaySize": 64,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "silicon/24",
+     "metaglass/24"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

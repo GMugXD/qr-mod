@@ -1,0 +1,21 @@
+{    
+    "type": "LogicBlock",
+    "name": "Omega Processor",
+    "health": 600,
+    "size": 1,
+    "range": 1000,
+    "instructionsPerTick": 500,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "copper/90",
+        "lead/50",
+        "silicon/50",
+        "titanium/50",
+        "phase-fabric/25",
+        "surge-alloy/25"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

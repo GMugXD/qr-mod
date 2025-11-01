@@ -1,0 +1,10 @@
+{
+  "type": "Unloader",
+  "name": "Configurable Pump",
+  "health": 600,
+  "size": 1,
+  "alwaysUnlocked": true,
+  "requirements": [
+  ],
+  "category": "distribution"
+}

@@ -1,0 +1,5 @@
+type: Floor
+name: Sky
+category: production
+variants: 1
+buildVisibility: sandboxOnly

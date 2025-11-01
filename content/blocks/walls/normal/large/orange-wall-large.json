@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Large Orange Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-orange/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,387 @@
+name: Omni
+description: wh-wha?
+
+type: flying
+flying: true
+lowAltitude: true
+speed: 3.15
+accel: 0.095
+drag: 0.011
+omniMovement: true
+rotateSpeed: 2.95
+strafePenalty: 0.75
+health: 2147483647
+armor: 999999
+hitSize: 25
+lightRadius: 120
+lightOpacity: 1
+shadowElevation: 1.1
+
+range: 94
+trailLength: 1
+trailScl: 0
+
+fogRadius: 15
+outlineColor: 373a4d
+
+targetAir: true
+targetGround: true
+alwaysUnlocked: true
+engineOffset: 0
+engineSize: 0
+faceTarget: true
+drawCell: false
+parts: [
+  {
+    type: RegionPart
+    name: camod-shield
+    outline: false
+    blending: additive
+    color: 0050ff
+    layer: 95
+    xScl: 1.9
+    yScl: 2.3
+  }
+  {
+    type: RegionPart
+    suffix: -flare
+    outline: false
+    blending: additive
+    color: 0050ff
+    layer: 95
+  }
+]
+
+weapons: [
+	{
+    name: omni-laser
+    x: -14.5
+    y: 14.5
+    layerOffset: -0.0001
+    mirror: true
+    alternate: true
+    rotate: false
+    shootSound: laser
+    reload: 20
+    recoil: 0.9
+    shootCone: 360
+    bullet: {
+      type: RailBulletType
+      damage: 50000
+      splashDamage: 50000
+      splashDamageRadius: 24
+      recoil: 0.4
+      pierceDamageFactor: 0.1
+      hitShake: 1
+      length: 450
+      pointEffectSpacing: 3
+      pointEffect: [
+        {
+          type: ParticleEffect
+          particles: 1         
+          line: true
+          lifetime: 10
+          length: -0.0001
+          lenFrom: 24
+          lenTo: 24
+          strokeFrom: 5.55
+          strokeTo: 0
+          cone: 0
+          randLength: false
+          colorFrom: 0050ff
+          colorTo: ffffff
+        }
+      ]
+      hitEffect: {
+        type: ParticleEffect
+        particles: 4
+        line: true
+        lifetime: 15
+        length: 15
+        lenFrom: 7
+        lenTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+        colorFrom: 0050ff
+        colorTo: 0050ff
+      }
+       shootEffect: [
+        {
+          type: ParticleEffect
+          particles: 11
+          line: true
+          lifetime: 15
+          length: 35
+          lenFrom: 9
+          lenTo: 0
+          strokeFrom: 4
+          strokeTo: 0
+          cone: 20
+          colorFrom: 0050ff
+          colorTo: 0050fff
+        }
+        {
+			   	  type: ParticleEffect
+          lifetime: 20
+			  	  particles: 4
+			   	  length: 35
+		   		  sizeFrom: 5.5
+	  		 	  sizeTo: 0
+		  		  colorFrom: 0050ff
+		  		  colorTo: 0050ff
+          cone: 20
+		   		  sizeInterp: pow5Out      
+		     }
+      ]
+    }
+  }
+  {
+    name: omni-laser
+    x: -19.5
+    y: 4.5
+    layerOffset: -0.0001
+    mirror: true
+    alternate: true
+    rotate: false
+    shootSound: laser
+    reload: 15
+    recoil: 0.9
+    shootCone: 360
+    bullet: {
+      type: RailBulletType
+      damage: 50000
+      splashDamage: 50000
+      splashDamageRadius: 24
+      recoil: 0.4
+      pierceDamageFactor: 0.1
+      hitShake: 1
+      length: 450
+      pointEffectSpacing: 3
+      pointEffect: [
+        {
+          type: ParticleEffect
+          particles: 2
+          line: true
+          lifetime: 10
+          length: -0.0001
+          lenFrom: 24
+          lenTo: 24
+          strokeFrom: 5.55
+          strokeTo: 0
+          cone: 0
+          randLength: false
+          colorFrom: 0050ff
+          colorTo: ffffff
+        }
+      ]
+      hitEffect: {
+        type: ParticleEffect
+        particles: 4
+        line: true
+        lifetime: 15
+        length: 15
+        lenFrom: 7
+        lenTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+        colorFrom: 0050ff
+        colorTo: 0050ff
+      }
+       shootEffect: [
+        {
+          type: ParticleEffect
+          particles: 11
+          line: true
+          lifetime: 15
+          length: 35
+          lenFrom: 9
+          lenTo: 0
+          strokeFrom: 4
+          strokeTo: 0
+          cone: 20
+          colorFrom: 0050ff
+          colorTo: ffffff
+        }
+        {
+			   	  type: ParticleEffect
+          lifetime: 20
+			  	  particles: 4
+			   	  length: 35
+		   		  sizeFrom: 5.5
+	  		 	  sizeTo: 0
+		  		  colorFrom: 0050ff
+		  		  colorTo: 0050ff
+          cone: 20
+		   		  sizeInterp: pow5Out      
+		     }
+      ]
+    }
+  }
+  {
+    name: omni-homing-bomb
+    x: 0
+    y: 0 
+    layer: 2 
+    layerOffset: 2
+    mirror: true
+    alternate: false
+    rotate: false
+    shootSound: artillery
+    reload: 200
+    shoot: {
+			type: ShootBarrel
+     barrels: [
+       -23.5, -7.5, 90
+       23.5, 7.5, -90
+     ]
+			shots: 8
+			shotDelay: 12
+	  }
+    shootCone: 45
+    bullet: {
+      type: MissileBulletType
+      speed: 7.7
+      damage: 100000
+      width: 20
+      height: 20
+      drag: -0.01
+      splashDamageRadius: 75
+      splashDamage: 100000    
+      lifetime: 250                              
+      frontColor: ffffff
+      sprite: large-orb
+      backColor: 0050ff
+      trailColor: 0050ff
+      trailParam: 4
+      trailInterval: 1
+      trailWidth: 1.2
+      trailLength: 11
+      hitEffect: [ 
+        {
+          type: ParticleEffect
+          particles: 12          
+          lifetime: 80
+          length: 75
+          sizeFrom: 17.5
+          sizeTo: 0
+          colorFrom: 0050ff
+          colorTo: 0080ff
+          interp: pow5Out
+          sizeInterp: pow3Out
+        }
+        {
+          type: ParticleEffect
+          particles: 19         
+          lifetime: 95
+          length: 80
+          sizeFrom: 10.5
+          sizeTo: 0
+          colorFrom: 0050ff
+          colorTo: 0080ff
+          interp: pow5Out
+          sizeInterp: pow3Out
+        }
+        {
+          type: ParticleEffect
+          line: true
+          particles: 12    
+          lifetime: 60
+          length: 80
+          sizeFrom: 7.5
+          sizeTo: 7.5
+          lenFrom: 9
+          lenTo: 0
+          strokeFrom: 5.4
+          strokeTo: 0
+          colorFrom: 0050ff
+          colorTo: 0080ff
+          interp: pow3Out
+        }
+        {
+          type: WaveEffect                   
+          lifetime: 60
+          sizeFrom: 0
+          sizeTo: 75
+          strokeFrom: 2.77
+          strokeTo: 0
+          colorFrom: 0050ff
+          colorTo: 0080ff
+        }
+      ]
+    }
+  }      
+  {
+   name: engine
+   x: -11
+   y: -37.981
+   mirror: true
+   alternate: false
+   display: false
+   rotate: false
+   baseRotation: 180
+   shootSound: none
+   alwaysShooting: true
+   shootWarmupSpeed: 0.03
+   continuous: true
+   reload: 1
+   minShootVelocity: 1.5
+   parentizeEffects: true
+   bullet: {
+     type: ContinuousFlameBulletType
+     colors: [0050ff, ffffff]
+     damage: 0
+     layer: 110
+     length: 14.55
+     width: 3.5
+     lifetime: 14
+     lengthInterp: pow10Out     
+     drawFlare: false
+     collides: false
+    }
+  }
+  {
+   name: engine-idle
+   x: -11
+   y: -37.981
+   mirror: true
+   alternate: false
+   display: false
+   rotate: false
+   baseRotation: 180
+   shootSound: none
+   alwaysShooting: true
+   shootWarmupSpeed: 0.03
+   continuous: true
+   reload: 1
+   alwaysContinuous: true
+   parentizeEffects: true
+   bullet: {
+     type: ContinuousFlameBulletType
+     colors: [0050ff, ffffff]
+     damage: 0
+     layer: 110
+     length: 2.44
+     width: 2.4
+     lifetime: 14
+     lengthInterp: pow10Out     
+     drawFlare: false
+     collides: false
+     shootEffect: [
+        {
+          type: ParticleEffect
+          particles: 3
+          line: true
+          lifetime: 15
+          length: 35
+          lenFrom: 9
+          lenTo: 0
+          strokeFrom: 4
+          strokeTo: 0
+          cone: 20
+          colorFrom: 0050ff
+          colorTo: 0050fff
+        }
+      ]
+    }
+  }
+]

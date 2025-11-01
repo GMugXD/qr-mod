@@ -1,0 +1,17 @@
+{    
+    "type": "PowerSource",
+    "name": "Invis Power Source",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "hasShadow": false,
+    "laserRange": 500,
+    "range": 500,
+    "requirements": [
+     "metaglass/6"
+    ],
+    "category": "power",
+    "research": {
+    
+    }
+}

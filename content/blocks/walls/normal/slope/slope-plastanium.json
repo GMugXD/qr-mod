@@ -1,0 +1,18 @@
+{    
+    "type": "Wall",
+    "name": "Plastanium Slope",
+    "health": 600,
+    "size": 1,
+    "rotate": true,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "plastanium/3"
+    ],
+    "insulated": true,
+    "absorbLasers": true,
+    "schematicPriority": 10,
+    "category": "defense",
+    "research": {
+    
+    }
+}

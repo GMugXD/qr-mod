@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Brown Wall",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "camod-orange/6",
+        "camod-black/6"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

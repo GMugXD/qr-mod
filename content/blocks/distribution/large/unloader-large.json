@@ -1,0 +1,16 @@
+{    
+    "type": "Unloader",
+    "name": "Large Unloader",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "blockGroup": "transportation",
+    "requirements": [
+     "titanium/35",
+        "silicon/40"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}

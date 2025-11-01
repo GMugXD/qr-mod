@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Chiseled Carbide Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "carbide/24",
+         "thorium/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

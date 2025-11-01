@@ -1,0 +1,14 @@
+{    
+    "type": "Unloader",
+    "name": "Lined Transorter",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "blockGroup": "transportation",
+    "hasShadow": false,
+    "requirements": [],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

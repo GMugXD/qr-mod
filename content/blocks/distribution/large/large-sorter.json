@@ -1,0 +1,16 @@
+{    
+    "type": "Unloader",
+    "name": "Large Sorter",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "blockGroup": "transportation",
+    "requirements": [
+     "copper/3",
+        "lead/3"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

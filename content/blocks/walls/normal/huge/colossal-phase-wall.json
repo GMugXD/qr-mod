@@ -1,0 +1,16 @@
+{    
+    "type": "Wall",
+    "name": "Huge Phase Wall",
+    "health": 600,
+    "size": 3,
+    "chanceDeflect": 10,
+    "flashHit": true,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "phase-fabric/54"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

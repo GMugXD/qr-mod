@@ -1,0 +1,17 @@
+{    
+    "type": "Sorter",
+    "name": "Chiseled Inverted Sorter",
+    "health": 600,
+    "size": 1,
+    "invert": true,
+    "rotate": true,
+    "alwaysUnlocked": true,
+    "requirements": [
+        "copper/2",
+        "lead/2"
+    ],
+    "category": "distribution",
+    "research": {
+    
+    }
+}

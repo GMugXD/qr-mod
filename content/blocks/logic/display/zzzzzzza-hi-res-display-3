@@ -1,0 +1,18 @@
+{    
+    "type": "LogicDisplay",
+    "name": "HD Display",
+    "health": 400,
+    "size": 3,
+    "rotate": true,
+    "displaySize": 480,
+    "scaleFactor": 0.2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "silicon/50",
+     "metaglass/50"
+    ],
+    "category": "logic",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Huge Carbide Wall",
+    "health": 600,
+    "size": 3,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "carbide/54",
+         "thorium/54"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

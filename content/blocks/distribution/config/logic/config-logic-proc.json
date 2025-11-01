@@ -1,0 +1,10 @@
+{
+  "type": "Unloader",
+  "name": "Configurable Logic Processor",
+  "health": 600,
+  "size": 2,
+  "alwaysUnlocked": true,
+  "requirements": [
+  ],
+  "category": "distribution"
+}

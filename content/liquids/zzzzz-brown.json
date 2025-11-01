@@ -1,0 +1,7 @@
+{
+  "localizedName": "Brown",
+  "description": "Brown-colored water.",
+  "isLiquid": true,
+  "cache": "water",
+  "color": "884c10"
+}

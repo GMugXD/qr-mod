@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Large Honeycomb Wall",
+    "health": 200,
+    "size": 2,
+    "variants": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "coal/6"
+    ],
+    "category": "production",
+    "research": {
+    
+    }
+}

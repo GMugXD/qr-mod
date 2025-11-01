@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+    "name": "Chiseled Plastanium Wall",
+    "health": 600,
+    "size": 2,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "plastanium/24"
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}

@@ -1,0 +1,18 @@
+{    
+    "type": "LightBlock",
+    "name": "7x7 Illumination",
+    "health": 600,
+    "size": 1,
+    "brightness": 100,
+    "radius": 20,
+    "alwaysUnlocked": true,
+    "hasShadow": false,
+    "requirements": [
+     "camod-spectral/1",
+        "camod-white/1"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}

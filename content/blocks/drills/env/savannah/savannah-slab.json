@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "Savannah Slab",
+    "health": 600,
+    "size": 1,
+    "rotate": true,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "tungsten/4"
+    ],
+    "category": "production",
+    "research": {
+    
+    }
+}

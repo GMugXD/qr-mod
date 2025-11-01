@@ -1,0 +1,12 @@
+{    
+    "type": "ItemSource",
+    "name": "False Liquid Router",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [],
+    "category": "distribution",
+    "research": {
+    
+    }
+}
