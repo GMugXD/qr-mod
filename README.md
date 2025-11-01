@@ -7,7 +7,7 @@
 Official mod of the Quantum Realm, and the Chaotican Archives.
 
 # QRM v7.1 has been released.
-**Changelog**
+**QRM v7 Changelog**
 Added
 - Beveled sorters, Highlighted sorters, and Unloader Two chiseled sets
 - Way, way more chiseled diagonal variants 
