@@ -1,21 +1,13 @@
 # The Quantum Realm Mod
 
-<<<<<<< HEAD
 ***Your schemes and saves are prone to corruption. Export your data before updating.***
 
-=======
->>>>>>> origin/v7.1
 *An extremely large Mindustry mod, solely dedicated for mindustry roleplaying and builds alike.*
 
 Official mod of the Quantum Realm, and the Chaotican Archives.
 
-<<<<<<< HEAD
 # QRM v7.1 has been released.
-**QRM v7 Changelog**
-=======
-# QRM v7 is out. 
 **Changelog**
->>>>>>> origin/v7.1
 Added
 - Beveled sorters, Highlighted sorters, and Unloader Two chiseled sets
 - Way, way more chiseled diagonal variants 
@@ -45,7 +37,6 @@ Fixed
 - Config nodes having glow
 - Unloader two a sorter now
 - Revert noise sorter changes, now unlegacy'd
-<<<<<<< HEAD
 
 **QRM v7.1 Changelog**
 Fixed
@@ -68,5 +59,3 @@ Added
 
 Removed
 - Extra surge router slope corner
-=======
->>>>>>> origin/v7.1
