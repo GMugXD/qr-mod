@@ -1,6 +1,6 @@
 name: camod
 displayName: "Quantum Realm Mod"
-subtitle: "N/O Network I/O errors! | v7.1"
+subtitle: "N/O Network I/O errors! | v7.1.1"
 description: "[#f]Your schemes and saves are prone to corruption. Export your data before updating.[]
 
 An extremely large mod solely dedicated for mindustry roleplaying and builds alike.
@@ -70,6 +70,6 @@ Click, Hurb, Nameless - Minor help with sprites and ideas
 Eris - Troubleshooting"
 repo: "GMugXD/qr-mod"
 minGameVersion: 143
-version: 7.1
+version: 7.1.1
 hidden: false
 dependecies: []
