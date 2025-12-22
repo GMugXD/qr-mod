@@ -4,7 +4,7 @@
     "health": 600,
     "size": 1,
     "range": 1000,
-    "instructionsPerTick": 500,
+    "instructionsPerTick": 2500,
     "alwaysUnlocked": true,
     "requirements": [
      "copper/90",
