@@ -1,7 +1,7 @@
 {
 "type": "DuctBridge",
 "name": "Infinite Duct Bridge",
-"range": 30,
+"range": 3,
 "health": 200,
 "size": 1,
   "requirements": [
