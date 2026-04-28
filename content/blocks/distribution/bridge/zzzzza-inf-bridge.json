@@ -1,7 +1,7 @@
 {
 "type": "ItemBridge",
 "name": "Infinite Bridge",
-"range": 500,
+"range": 30,
 "health": 200,
 "size": 1,
   "requirements": [
