@@ -8,6 +8,7 @@
 	"health": 1000000000000,
 	"dammage": 200,
 	"size": 100,
+ "range": 1500,
 	"canDrown": "false",
         "mineSpeed": 6,
         "buildSpeed": 10,
