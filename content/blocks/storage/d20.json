@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "name": "D20",
+    "health": 600,
+    "size": 1,
+  "variants": 21,
+    "alwaysUnlocked": true,
+    "requirements": [
+     "metaglass/6"
+    ],
+    "category": "effect",
+    "research": {
+    
+    }
+}

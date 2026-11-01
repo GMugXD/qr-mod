@@ -1,0 +1,13 @@
+{    
+    "type": "Wall",
+    "name": "Mechanical Brick Wall",
+    "health": 600,
+    "size": 1,
+    "alwaysUnlocked": true,
+    "requirements": [
+    ],
+    "category": "defense",
+    "research": {
+    
+    }
+}
