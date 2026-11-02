@@ -18,6 +18,8 @@ repo: "GMugXD/qr-mod"
 minGameVersion: 143
 version: 8
 hidden: false
-dependecies: [
+dependencies: [
     jtestmod
 ]
+    
+
