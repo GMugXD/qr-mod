@@ -1,6 +1,6 @@
 name: camod
 displayName: "Quantum Realm Mod"
-subtitle: "Made by Anuken | v8"
+subtitle: "Made by A Nuke | v8"
 description: "[#f]Your schemes and saves are prone to corruption. Export your data before updating this mod.[]
 
 An extremely large mod solely dedicated for mindustry roleplaying and builds alike.
@@ -18,4 +18,6 @@ repo: "GMugXD/qr-mod"
 minGameVersion: 143
 version: 8
 hidden: false
-dependecies: []
+dependecies: [
+    jtestmod
+]

@@ -1,5 +1,5 @@
 {    
-    "type": "LightBlock",
+    "type": "LightBuild",
     "name": "Hex Borderless Transorter",
     "health": 600,
     "size": 1,
