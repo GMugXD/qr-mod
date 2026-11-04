@@ -19,7 +19,7 @@ minGameVersion: 143
 version: 8
 hidden: false
 dependencies: [
-    jtestmod
+    jqrmod.JQrmod
 ]
     
 
