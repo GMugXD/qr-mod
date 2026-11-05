@@ -1,10 +1,12 @@
 {    
     "type": "LogicBlock",
-    "name": "Ultra Invis Processor",
+    "name": "Invis World Processor",
     "health": 600,
     "size": 1,
     "range": 1000,
-    "instructionsPerTick": 400,
+    "instructionsPerTick": 8,
+    "maxInstructionsPerTick": 2500,
+    "buildVisibility": "worldProcessorOnly",
     "alwaysUnlocked": true,
     "hasShadow": false,
     "requirements": [
