@@ -23,7 +23,7 @@ dependencies: [
 ]
 
 # formatting: content-id display-name
-# contentOrder v0.1 autosort WILL NEED TO BE MANUALLY ADJUSTED!
+# contentOrder v0.2b - needs a few others to look into this and spot oddities
 contentOrder: [
   "message",
   "reinforced-message",
