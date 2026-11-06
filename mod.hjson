@@ -25,1850 +25,1838 @@ dependencies: [
 # formatting: content-id display-name
 # contentOrder v0.1 autosort WILL NEED TO BE MANUALLY ADJUSTED!
 contentOrder: [
-  # --- Blocks ---
-  "message"                           # message
-  "reinforced-message"                # reinforced-message
-  # --- Defense ---
-  "highlight-wall-large"              # Large Highlighted Wall
-  "highlight-wall-huge"               # Huge Highlighted Wall
-  "highlight-wall"                    # Highlighted Wall
-  "door-huge"                         # Huge Door
-  "chunk-beryllium"                   # Beryllium Chunk
-  "chunk-center-beryllium"            # Centered Beryllium Chunk
-  "zzzz-beryllium-slab"               # Beryllium Slab
-  "slab-center-beryllium"             # Centered Beryllium Slab
-  "slope-beryllium"                   # Beryllium Slope
-  "zzzy-beryllium-stair"              # Beryllium Stair
-  "colossal-beryllium-wall"           # Huge Beryllium Wall
-  "zzh-chiseled-beryllium-wall"       # Chiseled Beryllium Wall
-  "chunk-black"                       # Black Chunk
-  "chunk-center-black"                # Centered Black Chunk
-  "slab-black"                        # Black Slab
-  "slab-center-black"                 # Centered Black Slab
-  "slope-black"                       # Black Slope
-  "stair-black"                       # Black Stair
-  "black-wall"                        # Black Wall
-  "black-wall-large"                  # Large Black Wall
-  "colossal-black-wall"               # Huge Black Wall
-  "zzm-chiseled-black-wall"           # Chiseled Black Wall
-  "chunk-blue"                        # Blue Chunk
-  "chunk-center-blue"                 # Centered Blue Chunk
-  "slab-blue"                         # Blue Slab
-  "slab-center-blue"                  # Centered Blue Slab
-  "slope-blue"                        # Blue Slope
-  "stair-blue"                        # Blue Stair
-  "actual-blue-wall"                  # Blue Wall
-  "actual-blue-wall-large"            # Large Blue Wall
-  "actual-blue-wall-huge"             # Huge Blue Wall
-  "chunk-brown"                       # Brown Chunk
-  "chunk-center-brown"                # Centered Brown Chunk
-  "slab-brown"                        # Brown Slab
-  "slab-center-brown"                 # Centered Brown Slab
-  "slope-brown"                       # Brown Slope
-  "stair-brown"                       # Brown Stair
-  "brown-wall"                        # Brown Wall
-  "brown-wall-large"                  # Large Brown Wall
-  "colossal-brown-wall"               # Huge Brown Wall
-  "chunk-carbide"                     # Carbide Chunk
-  "chunk-center-carbide"              # Centered Carbide Chunk
-  "zzzz-carbide-slab"                 # Carbide Slab
-  "slab-center-carbide"               # Centered Carbide Slab
-  "slope-carbide"                     # Carbide Slope
-  "zzzy-carbide-stair"                # Carbide Stair
-  "colossal-carbide-wall"             # Huge Carbide Wall
-  "zzk-chiseled-carbide-wall"         # Chiseled Carbide Wall
-  "colour-wall-basic"                 # Colour Wall
-  "colour-wall-basic-large"           # Large Colour Wall
-  "colour-wall-blue-large"            # Large Bluetint Colour Wall
-  "colour-wall-green-large"           # Large Greentint Colour Wall
-  "colour-wall-large"                 # Large Redtint Colour Wall
-  "colour-wall-basic-huge"            # Huge Colour Wall
-  "colour-wall-blue-huge"             # Huge Bluetint Colour Wall
-  "colour-wall-green-huge"            # Huge Greentint Colour Wall
-  "colour-wall-huge"                  # Huge Redtint Colour Wall
-  "colour-wall-blue"                  # Bluetint Colour Wall
-  "colour-wall-green"                 # Greentint Colour Wall
-  "zzza-colour-wall"                  # Redtint Colour Wall
-  "chunk-copper"                      # Copper Chunk
-  "chunk-center-copper"               # Centered Copper Chunk
-  "zzzz-copper-slab"                  # Copper Slab
-  "slab-center-copper"                # Centered Copper Slab
-  "slope-copper"                      # Copper Slope
-  "zzzy-copper-stair"                 # Copper Stair
-  "colossal-copper-wall"              # Huge Copper Wall
-  "zzb-chiseled-copper-wall"          # Chiseled Copper Wall
-  "chunk-crimson"                     # Crimson Chunk
-  "chunk-center-crimson"              # Centered Crimson Chunk
-  "slab-crimson"                      # Crimson Slab
-  "slab-center-crimson"               # Centered Crimson Slab
-  "slope-crimson"                     # Crimson Slope
-  "stair-crimson"                     # Crimson Stair
-  "red-wall"                          # Crimson Wall
-  "red-wall-large"                    # Large Crimson Wall
-  "colossal-red-wall"                 # Huge Crimson Wall
-  "chunk-cyan"                        # Cyan Chunk
-  "chunk-center-cyan"                 # Centered Cyan Chunk
-  "slab-cyan"                         # Cyan Slab
-  "slab-center-cyan"                  # Centered Cyan Slab
-  "slope-cyan"                        # Cyan Slope
-  "stair-cyan"                        # Cyan Stair
-  "cyan-wall"                         # Cyan Wall
-  "cyan-wall-large"                   # Large Cyan Wall
-  "colossal-cyan-wall"                # Huge Cyan Wall
-  "eclipse-blue-chunk"                # Eclipse Blue Chunk
-  "eclipse-blue-chunk-center"         # Centered Eclipse Blue Chunk
-  "eclipse-blue-slab"                 # Eclipse Blue Slab
-  "eclipse-blue-slab-center"          # Centered Eclipse Blue Slab
-  "eclipse-blue-slope"                # Eclipse Blue Slope
-  "eclipse-blue-stair"                # Eclipse Blue Stair
-  "eclipse-blue-wall"                 # Eclipse Blue Wall
-  "eclipse-blue-wall-large"           # Large Eclipse Blue Wall
-  "eclipse-blue-wall-huge"            # Huge Eclipse Blue Wall
-  "eclipse-green-chunk"               # Eclipse Green Chunk
-  "eclipse-green-chunk-center"        # Centered Eclipse Green Chunk
-  "eclipse-green-slab"                # Eclipse Green Slab
-  "eclipse-green-slab-center"         # Centered Eclipse Green Slab
-  "eclipse-green-slope"               # Eclipse Green Slope
-  "eclipse-green-stair"               # Eclipse Green Stair
-  "eclipse-green-wall"                # Eclipse Green Wall
-  "eclipse-green-wall-large"          # Large Eclipse Green Wall
-  "eclipse-green-wall-huge"           # Huge Eclipse Green Wall
-  "eclipse-purple-chunk"              # Eclipse Purple Chunk
-  "eclipse-purple-chunk-center"       # Centered Eclipse Purple Chunk
-  "eclipse-purple-slab"               # Eclipse Purple Slab
-  "eclipse-purple-slab-center"        # Centered Eclipse Purple Slab
-  "eclipse-purple-slope"              # Eclipse Purple Slope
-  "eclipse-purple-stair"              # Eclipse Purple Stair
-  "eclipse-purple-wall"               # Eclipse Purple Wall
-  "eclipse-purple-wall-large"         # Large Eclipse Purple Wall
-  "eclipse-purple-wall-huge"          # Huge Eclipse Purple Wall
-  "eclipse-red-chunk"                 # Eclipse Red Chunk
-  "eclipse-red-chunk-center"          # Centered Eclipse Red Chunk
-  "eclipse-red-slab"                  # Eclipse Red Slab
-  "eclipse-red-slab-center"           # Centered Eclipse Red Slab
-  "eclipse-red-slope"                 # Eclipse Red Slope
-  "eclipse-red-stair"                 # Eclipse Red Stair
-  "eclipse-red-wall"                  # Eclipse Red Wall
-  "eclipse-red-wall-large"            # Large Eclipse Red Wall
-  "eclipse-red-wall-huge"             # Huge Eclipse Red Wall
-  "gay-wall"                          # Gay Wall
-  "graphene-chunk"                    # Graphene Chunk
-  "graphene-chunk-center"             # Centered Graphene Chunk
-  "graphene-slab"                     # Graphene Slab
-  "graphene-slab-center"              # Centered Graphene Slab
-  "graphene-slope"                    # Graphene Slope
-  "graphene-stair"                    # Graphene Stair
-  "graphene-wall"                     # Graphene Wall
-  "graphene-wall-large"               # Large Graphene Wall
-  "graphene-wall-huge"                # Huge Graphene Wall
-  "chunk-gray"                        # Gray Chunk
-  "chunk-center-gray"                 # Centered Gray Chunk
-  "slab-gray"                         # Gray Slab
-  "slab-center-gray"                  # Centered Gray Slab
-  "slope-gray"                        # Gray Slope
-  "stair-gray"                        # Gray Stair
-  "gray-wall"                         # Gray Wall
-  "gray-wall-large"                   # Large Gray Wall
-  "gray-wall-huge"                    # Huge Gray Wall
-  "green-chunk"                       # Green Chunk
-  "green-chunk-center"                # Centered Green Chunk
-  "green-slab"                        # Green Slab
-  "green-slab-center"                 # Centered Green Slab
-  "green-slope"                       # Green Slope
-  "green-stair"                       # Green Stair
-  "green-wall"                        # Green Wall
-  "green-wall-large"                  # Large Green Wall
-  "green-wall-huge"                   # Huge Green Wall
-  "hazel-chunk"                       # Hazel Chunk
-  "hazel-chunk-center"                # Centered Hazel Chunk
-  "hazel-slab"                        # Hazel Slab
-  "hazel-slab-center"                 # Centered Hazel Slab
-  "hazel-slope"                       # Hazel Slope
-  "hazel-stair"                       # Hazel Stair
-  "hazel-wall"                        # Hazel Wall
-  "hazel-wall-large"                  # Large Hazel Wall
-  "hazel-wall-huge"                   # Huge Hazel Wall
-  "chunk-light"                       # Light Chunk
-  "chunk-center-light"                # Centered Light Chunk
-  "slab-light"                        # Light Slab
-  "slab-center-light"                 # Centered Light Slab
-  "slope-light"                       # Light Slope
-  "stair-light"                       # Light Stair
-  "light"                             # Light
-  "large-light"                       # Large Light
-  "colossal-light"                    # Huge Light
-  "chunk-logic"                       # Logic Chunk
-  "chunk-center-logic"                # Centered Logic Chunk
-  "slab-logic"                        # Logic Slab
-  "slab-center-logic"                 # Centered Logic Slab
-  "slope-logic"                       # Logic Slope
-  "stair-logic"                       # Logic Stair
-  "logic-wall"                        # Logic Wall
-  "logic-wall-large"                  # Large Logic Wall
-  "logic-wall-huge"                   # Huge Logic Wall
-  "pink-wall"                         # Magenta Wall
-  "pink-wall-large"                   # Large Magenta Wall
-  "colossal-pink-wall"                # Huge Magenta Wall
-  "chunk-mechanical"                  # Mechanical Chunk
-  "chunk-center-mechanical"           # Centered Mechanical Chunk
-  "slab-mechanical"                   # Mechanical Slab
-  "slab-center-mechanical"            # Centered Mechanical Slab
-  "slope-mechanical"                  # Mechanical Slope
-  "stair-mechanical"                  # Mechanical Stair
-  "mechanical-wall"                   # Mechanical Wall
-  "mechanical-wall-large"             # Large Mechanical Wall
-  "mechanical-wall-huge"              # Huge Mechanical Wall
-  "mechanical-wall-brick"             # Mechanical Brick Wall
-  "mechanical-wall-brick-full"        # Full Mechanical Brick Wall
-  "chunk-metal"                       # Metallic Chunk
-  "chunk-center-metal"                # Centered Metallic Chunk
-  "slab-metal"                        # Metallic Slab
-  "slab-center-metal"                 # Centered Metallic Slab
-  "slope-metal"                       # Metallic Slope
-  "stair-metal"                       # Metallic Stair
-  "metallic-wall"                     # Metallic Wall
-  "metallic-wall-large"               # Large Metallic Wall
-  "metallic-wall-colossal"            # Huge Metallic Wall
-  "metallic-wall-gargantuan"          # Gargantuan Metallic Wall
-  "chunk-navy"                        # Navy Chunk
-  "chunk-center-navy"                 # Centered Navy Chunk
-  "slab-navy"                         # Navy Slab
-  "slab-center-navy"                  # Centered Navy Slab
-  "slope-navy"                        # Navy Slope
-  "stair-navy"                        # Navy Stair
-  "blue-wall"                         # Navy Wall
-  "blue-wall-large"                   # Large Navy Wall
-  "colossal-blue-wall"                # Huge Navy Wall
-  "chunk-omega"                       # Omega Chunk
-  "chunk-center-omega"                # Centered Omega Chunk
-  "slab-omega"                        # Omega Slab
-  "slab-center-omega"                 # Centered Omega Slab
-  "slope-omega"                       # Omega Slope
-  "stair-omega"                       # Omega Stair
-  "omega-wall"                        # Omega Wall
-  "omega-wall-large"                  # Large Omega Wall
-  "omega-wall-huge"                   # Huge Omega Wall
-  "chunk-orange"                      # Orange Chunk
-  "chunk-center-orange"               # Centered Orange Chunk
-  "slab-orange"                       # Orange Slab
-  "slab-center-orange"                # Centered Orange Slab
-  "slope-orange"                      # Orange Slope
-  "stair-orange"                      # Orange Stair
-  "orange-wall"                       # Orange Wall
-  "orange-wall-large"                 # Large Orange Wall
-  "colossal-orange-wall"              # Huge Orange Wall
-  "zzl-chiseled-orange-wall"          # Chiseled Orange Wall
-  "pale-chunk"                        # Pale Chunk
-  "pale-chunk-center"                 # Centered Pale Chunk
-  "pale-slab-center"                  # Centered Pale Slab
-  "pale-slope"                        # Pale Slope
-  "pale-stair"                        # Pale Stair
-  "pale-wall"                         # Pale Wall
-  "pale-wall-large"                   # Large Pale Wall
-  "pale-wall-huge"                    # Huge Pale Wall
-  "pastel-blue-chunk"                 # Pastel Blue Chunk
-  "pastel-blue-chunk-center"          # Centered Pastel Blue Chunk
-  "pastel-blue-slab"                  # Pastel Blue Slab
-  "pastel-blue-slab-center"           # Centered Pastel Blue Slab
-  "pastel-blue-slope"                 # Pastel Blue Slope
-  "pastel-blue-stair"                 # Pastel Blue Stair
-  "pastel-blue-wall"                  # Pastel Blue Wall
-  "pastel-blue-wall-large"            # Large Pastel Blue Wall
-  "pastel-blue-wall-huge"             # Huge Pastel Blue Wall
-  "pastel-cyan-chunk"                 # Pastel Cyan Chunk
-  "pastel-cyan-chunk-center"          # Centered Pastel Cyan Chunk
-  "pastel-cyan-slab"                  # Pastel Cyan Slab
-  "pastel-cyan-slab-center"           # Centered Pastel Cyan Slab
-  "pastel-cyan-slope"                 # Pastel Cyan Slope
-  "pastel-cyan-stair"                 # Pastel Cyan Stair
-  "pastel-cyan-wall"                  # Pastel Cyan Wall
-  "pastel-cyan-wall-large"            # Large Pastel Cyan Wall
-  "pastel-cyan-wall-huge"             # Huge Pastel Cyan Wall
-  "pastel-green-chunk"                # Pastel Green Chunk
-  "pastel-green-chunk-center"         # Centered Pastel Green Chunk
-  "pastel-green-slab"                 # Pastel Green Slab
-  "pastel-green-slab-center"          # Centered Pastel Green Slab
-  "pastel-green-slope"                # Pastel Green Slope
-  "pastel-green-stair"                # Pastel Green Stair
-  "pastel-green-wall"                 # Pastel Green Wall
-  "pastel-green-wall-large"           # Large Pastel Green Wall
-  "pastel-green-wall-huge"            # Huge Pastel Green Wall
-  "pastel-red-chunk"                  # Pastel Red Chunk
-  "pastel-red-chunk-center"           # Centered Pastel Red Chunk
-  "pastel-red-slab"                   # Pastel Red Slab
-  "pastel-red-slab-center"            # Centered Pastel Red Slab
-  "pastel-red-slope"                  # Pastel Red Slope
-  "pastel-red-stair"                  # Pastel Red Stair
-  "pastel-red-wall"                   # Pastel Red Wall
-  "pastel-red-wall-large"             # Large Pastel Red Wall
-  "pastel-red-wall-huge"              # Huge Pastel Red Wall
-  "chunk-phase"                       # Phase Chunk
-  "chunk-center-phase"                # Centered Phase Chunk
-  "zzzz-phase-slab"                   # Phase Slab
-  "slab-center-phase"                 # Centered Phase Slab
-  "slope-phase"                       # Phase Slope
-  "zzzy-phase-stair"                  # Phase Stair
-  "colossal-phase-wall"               # Huge Phase Wall
-  "zzf-chiseled-phase-wall"           # Chiseled Phase Wall
-  "chunk-pink"                        # Pink Chunk
-  "chunk-center-pink"                 # Centered Pink Chunk
-  "slab-pink"                         # Pink Slab
-  "slab-center-pink"                  # Centered Pink Slab
-  "slope-pink"                        # Pink Slope
-  "stair-pink"                        # Pink Stair
-  "actual-pink-wall"                  # Pink Wall
-  "actual-pink-wall-large"            # Large Pink Wall
-  "actual-pink-wall-huge"             # Huge Pink Wall
-  "chunk-plastanium"                  # Plastanium Chunk
-  "chunk-center-plastanium"           # Centered Plastanium Chunk
-  "zzzz-plastanium-slab"              # Plastanium Slab
-  "slab-center-plastanium"            # Centered Plastanium Slab
-  "slope-plastanium"                  # Plastanium Slope
-  "zzzy-plastanium-stair"             # Plastanium Stair
-  "colossal-plastanium-wall"          # Huge Plastanium Wall
-  "zzd-chiseled-plastanium-wall"      # Chiseled Plastanium Wall
-  "chunk-purple"                      # Purple Chunk
-  "chunk-center-purple"               # Centered Purple Chunk
-  "slab-purple"                       # Purple Slab
-  "slab-center-purple"                # Centered Purple Slab
-  "slope-purple"                      # Purple Slope
-  "stair-purple"                      # Purple Stair
-  "purple-wall"                       # Purple Wall
-  "purple-wall-large"                 # Large Purple Wall
-  "purple-wall-huge"                  # Huge Purple Wall
-  "chunk-red"                         # Red Chunk
-  "chunk-center-red"                  # Centered Red Chunk
-  "slab-red"                          # Red Slab
-  "slab-center-red"                   # Centered Red Slab
-  "slope-red"                         # Red Slope
-  "stair-red"                         # Red Stair
-  "actual-red-wall"                   # Red Wall
-  "actual-red-wall-large"             # Large Red Wall
-  "actual-red-wall-huge"              # Huge Red Wall
-  "rose-chunk"                        # Rose Chunk
-  "rose-chunk-center"                 # Centered Rose Chunk
-  "rose-slab"                         # Rose Slab
-  "rose-slab-center"                  # Centered Rose Slab
-  "rose-slope"                        # Rose Slope
-  "rose-stair"                        # Rose Stair
-  "rose-wall"                         # Rose Wall
-  "rose-wall-large"                   # Large Rose Wall
-  "rose-wall-huge"                    # Huge Rose Wall
-  "royal-chunk"                       # Royal Chunk
-  "royal-chunk-center"                # Centered Royal Chunk
-  "pale-slab"                         # Royal Slab
-  "royal-slab"                        # Royal Slab
-  "royal-slab-center"                 # Centered Royal Slab
-  "royal-slope"                       # Royal Slope
-  "royal-stair"                       # Royal Stair
-  "royal-wall"                        # Royal Wall
-  "royal-wall-large"                  # Large Royal Wall
-  "royal-wall-huge"                   # Huge Royal Wall
-  "salmon-chunk"                      # Salmon Chunk
-  "salmon-chunk-center"               # Centered Salmon Chunk
-  "salmon-slab"                       # Salmon Slab
-  "salmon-slab-center"                # Centered Salmon Slab
-  "salmon-slope"                      # Salmon Slope
-  "salmon-stair"                      # Salmon Stair
-  "salmon-wall"                       # Salmon Wall
-  "salmon-wall-large"                 # Large Salmon Wall
-  "salmon-wall-huge"                  # Huge Salmon Wall
-  "zza-chiseled-scrap-wall"           # Chiseled Scrap Wall
-  "chunk-shade"                       # Shade Chunk
-  "chunk-center-shade"                # Centered Shade Chunk
-  "slab-shade"                        # Shade Slab
-  "slab-center-shade"                 # Centered Shade Slab
-  "slope-shade"                       # Shade Slope
-  "stair-shade"                       # Shade Stair
-  "shade"                             # Shade
-  "large-shade"                       # Large Shade
-  "colossal-shade"                    # Huge Shade
-  "chunk-spectral"                    # Spectral Chunk
-  "chunk-center-spectral"             # Centered Spectral Chunk
-  "slab-spectral"                     # Spectral Slab
-  "slab-center-spectral"              # Centered Spectral Slab
-  "slope-spectral"                    # Spectral Slope
-  "stair-spectral"                    # Spectral Stair
-  "spectral-wall"                     # Spectral Wall
-  "spectral-wall-large"               # Large Spectral Wall
-  "colossal-spectral-wall"            # Huge Spectral Wall
-  "zzn-chiseled-spectral-wall"        # Chiseled Spectral Wall
-  "chunk-surge"                       # Surge Chunk
-  "chunk-center-surge"                # Centered Surge Chunk
-  "zzzz-surge-slab"                   # Surge Slab
-  "slab-center-surge"                 # Centered Surge Slab
-  "slope-surge"                       # Surge Slope
-  "slope-surge-reinforced"            # Surge Slope
-  "zzzy-surge-stair"                  # Surge Stair
-  "zzzy-reinforced-surge-stair"       # Reinforced Surge Stair
-  "colossal-surge-wall"               # Huge Surge Wall
-  "colossal-reinforced-surge-wall"    # Huge Reinforced Surge Wall
-  "zzg-chiseled-surge-wall"           # Chiseled Surge Wall
-  "zzj-chiseled-reinforced-surge-wall" # Chiseled Reinforced Surge Wall
-  "teal-chunk"                        # Teal Chunk
-  "teal-chunk-center"                 # Centered Teal Chunk
-  "teal-slab"                         # Teal Slab
-  "teal-slab-center"                  # Centered Teal Slab
-  "teal-slope"                        # Teal Slope
-  "teal-stair"                        # Teal Stair
-  "teal-wall"                         # Teal Wall
-  "teal-wall-large"                   # Large Teal Wall
-  "teal-wall-huge"                    # Huge Teal Wall
-  "terracotta-chunk"                  # Terracotta Chunk
-  "terracotta-chunk-center"           # Centered Terracotta Chunk
-  "terracotta-slab"                   # Terracotta Slab
-  "terracotta-slab-center"            # Centered Terracotta Slab
-  "terracotta-slope"                  # Terracotta Slope
-  "terracotta-stair"                  # Terracotta Stair
-  "terracotta-wall"                   # Terracotta Wall
-  "terracotta-wall-large"             # Large Terracotta Wall
-  "terracotta-wall-huge"              # Huge Terracotta Wall
-  "chunk-thorium"                     # Thorium Chunk
-  "chunk-center-thorium"              # Centered Thorium Chunk
-  "zzzz-thorium-slab"                 # Thorium Slab
-  "slab-center-thorium"               # Centered Thorium Slab
-  "slope-thorium"                     # Thorium Slope
-  "zzzy-thorium-stair"                # Thorium Stair
-  "colossal-thor-wall"                # Huge Thorium Wall
-  "zze-chiseled-thorium-wall"         # Chiseled Thorium Wall
-  "chunk-titanium"                    # Titanium Chunk
-  "chunk-center-titanium"             # Centered Titanium Chunk
-  "zzzz-titanium-slab"                # Titanium Slab
-  "slab-center-titanium"              # Centered Titanium Slab
-  "slope-titanium"                    # Titanium Slope
-  "zzzy-titanium-stair"               # Titanium Stair
-  "colossal-titanium-wall"            # Huge Titanium Wall
-  "zzc-chiseled-titanium-wall"        # Chiseled Titanium Wall
-  "translucent-chunk"                 # Translucent Chunk
-  "translucent-chunk-center"          # Centered Translucent Chunk
-  "translucent-slab"                  # Translucent Slab
-  "translucent-slab-center"           # Centered Translucent Slab
-  "translucent-slope"                 # Translucent Slope
-  "translucent-stair"                 # Translucent Stair
-  "translucent-wall"                  # Translucent Wall
-  "translucent-wall-large"            # Large Translucent Wall
-  "translucent-wall-huge"             # Huge Translucent Wall
-  "chunk-tungsten"                    # Tungsten Chunk
-  "chunk-center-tungsten"             # Centered Tungsten Chunk
-  "slab-tungsten"                     # Tungsten Slab
-  "slab-center-tungsten"              # Centered Tungsten Slab
-  "slope-tungsten"                    # Tungsten Slope
-  "stair-tungsten"                    # Tungsten Stair
-  "colossal-tungsten-wall"            # Huge Tungsten Wall
-  "zzi-chiseled-tungsten-wall"        # Chiseled Tungsten Wall
-  "tyrian-chunk"                      # Tyrian Chunk
-  "tyrian-chunk-center"               # Centered Tyrian Chunk
-  "tyrian-slab"                       # Tyrian Slab
-  "tyrian-slab-center"                # Centered Tyrian Slab
-  "tyrian-slope"                      # Tyrian Slope
-  "tyrian-stair"                      # Tyrian Stair
-  "tyrian-wall"                       # Tyrian Wall
-  "tyrian-wall-large"                 # Large Tyrian Wall
-  "tyrian-wall-huge"                  # Huge Tyrian Wall
-  "violet-chunk"                      # Violet Chunk
-  "violet-chunk-center"               # Centered Violet Chunk
-  "violet-slab"                       #  Slab
-  "violet-slab-center"                # Centered Violet Slab
-  "violet-slope"                      # Violet Slope
-  "violet-stair"                      # Violet Stair
-  "violet-wall"                       # Violet Wall
-  "violet-wall-large"                 # Large Violet Wall
-  "violet-wall-huge"                  # Huge Violet Wall
-  "chunk-white"                       # White Chunk
-  "chunk-center-white"                # Centered White Chunk
-  "slab-white"                        # White Slab
-  "slab-center-white"                 # Centered White Slab
-  "slope-white"                       # White Slope
-  "stair-white"                       # White Stair
-  "white-wall"                        # White Wall
-  "white-wall-large"                  # Large White Wall
-  "colossal-white-wall"               # Huge White Wall
-  "yellow-chunk"                      # Yellow Chunk
-  "yellow-chunk-center"               # Centered Yellow Chunk
-  "yellow-slab"                       # Yellow Slab
-  "yellow-slab-center"                # Centered Yellow Slab
-  "yellow-slope"                      # Yellow Slope
-  "yellow-stair"                      # Yellow Stair
-  "yellow-wall"                       # Yellow Wall
-  "yellow-wall-large"                 # Large Yellow Wall
-  "yellow-wall-huge"                  # Huge Yellow Wall
-  # --- Distribution ---
-  "config-bridge-conveyor"            # Configurable Bridge Conveyor
-  "duct-connect-1"                    # Connector Duct
-  "duct-connect-2"                    # Connector Duct
-  "duct-connect-3"                    # Connector Duct
-  "duct-connect-4"                    # Connector Duct
-  "duct-connect-5"                    # Connector Duct
-  "duct-connect-6"                    # Connector Duct
-  "duct-connect-7"                    # Connector Duct
-  "invis-conveyor"                    # Invisible Conveyor
-  "duct-bridge-inf"                   # Infinite Duct Bridge
-  "zzzzzzz-duct-router-chiseled-1"    # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-2"    # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-3"    # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-5"    # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-6"    # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-7"    # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-8"    # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-9"    # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-10"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-11"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-12"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-13"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-14"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-15"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-16"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-17"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-18"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-19"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-20"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-21"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-22"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-23"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-24"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-25"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-26"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-27"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-28"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-29"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-30"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-31"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-32"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-33"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-34"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-35"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-36"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-37"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-38"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-39"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-40"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-41"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-42"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-43"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-44"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-45"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-46"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-47"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-48"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-49"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-50"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-51"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-52"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-53"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-54"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-55"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-56"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-57"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-58"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-59"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-60"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-61"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-62"   # Chiseled Duct Router
-  "zzzzzzz-duct-router-chiseled-63"   # Chiseled Duct Router
-  "flat-duct-router"                  # Flat Duct Router
-  "duct-router-large"                 # Large Duct Router
-  "bezeled-sorter-inverted"           # Bezeled Inverted Sorter
-  "zzzo-chiseled-inverted-sorter-15"  # Chiseled Inverted Sorter
-  "zzzp-chiseled-inverted-sorter-16"  # Chiseled Inverted Sorter
-  "zzzq-chiseled-inverted-sorter-17"  # Chiseled Inverted Sorter
-  "zzzr-chiseled-inverted-sorter-18"  # Chiseled Inverted Sorter
-  "zzzs-chiseled-inverted-sorter-19"  # Chiseled Inverted Sorter
-  "zzzt-chiseled-inverted-sorter-20"  # Chiseled Inverted Sorter
-  "zzzu-chiseled-inverted-sorter-21"  # Chiseled Inverted Sorter
-  "zzzv-chiseled-inverted-sorter-22"  # Chiseled Inverted Sorter
-  "zzzw-chiseled-inverted-sorter-23"  # Chiseled Inverted Sorter
-  "zzzh-chiseled-inverted-sorter-eight" # Chiseled Inverted Sorter Eight
-  "zzzk-chiseled-inverted-sorter-eleven" # Chiseled Inverted Sorter Eleven
-  "zzza-chiseled-inverted-sorter-4"   # Chiseled Inverted Sorter Five
-  "zzze-chiseled-inverted-sorter-five" # Chiseled Inverted Sorter Five
-  "zzzn-chiseled-inverted-sorter-fourteen" # Chiseled Inverted Sorter Fourteen
-  "zzzi-chiseled-inverted-sorter-nine" # Chiseled Inverted Sorter Nine
-  "zzza-chiseled-inverted-sorter-1"   # Chiseled Inverted Sorter One
-  "zzza-chiseled-inverted-sorter-one" # Chiseled Inverted Sorter One
-  "zzza-chiseled-inverted-sorter-6"   # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-7"   # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-8"   # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-9"   # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-10"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-11"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-12"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-13"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-14"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-15"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-16"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-17"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-18"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-19"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-20"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-21"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-22"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-23"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-24"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-25"  # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-26"  # Chiseled Inverted Sorter Seven
-  "zzzg-chiseled-inverted-sorter-seven" # Chiseled Inverted Sorter Seven
-  "zzza-chiseled-inverted-sorter-5"   # Chiseled Inverted Sorter Six
-  "zzzf-chiseled-inverted-sorter-six" # Chiseled Inverted Sorter Six
-  "zzzj-chiseled-inverted-sorter-ten" # Chiseled Inverted Sorter Ten
-  "zzzm-chiseled-inverted-sorter-thirteen" # Chiseled Inverted Sorter Thirteen
-  "zzza-chiseled-inverted-sorter-3"   # Chiseled Inverted Sorter Three
-  "zzzc-chiseled-inverted-sorter-three" # Chiseled Inverted Sorter Three
-  "zzzl-chiseled-inverted-sorter-twelve" # Chiseled Inverted Sorter Twelve
-  "zzza-chiseled-inverted-sorter-2"   # Chiseled Inverted Sorter Two
-  "zzzb-chiseled-inverted-sorter-two" # Chiseled Inverted Sorter Two
-  "dark-sorter-inverted"              # Dark Inverted Sorter
-  "false-sorter-inverted"             # False Inverted Sorter
-  "flat-inverted-sorter"              # Flat Inverted Sorter
-  "large-inverted-sorter"             # Large Inverted Sorter
-  "light-sorter-inverted"             # Light Inverted Sorter
-  "lined-invisorter"                  # Lined Invisorter
-  "outlined-invisorter"               # Outlined Invisorter
-  "item-antivoid"                     # Item Antivoid
-  "chiseled-item-antivoid-1"          # Chiseled Item Antivoid
-  "chiseled-item-antivoid-2"          # Chiseled Item Antivoid
-  "chiseled-item-antivoid-3"          # Chiseled Item Antivoid
-  "chiseled-item-antivoid-4"          # Chiseled Item Antivoid
-  "chiseled-item-antivoid-5"          # Chiseled Item Antivoid
-  "chiseled-item-antivoid-6"          # Chiseled Item Antivoid
-  "chiseled-item-antivoid-7"          # Chiseled Item Antivoid
-  "chiseled-item-antivoid-8"          # Chiseled Item Antivoid
-  "chiseled-item-antivoid-9"          # Chiseled Item Antivoid
-  "chiseled-item-antivoid-10"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-11"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-12"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-13"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-14"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-15"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-16"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-17"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-18"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-19"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-20"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-21"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-22"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-23"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-24"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-25"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-26"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-27"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-28"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-29"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-30"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-31"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-32"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-33"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-34"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-35"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-36"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-37"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-38"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-39"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-40"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-41"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-42"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-43"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-44"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-45"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-46"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-47"         # Chiseled Item Antivoid
-  "chiseled-item-antivoid-48"         # Chiseled Item Antivoid
-  "dark-antivoid"                     # Dark Item Antivoid
-  "item-antivoid-false"               # False Item Antivoid
-  "flat-antivoid"                     # Flat Item Antivoid
-  "light-antivoid"                    # Light Item Antivoid
-  "bezeled-source"                    # Bezeled Item Source
-  "item-source-black"                 # Black Item Source
-  "item-source-blue"                  # Blue Item Source
-  "invis-source"                      # Borderless Item Source
-  "item-source-cyan"                  # Cyan Item Source
-  "dark-source"                       # Dark Item Source
-  "item-source-false"                 # False Item Source
-  "flat-source"                       # Flat Item Source
-  "item-source-green"                 # Green Item Source
-  "large-item-source"                 # Large Item Source
-  "light-source"                      # Light Item Source
-  "item-source-magenta"               # Magenta Item Source
-  "item-source-red"                   # Red Item Source
-  "item-source-transperant"           # Transperant Item Source
-  "item-source-white"                 # White Item Source
-  "config-junction"                   # Configurable Junction
-  "liquid-router-false"               # False Liquid Router
-  "zzzzo-chiseled-source-15"          # Chiseled Source
-  "zzzzp-chiseled-source-16"          # Chiseled Source
-  "zzzzq-chiseled-source-17"          # Chiseled Source
-  "zzzzr-chiseled-source-18"          # Chiseled Source
-  "zzzzs-chiseled-source-19"          # Chiseled Source
-  "zzzzt-chiseled-source-20"          # Chiseled Source
-  "zzzzu-chiseled-source-21"          # Chiseled Source
-  "zzzzv-chiseled-source-22"          # Chiseled Source
-  "zzzzw-chiseled-source-23"          # Chiseled Source
-  "zzzzh-chiseled-item-source-eight"  # Chiseled Source Eight
-  "zzzzk-chiseled-item-source-eleven" # Chiseled Source Eleven
-  "zzzza-chiseled-item-source-13"     # Chiseled Source Five
-  "zzzza-chiseled-item-source-14"     # Chiseled Source Five
-  "zzzze-chiseled-item-source-five"   # Chiseled Source Five
-  "zzzzn-chiseled-item-source-fourteen" # Chiseled Source Fourteen
-  "zzzzi-chiseled-item-source-nine"   # Chiseled Source Nine
-  "zzzza-chiseled-item-source-1"      # Chiseled Source One
-  "zzzza-chiseled-item-source-2"      # Chiseled Source One
-  "zzzza-chiseled-item-source-3"      # Chiseled Source One
-  "zzzza-chiseled-item-source-4"      # Chiseled Source One
-  "zzzza-chiseled-item-source-one"    # Chiseled Source One
-  "zzzza-chiseled-item-source-17"     # Chiseled Source Seven
-  "zzzza-chiseled-item-source-18"     # Chiseled Source Seven
-  "zzzza-chiseled-item-source-19"     # Chiseled Source Seven
-  "zzzza-chiseled-item-source-20"     # Chiseled Source Seven
-  "zzzza-chiseled-item-source-21"     # Chiseled Source Seven
-  "zzzza-chiseled-item-source-22"     # Chiseled Source Seven
-  "zzzza-chiseled-item-source-23"     # Chiseled Source Seven
-  "zzzza-chiseled-item-source-24"     # Chiseled Source Seven
-  "zzzza-chiseled-item-source-25"     # Chiseled Source Seven
-  "zzzza-chiseled-item-source-26"     # Chiseled Source Seven
-  "zzzzg-chiseled-item-source-seven"  # Chiseled Source Seven
-  "zzzza-chiseled-item-source-15"     # Chiseled Source Six
-  "zzzza-chiseled-item-source-16"     # Chiseled Source Six
-  "zzzzf-chiseled-item-source-six"    # Chiseled Source Six
-  "zzzzj-chiseled-item-source-ten"    # Chiseled Source Ten
-  "zzzzm-chiseled-item-source-thirteen" # Chiseled Source Thirteen
-  "zzzza-chiseled-item-source-9"      # Chiseled Source Three
-  "zzzza-chiseled-item-source-10"     # Chiseled Source Three
-  "zzzza-chiseled-item-source-11"     # Chiseled Source Three
-  "zzzza-chiseled-item-source-12"     # Chiseled Source Three
-  "zzzzc-chiseled-item-source-three"  # Chiseled Source Three
-  "zzzzl-chiseled-item-source-twelve" # Chiseled Source Twelve
-  "zzzza-chiseled-item-source-5"      # Chiseled Source Two
-  "zzzza-chiseled-item-source-6"      # Chiseled Source Two
-  "zzzza-chiseled-item-source-7"      # Chiseled Source Two
-  "zzzza-chiseled-item-source-8"      # Chiseled Source Two
-  "zzzzb-chiseled-item-source-two"    # Chiseled Source Two
-  "zzzzzza-chiseled-spectral-1"       # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-2"       # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-3"       # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-4"       # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-5"       # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-6"       # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-7"       # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-8"       # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-9"       # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-10"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-11"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-12"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-13"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-14"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-15"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-16"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-17"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-18"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-19"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-20"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-21"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-22"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-23"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-24"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-25"      # Chiseled Spectral
-  "zzzzzza-chiseled-spectral-26"      # Chiseled Spectral
-  "zzzzzzo-chiseled-spectralisis-15"  # Chiseled Spectral
-  "zzzzzzp-chiseled-spectralisis-16"  # Chiseled Spectral
-  "zzzzzzq-chiseled-spectralisis-17"  # Chiseled Spectral
-  "zzzzzzr-chiseled-spectralisis-18"  # Chiseled Spectral
-  "zzzzzzs-chiseled-spectralisis-19"  # Chiseled Spectral
-  "zzzzzzt-chiseled-spectralisis-20"  # Chiseled Spectral
-  "zzzzzzu-chiseled-spectralisis-21"  # Chiseled Spectral
-  "zzzzzzv-chiseled-spectralisis-22"  # Chiseled Spectral
-  "zzzzzzw-chiseled-spectralisis-23"  # Chiseled Spectral
-  "zzzzzzh-chiseled-spectralisis-eight" # Chiseled Spectral Eight
-  "zzzzzzk-chiseled-spectralisis-eleven" # Chiseled Spectral Eleven
-  "zzzzzze-chiseled-spectralisis-five" # Chiseled Spectral Five
-  "zzzzzzn-chiseled-spectralisis-fourteen" # Chiseled Spectral Fourteen
-  "zzzzzzi-chiseled-spectralisis-nine" # Chiseled Spectral Nine
-  "zzzzzza-chiseled-spectralisis-one" # Chiseled Spectral One
-  "zzzzzzg-chiseled-spectralisis-seven" # Chiseled Spectral Seven
-  "zzzzzzf-chiseled-spectralisis-six" # Chiseled Spectral Six
-  "zzzzzzj-chiseled-spectralisis-ten" # Chiseled Spectral Ten
-  "zzzzzzm-chiseled-spectralisis-thirteen" # Chiseled Spectral Thirteen
-  "zzzzzzc-chiseled-spectralisis-three" # Chiseled Spectral Three
-  "zzzzzzl-chiseled-spectralisis-twelve" # Chiseled Spectral Twelve
-  "zzzzzzb-chiseled-spectralisis-two" # Chiseled Spectral Two
-  "config-hyper-proc"                 # Configurable Hyper Processor
-  "config-logic-proc"                 # Configurable Logic Processor
-  "config-memory"                     # Configurable Memory Cell
-  "config-mender"                     # Configurable Mender 
-  "config-message"                    # Configurable Message
-  "config-micro-proc"                 # Configurable Micro Processor
-  "config-node"                       # Configurable Node
-  "config-pump"                       # Configurable Pump
-  "config-switch"                     # Configurable Switch
-  "false-conduit-connect-1"           # Connector False Conduit
-  "false-conduit-connect-2"           # Connector False Conduit
-  "false-conduit-connect-3"           # Connector False Conduit
-  "false-conduit-connect-4"           # Connector False Conduit
-  "false-conduit-connect-5"           # Connector False Conduit
-  "false-conduit-connect-6"           # Connector False Conduit
-  "config-overflow"                   # Configurable Overflow Gate
-  "config-phase"                      # Configurable Phase Conveyor
-  "config-router"                     # Configurable Router
-  "beveled-sorter"                    # Beveled Sorter
-  "beveled-sorter-chisel-1"           # Beveled Sorter
-  "beveled-sorter-chisel-2"           # Beveled Sorter
-  "beveled-sorter-chisel-3"           # Beveled Sorter
-  "beveled-sorter-chisel-4"           # Beveled Sorter
-  "beveled-sorter-chisel-5"           # Beveled Sorter
-  "beveled-sorter-chisel-6"           # Beveled Sorter
-  "beveled-sorter-chisel-7"           # Beveled Sorter
-  "beveled-sorter-chisel-8"           # Beveled Sorter
-  "beveled-sorter-chisel-9"           # Beveled Sorter
-  "beveled-sorter-chisel-10"          # Beveled Sorter
-  "beveled-sorter-chisel-11"          # Beveled Sorter
-  "beveled-sorter-chisel-12"          # Beveled Sorter
-  "beveled-sorter-chisel-13"          # Beveled Sorter
-  "beveled-sorter-chisel-14"          # Beveled Sorter
-  "beveled-sorter-chisel-15"          # Beveled Sorter
-  "beveled-sorter-chisel-16"          # Beveled Sorter
-  "beveled-sorter-chisel-17"          # Beveled Sorter
-  "beveled-sorter-chisel-18"          # Beveled Sorter
-  "beveled-sorter-chisel-19"          # Beveled Sorter
-  "beveled-sorter-chisel-20"          # Beveled Sorter
-  "beveled-sorter-chisel-21"          # Beveled Sorter
-  "beveled-sorter-chisel-22"          # Beveled Sorter
-  "beveled-sorter-chisel-23"          # Beveled Sorter
-  "beveled-sorter-chisel-24"          # Beveled Sorter
-  "beveled-sorter-chisel-25"          # Beveled Sorter
-  "beveled-sorter-chisel-26"          # Beveled Sorter
-  "beveled-sorter-chisel-27"          # Beveled Sorter
-  "beveled-sorter-chisel-28"          # Beveled Sorter
-  "beveled-sorter-chisel-29"          # Beveled Sorter
-  "beveled-sorter-chisel-30"          # Beveled Sorter
-  "beveled-sorter-chisel-31"          # Beveled Sorter
-  "beveled-sorter-chisel-32"          # Beveled Sorter
-  "beveled-sorter-chisel-33"          # Beveled Sorter
-  "beveled-sorter-chisel-34"          # Beveled Sorter
-  "beveled-sorter-chisel-35"          # Beveled Sorter
-  "beveled-sorter-chisel-36"          # Beveled Sorter
-  "beveled-sorter-chisel-37"          # Beveled Sorter
-  "beveled-sorter-chisel-38"          # Beveled Sorter
-  "beveled-sorter-chisel-39"          # Beveled Sorter
-  "beveled-sorter-chisel-40"          # Beveled Sorter
-  "beveled-sorter-chisel-41"          # Beveled Sorter
-  "beveled-sorter-chisel-42"          # Beveled Sorter
-  "beveled-sorter-chisel-43"          # Beveled Sorter
-  "beveled-sorter-chisel-44"          # Beveled Sorter
-  "beveled-sorter-chisel-45"          # Beveled Sorter
-  "beveled-sorter-chisel-46"          # Beveled Sorter
-  "beveled-sorter-chisel-47"          # Beveled Sorter
-  "beveled-sorter-chisel-48"          # Beveled Sorter
-  "bezeled-sorter"                    # Bezeled Sorter
-  "borderless-sorter-tint-blue"       # Bluetinted Borderless Sorter
-  "borderless-sorter"                 # Borderless Sorter
-  "zza-chiseled-sorter-1"             # Chiseled Sorter
-  "zza-chiseled-sorter-2"             # Chiseled Sorter
-  "zza-chiseled-sorter-3"             # Chiseled Sorter
-  "zza-chiseled-sorter-4"             # Chiseled Sorter
-  "zza-chiseled-sorter-5"             # Chiseled Sorter
-  "zza-chiseled-sorter-6"             # Chiseled Sorter
-  "zza-chiseled-sorter-7"             # Chiseled Sorter
-  "zza-chiseled-sorter-8"             # Chiseled Sorter
-  "zza-chiseled-sorter-9"             # Chiseled Sorter
-  "zza-chiseled-sorter-10"            # Chiseled Sorter
-  "zza-chiseled-sorter-11"            # Chiseled Sorter
-  "zza-chiseled-sorter-12"            # Chiseled Sorter
-  "zza-chiseled-sorter-13"            # Chiseled Sorter
-  "zza-chiseled-sorter-14"            # Chiseled Sorter
-  "zza-chiseled-sorter-15"            # Chiseled Sorter
-  "zza-chiseled-sorter-16"            # Chiseled Sorter
-  "zza-chiseled-sorter-17"            # Chiseled Sorter
-  "zza-chiseled-sorter-18"            # Chiseled Sorter
-  "zza-chiseled-sorter-19"            # Chiseled Sorter
-  "zza-chiseled-sorter-20"            # Chiseled Sorter
-  "zza-chiseled-sorter-21"            # Chiseled Sorter
-  "zza-chiseled-sorter-22"            # Chiseled Sorter
-  "zza-chiseled-sorter-23"            # Chiseled Sorter
-  "zza-chiseled-sorter-24"            # Chiseled Sorter
-  "zza-chiseled-sorter-25"            # Chiseled Sorter
-  "zza-chiseled-sorter-26"            # Chiseled Sorter
-  "zzo-chiseled-sorter-15"            # Chiseled Sorter
-  "zzp-chiseled-sorter-16"            # Chiseled Sorter
-  "zzq-chiseled-sorter-17"            # Chiseled Sorter
-  "zzr-chiseled-sorter-18"            # Chiseled Sorter
-  "zzs-chiseled-sorter-19"            # Chiseled Sorter
-  "zzt-chiseled-sorter-20"            # Chiseled Sorter
-  "zzu-chiseled-sorter-21"            # Chiseled Sorter
-  "zzv-chiseled-sorter-22"            # Chiseled Sorter
-  "zzw-chiseled-sorter-23"            # Chiseled Sorter
-  "zzh-chiseled-sorter-eight"         # Chiseled Sorter Eight
-  "zzk-chiseled-sorter-eleven"        # Chiseled Sorter Eleven
-  "zze-chiseled-sorter-five"          # Chiseled Sorter Five
-  "zzn-chiseled-sorter-fourteen"      # Chiseled Sorter Fourteen
-  "zzi-chiseled-sorter-nine"          # Chiseled Sorter Nine
-  "zza-chiseled-sorter-one"           # Chiseled Sorter One
-  "zzg-chiseled-sorter-seven"         # Chiseled Sorter Seven
-  "zzf-chiseled-sorter-six"           # Chiseled Sorter Six
-  "zzj-chiseled-sorter-ten"           # Chiseled Sorter Ten
-  "zzm-chiseled-sorter-thirteen"      # Chiseled Sorter Thirteen
-  "zzc-chiseled-sorter-three"         # Chiseled Sorter Three
-  "zzl-chiseled-sorter-twelve"        # Chiseled Sorter Twelve
-  "zzb-chiseled-sorter-two"           # Chiseled Sorter Two
-  "bezeled-sorter-chiseled-1"         # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-2"         # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-3"         # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-5"         # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-6"         # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-7"         # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-8"         # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-9"         # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-10"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-11"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-12"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-13"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-14"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-15"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-16"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-17"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-18"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-19"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-20"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-21"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-22"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-23"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-24"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-25"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-26"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-27"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-28"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-29"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-30"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-31"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-32"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-33"        # Chiseled Bezeled Sorter
-  "bezeled-sorter-chiseled-34"        # Chiseled Bezeled Sorter
-  "dark-sorter"                       # Dark Sorter
-  "dark-sorter-borderless"            # Dark Borderless Sorter
-  "sorter-false"                      # False Sorter
-  "flat-sorter"                       # Flat Sorter
-  "flat-beveled-sorter"               # Flat Beveled Sorter
-  "flat-bezeled-sorter-1"             # Flat Bezeled Sorter
-  "flat-bezeled-sorter-2"             # Flat Bezeled Sorter
-  "flat-highlight-sorter"             # Flat Highlighted Sorter
-  "borderless-sorter-glow"            # Glowing Borderless Sorter
-  "borderless-sorter-tint-green"      # Greentinted Borderless Sorter
-  "highlight-sorter"                  # Highlighted Sorter
-  "highlight-sorter-chisel-1"         # Highlighted Sorter
-  "highlight-sorter-chisel-2"         # Highlighted Sorter
-  "highlight-sorter-chisel-3"         # Highlighted Sorter
-  "highlight-sorter-chisel-4"         # Highlighted Sorter
-  "highlight-sorter-chisel-5"         # Highlighted Sorter
-  "highlight-sorter-chisel-6"         # Highlighted Sorter
-  "highlight-sorter-chisel-7"         # Highlighted Sorter
-  "highlight-sorter-chisel-8"         # Highlighted Sorter
-  "highlight-sorter-chisel-9"         # Highlighted Sorter
-  "highlight-sorter-chisel-10"        # Highlighted Sorter
-  "highlight-sorter-chisel-11"        # Highlighted Sorter
-  "highlight-sorter-chisel-12"        # Highlighted Sorter
-  "highlight-sorter-chisel-13"        # Highlighted Sorter
-  "highlight-sorter-chisel-14"        # Highlighted Sorter
-  "highlight-sorter-chisel-15"        # Highlighted Sorter
-  "highlight-sorter-chisel-16"        # Highlighted Sorter
-  "highlight-sorter-chisel-17"        # Highlighted Sorter
-  "highlight-sorter-chisel-18"        # Highlighted Sorter
-  "highlight-sorter-chisel-19"        # Highlighted Sorter
-  "highlight-sorter-chisel-20"        # Highlighted Sorter
-  "highlight-sorter-chisel-21"        # Highlighted Sorter
-  "highlight-sorter-chisel-22"        # Highlighted Sorter
-  "highlight-sorter-chisel-23"        # Highlighted Sorter
-  "highlight-sorter-chisel-24"        # Highlighted Sorter
-  "highlight-sorter-chisel-25"        # Highlighted Sorter
-  "highlight-sorter-chisel-26"        # Highlighted Sorter
-  "highlight-sorter-chisel-27"        # Highlighted Sorter
-  "highlight-sorter-chisel-28"        # Highlighted Sorter
-  "highlight-sorter-chisel-29"        # Highlighted Sorter
-  "highlight-sorter-chisel-30"        # Highlighted Sorter
-  "highlight-sorter-chisel-31"        # Highlighted Sorter
-  "highlight-sorter-chisel-32"        # Highlighted Sorter
-  "highlight-sorter-chisel-33"        # Highlighted Sorter
-  "highlight-sorter-chisel-34"        # Highlighted Sorter
-  "highlight-sorter-chisel-35"        # Highlighted Sorter
-  "highlight-sorter-chisel-36"        # Highlighted Sorter
-  "highlight-sorter-chisel-37"        # Highlighted Sorter
-  "highlight-sorter-chisel-38"        # Highlighted Sorter
-  "highlight-sorter-chisel-39"        # Highlighted Sorter
-  "highlight-sorter-chisel-40"        # Highlighted Sorter
-  "highlight-sorter-chisel-41"        # Highlighted Sorter
-  "highlight-sorter-chisel-42"        # Highlighted Sorter
-  "highlight-sorter-chisel-43"        # Highlighted Sorter
-  "highlight-sorter-chisel-44"        # Highlighted Sorter
-  "highlight-sorter-chisel-45"        # Highlighted Sorter
-  "highlight-sorter-chisel-46"        # Highlighted Sorter
-  "highlight-sorter-chisel-47"        # Highlighted Sorter
-  "highlight-sorter-chisel-48"        # Highlighted Sorter
-  "borderless-sorter-huge"            # Huge* Borderless Sorter
-  "sorter-test"                       # Invisible Item Sorter
-  "large-sorter"                      # Large Sorter
-  "bezeled-sorter-large"              # Large Bezeled Sorter
-  "light-sorter"                      # Light Sorter
-  "light-sorter-borderless"           # Light Borderless Sorter
-  "mini-borsorter"                    # Mini Borderless Sorter
-  "borderless-sorter-tint-red"        # Redtinted Borderless Sorter
-  "borderless-sorter-semilarge"       # Semilarge Borderless Sorter
-  "static"                            # Static Borderless Sorter
-  "zzzzzz-spectralisis"               # Spectral Sorter
-  "bezeled-sorter-spectral"           # Bezeled Spectral Sorter
-  "false-spectral"                    # False Spectral Sorter
-  "flat-spectral-sorter"              # Flat Spectral Sorter
-  "light-spectral"                    # Light Spectral Sorter
-  "chiseled-surge-router-1"           # Chiseled Surge Router
-  "chiseled-surge-router-2"           # Chiseled Surge Router
-  "chiseled-surge-router-3"           # Chiseled Surge Router
-  "chiseled-surge-router-4"           # Chiseled Surge Router
-  "chiseled-surge-router-5"           # Chiseled Surge Router
-  "chiseled-surge-router-6"           # Chiseled Surge Router
-  "chiseled-surge-router-7"           # Chiseled Surge Router
-  "chiseled-surge-router-8"           # Chiseled Surge Router
-  "chiseled-surge-router-9"           # Chiseled Surge Router
-  "chiseled-surge-router-10"          # Chiseled Surge Router
-  "chiseled-surge-router-11"          # Chiseled Surge Router
-  "chiseled-surge-router-12"          # Chiseled Surge Router
-  "chiseled-surge-router-13"          # Chiseled Surge Router
-  "chiseled-surge-router-14"          # Chiseled Surge Router
-  "chiseled-surge-router-15"          # Chiseled Surge Router
-  "chiseled-surge-router-16"          # Chiseled Surge Router
-  "chiseled-surge-router-17"          # Chiseled Surge Router
-  "chiseled-surge-router-18"          # Chiseled Surge Router
-  "chiseled-surge-router-19"          # Chiseled Surge Router
-  "chiseled-surge-router-20"          # Chiseled Surge Router
-  "chiseled-surge-router-21"          # Chiseled Surge Router
-  "chiseled-surge-router-22"          # Chiseled Surge Router
-  "chiseled-surge-router-23"          # Chiseled Surge Router
-  "chiseled-surge-router-24"          # Chiseled Surge Router
-  "chiseled-surge-router-25"          # Chiseled Surge Router
-  "chiseled-surge-router-26"          # Chiseled Surge Router
-  "chiseled-surge-router-27"          # Chiseled Surge Router
-  "chiseled-surge-router-28"          # Chiseled Surge Router
-  "chiseled-surge-router-29"          # Chiseled Surge Router
-  "chiseled-surge-router-30"          # Chiseled Surge Router
-  "chiseled-surge-router-31"          # Chiseled Surge Router
-  "chiseled-surge-router-32"          # Chiseled Surge Router
-  "chiseled-surge-router-33"          # Chiseled Surge Router
-  "chiseled-surge-router-34"          # Chiseled Surge Router
-  "chiseled-surge-router-35"          # Chiseled Surge Router
-  "chiseled-surge-router-36"          # Chiseled Surge Router
-  "chiseled-surge-router-37"          # Chiseled Surge Router
-  "chiseled-surge-router-38"          # Chiseled Surge Router
-  "chiseled-surge-router-39"          # Chiseled Surge Router
-  "chiseled-surge-router-40"          # Chiseled Surge Router
-  "chiseled-surge-router-41"          # Chiseled Surge Router
-  "chiseled-surge-router-42"          # Chiseled Surge Router
-  "chiseled-surge-router-43"          # Chiseled Surge Router
-  "chiseled-surge-router-44"          # Chiseled Surge Router
-  "chiseled-surge-router-45"          # Chiseled Surge Router
-  "chiseled-surge-router-46"          # Chiseled Surge Router
-  "chiseled-surge-router-47"          # Chiseled Surge Router
-  "flat-surge-router"                 # Flat Surge Router
-  "transorter-borderless"             # Borderless Transorter
-  "transorter-hex"                    # Hex Borderless Transorter
-  "mini-hex-transorter"               # Hex Mini Transorter
-  "transorter-semilarge-hex"          # Hex Semilarge Borderless Transorter
-  "lined-transorter"                  # Lined Transorter
-  "mini-transorter"                   # Mini Transorter
-  "outlined-transorter"               # Outlined Transorter
-  "borderless-transorter-semilarge"   # Semilarge Borderless Transorter
-  "config-underflow"                  # Configurable Underflow Gate
-  "unloader-two"                      # Unloader Two
-  "chiseled-unloader-1"               # Chiseled Unloader
-  "chiseled-unloader-2"               # Chiseled Unloader
-  "chiseled-unloader-3"               # Chiseled Unloader
-  "chiseled-unloader-4"               # Chiseled Unloader
-  "chiseled-unloader-5"               # Chiseled Unloader
-  "chiseled-unloader-6"               # Chiseled Unloader
-  "chiseled-unloader-7"               # Chiseled Unloader
-  "chiseled-unloader-8"               # Chiseled Unloader
-  "chiseled-unloader-9"               # Chiseled Unloader
-  "chiseled-unloader-10"              # Chiseled Unloader
-  "chiseled-unloader-11"              # Chiseled Unloader
-  "chiseled-unloader-12"              # Chiseled Unloader
-  "chiseled-unloader-13"              # Chiseled Unloader
-  "chiseled-unloader-14"              # Chiseled Unloader
-  "chiseled-unloader-15"              # Chiseled Unloader
-  "chiseled-unloader-16"              # Chiseled Unloader
-  "chiseled-unloader-17"              # Chiseled Unloader
-  "chiseled-unloader-18"              # Chiseled Unloader
-  "chiseled-unloader-19"              # Chiseled Unloader
-  "chiseled-unloader-20"              # Chiseled Unloader
-  "chiseled-unloader-21"              # Chiseled Unloader
-  "chiseled-unloader-22"              # Chiseled Unloader
-  "chiseled-unloader-23"              # Chiseled Unloader
-  "chiseled-unloader-24"              # Chiseled Unloader
-  "chiseled-unloader-25"              # Chiseled Unloader
-  "chiseled-unloader-26"              # Chiseled Unloader
-  "chiseled-unloader-27"              # Chiseled Unloader
-  "chiseled-unloader-28"              # Chiseled Unloader
-  "chiseled-unloader-29"              # Chiseled Unloader
-  "chiseled-unloader-30"              # Chiseled Unloader
-  "chiseled-unloader-31"              # Chiseled Unloader
-  "chiseled-unloader-32"              # Chiseled Unloader
-  "chiseled-unloader-33"              # Chiseled Unloader
-  "chiseled-unloader-34"              # Chiseled Unloader
-  "chiseled-unloader-35"              # Chiseled Unloader
-  "chiseled-unloader-36"              # Chiseled Unloader
-  "chiseled-unloader-37"              # Chiseled Unloader
-  "chiseled-unloader-38"              # Chiseled Unloader
-  "chiseled-unloader-39"              # Chiseled Unloader
-  "chiseled-unloader-40"              # Chiseled Unloader
-  "chiseled-unloader-41"              # Chiseled Unloader
-  "chiseled-unloader-42"              # Chiseled Unloader
-  "chiseled-unloader-43"              # Chiseled Unloader
-  "chiseled-unloader-44"              # Chiseled Unloader
-  "chiseled-unloader-45"              # Chiseled Unloader
-  "chiseled-unloader-46"              # Chiseled Unloader
-  "chiseled-unloader-47"              # Chiseled Unloader
-  "chiseled-unloader-48"              # Chiseled Unloader
-  "chiseled-unloader-two-1"           # Chiseled Unloader
-  "chiseled-unloader-two-2"           # Chiseled Unloader
-  "chiseled-unloader-two-3"           # Chiseled Unloader
-  "chiseled-unloader-two-4"           # Chiseled Unloader
-  "chiseled-unloader-two-5"           # Chiseled Unloader
-  "chiseled-unloader-two-6"           # Chiseled Unloader
-  "chiseled-unloader-two-7"           # Chiseled Unloader
-  "chiseled-unloader-two-8"           # Chiseled Unloader
-  "chiseled-unloader-two-9"           # Chiseled Unloader
-  "chiseled-unloader-two-10"          # Chiseled Unloader
-  "chiseled-unloader-two-11"          # Chiseled Unloader
-  "chiseled-unloader-two-12"          # Chiseled Unloader
-  "chiseled-unloader-two-13"          # Chiseled Unloader
-  "chiseled-unloader-two-14"          # Chiseled Unloader
-  "chiseled-unloader-two-15"          # Chiseled Unloader
-  "chiseled-unloader-two-16"          # Chiseled Unloader
-  "chiseled-unloader-two-17"          # Chiseled Unloader
-  "chiseled-unloader-two-18"          # Chiseled Unloader
-  "chiseled-unloader-two-19"          # Chiseled Unloader
-  "chiseled-unloader-two-20"          # Chiseled Unloader
-  "chiseled-unloader-two-21"          # Chiseled Unloader
-  "chiseled-unloader-two-22"          # Chiseled Unloader
-  "chiseled-unloader-two-23"          # Chiseled Unloader
-  "chiseled-unloader-two-24"          # Chiseled Unloader
-  "chiseled-unloader-two-25"          # Chiseled Unloader
-  "chiseled-unloader-two-26"          # Chiseled Unloader
-  "chiseled-unloader-two-27"          # Chiseled Unloader
-  "chiseled-unloader-two-28"          # Chiseled Unloader
-  "chiseled-unloader-two-29"          # Chiseled Unloader
-  "chiseled-unloader-two-30"          # Chiseled Unloader
-  "chiseled-unloader-two-31"          # Chiseled Unloader
-  "chiseled-unloader-two-32"          # Chiseled Unloader
-  "chiseled-unloader-two-33"          # Chiseled Unloader
-  "chiseled-unloader-two-34"          # Chiseled Unloader
-  "chiseled-unloader-two-35"          # Chiseled Unloader
-  "chiseled-unloader-two-36"          # Chiseled Unloader
-  "chiseled-unloader-two-37"          # Chiseled Unloader
-  "chiseled-unloader-two-38"          # Chiseled Unloader
-  "chiseled-unloader-two-39"          # Chiseled Unloader
-  "chiseled-unloader-two-40"          # Chiseled Unloader
-  "chiseled-unloader-two-41"          # Chiseled Unloader
-  "chiseled-unloader-two-42"          # Chiseled Unloader
-  "chiseled-unloader-two-43"          # Chiseled Unloader
-  "chiseled-unloader-two-44"          # Chiseled Unloader
-  "chiseled-unloader-two-45"          # Chiseled Unloader
-  "chiseled-unloader-two-46"          # Chiseled Unloader
-  "chiseled-unloader-two-47"          # Chiseled Unloader
-  "chiseled-unloader-two-48"          # Chiseled Unloader
-  "dark-unloader"                     # Dark Unloader
-  "flat-unloader"                     # Flat Unloader
-  "light-unloader"                    # Light Unloader
-  # --- Effect ---
-  "abominable2-chain-left"            # Chain
-  "abominable2-chain-right"           # Chain
-  "abominable-chain-left"             # Chain
-  "abominable-chain-right"            # Chain
-  "chain-angled-1"                    # Angled Chain 1
-  "chain-angled-2"                    # Angled Chain 2
-  "chain-angled-3"                    # Angled Chain 3
-  "chain-angled-4"                    # Angled Chain 4
-  "chain-angled-5"                    # Angled Chain 5
-  "chain-angled-6"                    # Angled Chain 6
-  "chain-angled-7"                    # Angled Chain 7
-  "chain-angled-8"                    # Angled Chain 8
-  "chain-angled-9"                    # Angled Chain 9
-  "chain-corner-diagonal"             # Chain
-  "chain-half-y-left"                 # Chain
-  "chain-half-y-right"                # Chain
-  "chain-link"                        # Chain Link
-  "chain-v1"                          # Chain 1
-  "chain-v2"                          # Chain 2
-  "chain-v3"                          # Chain 3
-  "chain-v4"                          # Chain 4
-  "chain-v5"                          # Chain 5
-  "chain-v6"                          # Chain 6
-  "chain-y"                           # YChain
-  "line-link"                         # Line Link
-  "rope"                              # Rope
-  "illumination-2"                    # 5x5 Illumination
-  "illumination-3"                    # 7x7 Illumination
-  "illumination-4"                    # 9x9 Illumination
-  "illumination-5"                    # 11x11 Illumination
-  "illuminator-omega"                 # Omega Illuminator
-  "illuminator-ultra"                 # Ultra Illuminator
-  "true-light"                        # 3x3 Illumination
-  "vial"                              # Vial
-  "vial-full"                         # Full Vial
-  "vial-item"                         # Item Vial
-  "vial-item-full"                    # Full Item Vial
-  "vial-item-open"                    # Open Item Vial
-  "vial-lid"                          # Lid
-  "vial-open"                         # Open Vial
-  "pastel-wall"                       # Pastel Wall
-  "pastel-wall-colossal"              # Huge Pastel Wall
-  "pastel-wall-large"                 # Large Pastel Wall
-  "d20"                               # D20
-  "dice"                              # Dice
-  "ritual-circle"                     # []
-  "true-colour"                       # True Colour
-  "true-colour-hex"                   # Hex True Colour
-  "true-shade"                        # True Shade
-  "unloader-large"                    # Large Unloader
-  "zzb-anvil"                         # Anvil
-  # --- Items ---
-  "black"                             # Black
-  "bright-gray"                       # Bright Gray
-  "brighter-gray"                     # Brighter Gray
-  "white"                             # White
-  "z\u00fe1b-sorter-gray-5"           # Sorter Gray 5
-  "z\u00fe-sorter-gray-0"             # Unloader White
-  "zd-clear"                          # Clear
-  "zz\u00fe3-gray1"                   # Gray 1
-  "zz\u00fe3-gray2"                   # Gray 2
-  "zz\u00fe3-gray3"                   # Gray 3
-  "zz\u00fe3-gray4"                   # Gray 4
-  "zz\u00fe3-gray5"                   # Gray 5
-  "zz\u00fe4-nura-white"              # NURA White
-  "zz\u00fe4-skintone-black"          # Black Skintone
-  "zz\u00fe4-skintone-white"          # White Skintone
-  "zz\u00fe7-steel-0"                 # Steel Grey
-  "zz\u00fe7-steel-1"                 # Steel Grey
-  "zz\u00fe7-steel-2"                 # Steel Grey
-  "zz\u00fe7-steel-3"                 # Steel Grey 2
-  "zz\u00fe7-steel-4"                 # Steel Grey 3
-  "zz\u00fe-sorter-gray-1"            # Sorter Gray 1
-  "zz\u00fe-sorter-gray-2"            # Sorter Gray 2
-  "zz\u00fe-sorter-gray-3"            # Sorter Gray 3
-  "zza-canvas-black"                  # Pastel Black
-  "zzh-canvas-white"                  # Pastel White
-  "crimson"                           # Crimson
-  "middle-red"                        # Middle red
-  "orange"                            # Orange 2
-  "pink"                              # Pink
-  "red"                               # Red
-  "redishpurple"                      # Redish Purple
-  "yellow"                            # Yellow
-  "z\u00fe-lilac"                     # Rose
-  "zz\u00fe1-nh"                      # Heryertan Yellow
-  "zz\u00fe5-tac-gold"                # Absolute Gold
-  "zz\u00fe7-salmon-1"                # Pale Orange
-  "zz\u00fe7-salmon-3"                # Dusty Red
-  "zz\u00fe7-yellow-1"                # Yellow 2
-  "zz\u00fe7-yellow-2"                # Yellow 3
-  "zz\u00fe7-yellow-3"                # Orange 2
-  "zz\u00fe9-command-1"               # Logic Pale Red
-  "zz\u00fe9-command-2"               # Logic Red
-  "zz\u00fe9-orange-1"                # Orange 1
-  "zz\u00fe9-orange-3"                # Orange 3
-  "zz\u00fe9-yellow-2"                # Yellow 2
-  "zz\u00fe-source-yellow-1"          # Source Yellow 1
-  "zz\u00fe-source-yellow-2"          # Source Yellow 2
-  "zz\u00fe-source-yellow-3"          # Source Yellow 3
-  "zzb-canvas-red"                    # Pastel Red
-  "zzc-canvas-orange"                 # Pastel Orange
-  "zzd-canvas-yellow"                 # Pastel Yellow
-  "dark-green"                        # Dark Green
-  "green"                             # Green
-  "middle-green"                      # Middle Green
-  "z\u00fe1b-olive-green-2"           # Olive
-  "zz\u00fe8-eclipse-green-1"         # Eclipse Green 1
-  "zz\u00fe8-eclipse-green-2"         # Reinforced Green 2
-  "zz\u00fe8-eclipse-green-3"         # Eclipse Green 3
-  "zz\u00fe8-green-1"                 # Pale Green
-  "zz\u00fe8-green-2"                 # Reinforced Green
-  "zz\u00fe8-green-3"                 # Olive Green
-  "zzg-canvas-green"                  # Pastel Green
-  "blue"                              # Blue
-  "cyan"                              # Cyan
-  "cyan2"                             # Other Cyan
-  "navy"                              # Navy
-  "z\u00fe1a-pastel-cyan1"            # Pastel Cyan
-  "z\u00fe1a-pastel-cyan2"            # Pastel Cyan
-  "z\u00fe1a-teal1"                   # Teal
-  "z\u00fe1a-teal2"                   # Teal
-  "z\u00fe1a-teal3"                   # Teal
-  "z\u00fe-atmospheric"               # Atmospheric Blue
-  "zz\u00fe7-nautical-blue-1"         # Nautical Blue 1
-  "zz\u00fe7-nautical-blue-2"         # Dusk Blue
-  "zz\u00fe9-command-3"               # Logic Cyan
-  "zz\u00fe9-command-5"               # Logic Blue
-  "zz\u00fe9-cyan-2"                  # Cyan 2
-  "zz\u00fe9-cyan-3"                  # Cyan 3
-  "zze-canvas-blue"                   # Pastel Blue
-  "zzf-canvas-teal"                   # Pastel Teal
-  "purple"                            # Purple
-  "z\u00fe1a-eclipse-purple1"         # Eclipse Purple
-  "z\u00fe1a-eclipse-purple2"         # Eclipse Purple
-  "z\u00fe1a-eclipse-purple3"         # Eclipse Purple
-  "z\u00fe-rose"                      # Lilac
-  "zz\u00fe9-purple-2"                # Purple 2
-  "zz\u00fe9-purple-3"                # Purple 3
-  "zz\u00fe-logic-purple-1"           # Logic Purple 1
-  "zz\u00fe-logic-purple-2"           # Logic Purple 2
-  "zz\u00fe-logic-purple-3"           # Logic Purple 3
-  "zz\u00fe8-mechanical-1"            # Mechanical Tan
-  "zz\u00fe8-mechanical-2"            # Mechanical Tan 2
-  "zz\u00fe8-mechanical-3"            # Mechanical Tan
-  "zz\u00fe9-command-4"               # Logic Beige
-  "zz\u00fe4-skintone-african"        # African Skintone
-  "zz\u00fe4-skintone-asian"          # Asian Skintone
-  "cortexian"                         # Cortexian
-  "crab"                              # Crab
-  "spectral"                          # Spectral
-  "urog"                              # Urog
-  "z\u00fe1a-cobalt1"                 # Cobalt
-  "z\u00fe1a-cobalt2"                 # Cobalt
-  "z\u00fe1a-cobalt3"                 # Cobalt
-  "z\u00fe1a-crab1"                   # Crab
-  "z\u00fe1a-crab2"                   # Crab
-  "z\u00fe1a-translucent1"            # Translucent
-  "z\u00fe1a-translucent2"            # Translucent
-  "z\u00fe1a-translucent3"            # Translucent
-  "z\u00fe1b-nura-blue"               # NURA
-  "z\u00fe1b-nura-green"              # NURA
-  "z\u00fe1b-nura-red"                # NURA
-  "z\u00fe-denim"                     # Denim
-  "za-spectralisisone"                # Spectralisis
-  "zb-spectralisistwo"                # Spectralisis Two
-  "zc-spectralisisthree"              # Spectralisis Three
-  "zz\u00fe2-wood"                    # Wood
-  "zz\u00fe6-cryo"                    # Cryo
-  "zz\u00fe6-slag"                    # Slag
-  "zz\u00fe6-water"                   # Water
-  "zz\u00fe7-salmon-2"                # Salmon
-  "zz\u00fe8-eclipse-1"               # Eclipse
-  "zz\u00fe8-eclipse-2"               # Eclipse 2
-  "zz\u00fe8-eclipse-3"               # Eclipse 3
-  # --- Liquid ---
-  "blank-liquid-source"               # Borderless Liquid Source
-  "large-liquid-source"               # Large Liquid Source
-  "liquid-antivoid"                   # Liquid Antivoid
-  "liquid-antivoid-false"             # False Liquid Antivoid
-  "liquid-block"                      # Borderless Liquid Router
-  "liquid-router-source"              # Liquid Router Source
-  "liquid-source-false"               # False Liquid Source
-  "liquid-void-borderless"            # Borderless Liquid Void
-  # --- Liquids ---
-  "cyan-liquid"                       # Cyan
-  "green-liquid"                      # Green
-  "magenta-liquid"                    # Magenta
-  "red-liquid"                        # Red
-  "white-liquid"                      # White
-  "yellow-liquid"                     # Yellow
-  "zza-oxygen"                        # Oxygen
-  "zzb-ectoplasm"                     # Ectoplasm
-  "zzc-purple"                        # Purple
-  "zzzz-light"                        # Light
-  "zzzz-smoke"                        # Smoke
-  "zzzzz-brown"                       # Brown
-  # --- Logic ---
-  "borderless-display"                # Borderless Display
-  "micro-borderless-display"          # Micro Borderless Display
-  "micro-display"                     # Micro Display
-  "mini-borderless-display"           # Mini Borderless Display
-  "mini-display"                      # Mini Display
-  "projector-1-display"               # 1x1 Projector
-  "projector-2-display"               # 2x2 Projector
-  "projector-3-display"               # 3x3 Projector
-  "projector-4-display"               # 4x4 Projector
-  "projector-5-display"               # 5x5 Projector
-  "projector-7-display"               # 7x7 Projector
-  "projector-10-display"              # 10x10 Projector
-  "projector-20-display"              # 20x20 Projector
-  "screen-5px"                        # 5px Micro Screen
-  "screen-7px"                        # 7px Micro Screen
-  "screen-8px"                        # 8px Micro Screen
-  "screen-16px"                       # 16px Micro Screen
-  "screen-24px"                       # 24px Micro Screen
-  "screen-32px"                       # 32px Micro Screen
-  "8x-canvas-borderless-canvas"       # 8xCanvas
-  "8x-canvas-micro-borderless-canvas" # Micro 8xCanvas
-  "16x-canvas-borderless-canvas"      # 16xCanvas
-  "16x-canvas-micro-borderless-canvas" # Micro 16Canvas
-  "32x-canvas-borderless-canvas"      # 32Canvas
-  "32x-canvas-micro-borderless-canvas" # Micro 32Canvas
-  "micro-canvas"                      # Micro Canvas
-  "replicanvas"                       # Legacy Small Replicanvas
-  "replicanvas-large"                 # Legacy Replicanvas
-  "black-message"                     # Black Msg
-  "blue-message"                      # Blue Msg
-  "cyan-message"                      # Cyan Msg
-  "darkgreen-message"                 # Dark Green Msg
-  "green-message"                     # Green Msg
-  "infini-message"                    # Infinite Message
-  "large-black-message"               # Large Black Msg
-  "large-blue-message"                # Large Blue Msg
-  "large-cyan-message"                # Large Cyan Msg
-  "large-darkgreen-message"           # Large Dark Green Msg
-  "large-green-message"               # Large Green Msg
-  "large-message"                     # Large Msg
-  "large-orange-message"              # Large Orange Msg
-  "large-pink-message"                # Large Pink Msg
-  "large-purple-message"              # Large Purple Msg
-  "large-red-message"                 # Large Red Msg
-  "large-reinforced-message"          # Large Reinforced Msg
-  "large-spectral-message"            # Large Spectral Msg
-  "large-white-message"               # Large White Msg
-  "large-yellow-message"              # Large Yellow Msg
-  "message-invis"                     # Invis Message
-  "message-omega"                     # Omega Message
-  "message-omega-large"               # Large Omega Msg
-  "message-slate"                     # Slate Message
-  "message-slate-large"               # Large Slate Msg
-  "orange-message"                    # Orange Msg
-  "pink-message"                      # Pink Msg
-  "purple-message"                    # Purple Msg
-  "red-message"                       # Red Msg
-  "rimmed-message"                    # Rimmed Message
-  "rimmed-message-omega"              # Rimmed Omega Message
-  "rimmed-message-reinforced"         # Rimmed Reinforced Message
-  "rimmed-message-slate"              # Rimmed Slate Message
-  "spectral-message"                  # Spectral Msg
-  "void-message"                      # Void Message
-  "void-message-omega"                # Omega Void Message
-  "void-message-reinforced"           # Reinforced Void Message
-  "void-message-slate"                # Slate Void Message
-  "white-message"                     # White Msg
-  "yellow-message"                    # Yellow Msg
-  "zza-chiseled-message-square"       # Chiseled Msg-Square
-  "zzb-chiseled-message-circle"       # Chiseled Msg-Circle
-  "zzc-chiseled-message-rhombus"      # Chiseled Msg-Rhombus
-  "zzd-chiseled-message-diamond"      # Chiseled Msg-Diamond
-  "zze-chiseled-message-bar"          # Chiseled Msg-Bar
-  "zzf-chiseled-message-plant"        # Chiseled Msg-Plant
-  "zzg-chiseled-message-factory"      # Chiseled Msg-Factory
-  "zzh-chiseled-message-admin"        # Chiseled Msg-Admin
-  "zzi-chiseled-message-drill"        # Chiseled Msg-Drill
-  "zzj-chiseled-message-turret"       # Chiseled Msg-Turret
-  "zzk-chiseled-message-logic"        # Chiseled Msg-Logic
-  "zzl-chiseled-message-unit"         # Chiseled Msg-Unit
-  "zzm-chiseled-message-power"        # Chiseled Msg-Power
-  "zzn-chiseled-message-wall"         # Chiseled Msg-Wall
-  "zzo-chiseled-message-liquid"       # Chiseled Msg-Liquid
-  "zzp-chiseled-message-distribution" # Chiseled Msg-Distribution
-  "zzq-chiseled-message-skull"        # Chiseled Msg-Skull
-  "zzr-chiseled-message-void"         # Chiseled Msg-Void
-  "zzs-chiseled-message-blank"        # Chiseled Msg-Blank
-  "zzta-chiseled-message-one"         # Chiseled Msg-One
-  "zztb-chiseled-message-two"         # Chiseled Msg-Two
-  "zztc-chiseled-message-three"       # Chiseled Msg-Three
-  "zztd-chiseled-message-four"        # Chiseled Msg-Four
-  "zzte-chiseled-message-five"        # Chiseled Msg-One
-  "zztf-chiseled-message-six"         # Chiseled Msg-Six
-  "zztg-chiseled-message-seven"       # Chiseled Msg-Seven
-  "zzth-chiseled-message-eight"       # Chiseled Msg-Eight
-  "zzti-chiseled-message-nine"        # Chiseled Msg-Nine
-  "zztj-chiseled-message-zero"        # Chiseled Msg-Zero
-  "zzza-chiseled-message-house"       # Chiseled Msg-House
-  "zzzb-chiseled-message-rules"       # Chiseled Msg-Rules
-  "zzzc-chiseled-message-core"        # Chiseled Msg-Core
-  "zzzd-chiseled-message-techtree"    # Chiseled Msg-Tech Tree
-  "zzze-chiseled-message-image"       # Chiseled Msg-Image
-  "zzzf-chiseled-message-list"        # Chiseled Msg-List
-  "zzzg-chiseled-message-waves"       # Chiseled Msg-Waves
-  "zzzh-chiseled-message-trashcan"    # Chiseled Msg-Trashcan
-  "zzzi-chiseled-message-landscape"   # Chiseled Msg-Landscape
-  "zzzj-chiseled-message-floors"      # Chiseled Msg-Floors
-  "zzzk-chiseled-message-pause"       # Chiseled Msg-Pause
-  "zzzl-chiseled-message-play"        # Chiseled Msg-Play
-  "zzzm-chiseled-message-pencil"      # Chiseled Msg-Pencil
-  "zzzn-chiseled-message-eraser"      # Chiseled Msg-Eraser
-  "zzzo-chiseled-message-cross"       # Chiseled Msg-Cross
-  "zzzp-chiseled-message-cross-diagonal" # Chiseled Msg-Cross - Diagonal
-  "zzzq-chiseled-message-hammer"      # Chiseled Msg-Hammer
-  "zzzr-chiseled-message-map"         # Chiseled Msg-Map
-  "zzzs-chiseled-message-box"         # Chiseled Msg-Box
-  "zzzt-chiseled-message-gear"        # Chiseled Msg-Gear
-  "zzzu-chiseled-message-up-arrow"    # Chiseled Msg-Arrow - Up
-  "zzzv-chiseled-message-down-arrow"  # Chiseled Msg-Arrow - Down
-  "zzzw-chiseled-message-left-arrow"  # Chiseled Msg-Arrow - Left
-  "zzzx-chiseled-message-right-arrow" # Chiseled Msg-Arrow - Right
-  "zzzy-chiseled-message-gun"         # Chiseled Msg Gun
-  "zzzz-chiseled-message-sword"       # Chiseled Msg Sword
-  "book"                              # Book
-  "book-blood"                        # Book of Blood
-  "book-blue"                         # Blue Book
-  "book-cyan"                         # Cyan Book
-  "book-doom"                         # Book of Doom
-  "book-doubt"                        # Book of Doubt
-  "book-dread"                        # Book of Dread
-  "book-green"                        # Green Book
-  "book-leather"                      # Leather Book
-  "book-life"                         # Book of Life
-  "book-light"                        # Book of Light
-  "book-magenta"                      # Magenta Book
-  "book-omega"                        # Book of Omega
-  "book-red"                          # Red Book
-  "book-reinforced"                   # Reinforced Book
-  "book-romance"                      # Book of Romance
-  "book-slate"                        # Book of Slate
-  "book-void"                         # Book of Death
-  "book-yellow"                       # Yellow Book
-  "processor-invis"                   # Ultra Invis Processor
-  "processor-invis-hyper"             # Hyper Invis Processor
-  "processor-invis-logic"             # Invis Logic Processor
-  "processor-invis-micro"             # Micro Invis Processor
-  "ultra-micro-processor"             # Omega Processor
-  "world-processor-invis"             # Ultra Invis Processor
-  "item-config-cell"                  # Item Config Cell
-  "memory-cell-invis"                 # Invis Cell
-  "path-cell"                         # Path Cell
-  "switch-invis"                      # Invis Switch
-  # --- Power ---
-  "power-source-invis"                # Invis Power Source
-  "powerline-blocker"                 # Powerline Blocker
-  # --- Production ---
-  "ash-chunk"                         # Ash Chunk
-  "ash-chunk-center"                  # Centered Ash Chunk
-  "ash-slab"                          # Ash Slab
-  "ash-slab-center"                   # Centered Ash Slab
-  "ash-slope"                         # Ash Slope
-  "ash-stair"                         # Ash Stair
-  "ash-wall"                          # Ash Wall
-  "ash-wall-large"                    # Large Ash Wall
-  "coal-chunk"                        # Coal Chunk
-  "coal-chunk-center"                 # Centered Coal Chunk
-  "coal-slab"                         # Coal Slab
-  "coal-slab-center"                  # Centered Coal Slab
-  "coal-slope"                        # Coal Slope
-  "coal-stair"                        # Coal Stair
-  "zzfb-coal-wall"                    # Coal Wall
-  "zzfc-coal-wall-large"              # Large Coal Wall
-  "cobalt-chunk"                      # Cobalt Chunk
-  "cobalt-chunk-center"               # Centered Cobalt Chunk
-  "cobalt-slab"                       # Cobalt Slab
-  "cobalt-slab-center"                # Centered Cobalt Slab
-  "cobalt-slope"                      # Cobalt Slope
-  "cobalt-stair"                      # Cobalt Stair
-  "cobalt-wall"                       # Cobalt Wall
-  "cobalt-wall-large"                 # Large Cobalt Wall
-  "corrupt-chunk"                     # Corrupted Chunk
-  "corrupt-chunk-center"              # Centered Corrupted Chunk
-  "corrupt-slab"                      # Corrupt Slab
-  "corrupt-slab-center"               # Centered Corrupted Slab
-  "corrupt-slope"                     # Corrupted Slope
-  "corrupt-stair"                     # Corrupted Stair
-  "corrupt-wall"                      # Corrupted Wall
-  "corrupt-wall-large"                # Large Corrupted Wall
-  "dark-metal-chunk"                  # Dark Metal Chunk
-  "dark-metal-chunk-center"           # Centered Dark Metal Chunk
-  "dark-metal-slab"                   # Dark Metal Slab
-  "dark-metal-slab-center"            # Centered Dark Metal Slab
-  "dark-metal-slope"                  # Dark Metal Slope
-  "dark-metal-stair"                  # Dark Metal Stair
-  "dark-metal-2"                      # Dark Metal Wall
-  "dark-metal-large"                  # Large Dark Metal Wall
-  "colour-wall-dark-metal-blue"       # Dark Metal Bluetint Colour Wall
-  "colour-wall-dark-metal-blue-large" # Large Dark Metal Bluetint Colour Wall
-  "colour-wall-dark-metal"            # Dark Metal Colour Wall
-  "colour-wall-dark-metal-large"      # Large Dark Metal Colour Wall
-  "colour-wall-dark-metal-green"      # Dark Metal Greentint Colour Wall
-  "colour-wall-dark-metal-green-large" # Large Dark Metal Greentint Colour Wall
-  "colour-wall-dark-metal-red"        # Dark Metal Redtint Colour Wall
-  "colour-wall-dark-metal-red-large"  # Large Dark Metal Redtint Colour Wall
-  "dirt-chunk"                        # Dirt Chunk
-  "dirt-chunk-center"                 # Centered Dirt Chunk
-  "dirt-slab"                         # Dirt Slab
-  "dirt-slab-center"                  # Centered Dirt Slab
-  "dirt-slope"                        # Dirt Slope
-  "dirt-stair"                        # Dirt Stair
-  "dirt-wall-2"                       # Dirt Wall
-  "dirt-wall-large"                   # Large Dirt Wall
-  "colour-wall-dirt-blue"             # Dirt Bluetint Colour Wall
-  "colour-wall-dirt-blue-large"       # Large Dirt Bluetint Colour Wall
-  "colour-wall-dirt"                  # Dirt Colour Wall
-  "colour-wall-dirt-large"            # Large Dirt Colour Wall
-  "colour-wall-dirt-green"            # Dirt Greentint Colour Wall
-  "colour-wall-dirt-green-large"      # Large Dirt Greentint Colour Wall
-  "colour-wall-dirt-red"              # Dirt Redtint Colour Wall
-  "colour-wall-dirt-red-large"        # Large Dirt Redtint Colour Wall
-  "dune-chunk"                        # Dune Chunk
-  "dune-chunk-center"                 # Centered Dune Chunk
-  "dune-slab"                         # Dune Slab
-  "dune-slab-center"                  # Centered Dune Slab
-  "dune-slope"                        # Dune Slope
-  "dune-stair"                        # Dune Stair
-  "dune-wall-2"                       # Dune Wall
-  "dune-wall-large"                   # Large Dune Wall
-  "colour-wall-dune-blue"             # Dune Bluetint Colour Wall
-  "colour-wall-dune-blue-large"       # Large Dune Bluetint Colour Wall
-  "colour-wall-dune"                  # Dune Colour Wall
-  "colour-wall-dune-large"            # Large Dune Colour Wall
-  "colour-wall-dune-green"            # Dune Greentint Colour Wall
-  "colour-wall-dune-green-large"      # Large Dune Greentint Colour Wall
-  "colour-wall-dune-red"              # Dune Redtint Colour Wall
-  "colour-wall-dune-red-large"        # Large Dune Redtint Colour Wall
-  "flesh-slab"                        # Flesh Slab
-  "flesh-slab-center"                 # Centered Flesh Slab
-  "flesh-slope"                       # Flesh Slope
-  "flesh-stair"                       # Flesh Stair
-  "flesh-wall"                        # Flesh Wall
-  "flesh-wall-large"                  # Large Flesh Wall
-  "colour-wall-flesh-blue"            # Flesh Bluetint Colour Wall
-  "colour-wall-flesh-blue-large"      # Large Flesh Bluetint Colour Wall
-  "colour-wall-flesh"                 # Flesh Colour Wall
-  "colour-wall-flesh-large"           # Large Flesh Colour Wall
-  "colour-wall-flesh-green"           # Flesh Greentint Colour Wall
-  "colour-wall-flesh-green-large"     # Large Flesh Greentint Colour Wall
-  "colour-wall-flesh-red"             # Flesh Redtint Colour Wall
-  "colour-wall-flesh-red-large"       # Large Flesh Redtint Colour Wall
-  "foliage-slab"                      # Foliage Slab
-  "foliage-slab-center"               # Centered Foliage Slab
-  "foliage-slope"                     # Foliage Slope
-  "foliage-stair"                     # Foliage Stair
-  "foliage-blooming-wall"             # Blooming Foliage Wall
-  "foliage-wall"                      # Foliage Wall
-  "foliage-blooming-wall-large"       # Large Blooming Foliage Wall
-  "foliage-wall-large"                # Large Foliage Wall
-  "colour-wall-foliage-blue"          # Foliage Bluetint Colour Wall
-  "colour-wall-foliage-blue-large"    # Large Foliage Bluetint Colour Wall
-  "colour-wall-foliage"               # Foliage Colour Wall
-  "colour-wall-foliage-large"         # Large Foliage Colour Wall
-  "colour-wall-foliage-green"         # Foliage Greentint Colour Wall
-  "colour-wall-foliage-green-large"   # Large Foliage Greentint Colour Wall
-  "colour-wall-foliage-red"           # Foliage Redtint Colour Wall
-  "colour-wall-foliage-red-large"     # Large Foliage Redtint Colour Wall
-  "grass-chunk"                       # Grass Chunk
-  "grass-chunk-center"                # Centered Grass Chunk
-  "grass-slab"                        # Grass Slab
-  "grass-slab-center"                 # Centered Grass Slab
-  "grass-slope"                       # Grass Slope
-  "grass-stair"                       # Grass Stair
-  "grass-wall-2"                      # Grass Wall
-  "grass-wall-large"                  # Large Grass Wall
-  "honeycomb-chunk"                   # Honeycomb Chunk
-  "honeycomb-chunk-center"            # Centered Honeycomb Chunk
-  "honeycomb-slab"                    # Honeycomb Slab
-  "honeycomb-slab-center"             # Centered Honeycomb Slab
-  "honeycomb-slope"                   # Honeycomb Slope
-  "honeycomb-stair"                   # Honeycomb Stair
-  "honeycomb-wall"                    # Honeycomb Wall
-  "honeycomb-wall-large"              # Large Honeycomb Wall
-  "ice-chunk"                         # Ice Chunk
-  "ice-chunk-center"                  # Centered Ice Chunk
-  "ice-slab"                          # Ice Slab
-  "ice-slab-center"                   # Centered Ice Slab
-  "ice-slope"                         # Ice Slope
-  "ice-stair"                         # Ice Stair
-  "ice-wall-2"                        # Ice Wall
-  "ice-wall-large"                    # Large Ice Wall
-  "colour-wall-ice-blue"              # Ice Bluetint Colour Wall
-  "colour-wall-ice-blue-large"        # Large Ice Bluetint Colour Wall
-  "colour-wall-ice"                   # Ice Colour Wall
-  "colour-wall-ice-large"             # Large Ice Colour Wall
-  "colour-wall-ice-green"             # Ice Greentint Colour Wall
-  "colour-wall-ice-green-large"       # Large Ice Greentint Colour Wall
-  "colour-wall-ice-red"               # Ice Redtint Colour Wall
-  "colour-wall-ice-red-large"         # Large Ice Redtint Colour Wall
-  "carbon-igneous-wall"               # Igneous Carbon Wall
-  "carbon-igneous-wall-large"         # Large Igneous Carbon Wall
-  "red-sand-chunk"                    # Red Sandstone Chunk
-  "red-sand-chunk-center"             # Centered Red Sandstone Chunk
-  "red-sand-slab"                     # Red Sandstone Slab
-  "red-sandy-slab"                    # Red Sandstone Slab
-  "red-sand-slab-center"              # Centered Red Sandstone Slab
-  "red-sandy-slab-center"             # Centered Red Sandstone Slab
-  "red-sand-slope"                    # Red Sandstone Slope
-  "red-sandy-slope"                   # Red Sandstone Slope
-  "red-sand-stair"                    # Red Sandstone Stair
-  "red-sandy-stair"                   # Red Sandstone Stair
-  "red-sand-wall"                     # Red Sandstone Wall
-  "red-sandy-wall"                    # Red Sandstone Wall
-  "red-sand-wall-large"               # Large Red Sandstone Wall
-  "red-sandy-wall-large"              # Large Red Sandstone Wall
-  "salt-chunk"                        # Salt Chunk
-  "salt-chunk-center"                 # Centered Salt Chunk
-  "salt-slab"                         # Salt Slab
-  "salt-slab-center"                  # Centered Salt Slab
-  "salt-slope"                        # Salt Slope
-  "salt-stair"                        # Salt Stair
-  "salt-wall-2"                       # Salt Wall
-  "salt-wall-large"                   # Large Salt Wall
-  "colour-wall-salt"                  # Salt Colour Wall
-  "colour-wall-salt-blue"             # Salt Colour Wall
-  "colour-wall-salt-green"            # Salt Colour Wall
-  "colour-wall-salt-red"              # Salt Colour Wall
-  "colour-wall-salt-blue-large"       # Large Salt Colour Wall
-  "colour-wall-salt-green-large"      # Large Salt Colour Wall
-  "colour-wall-salt-large"            # Large Salt Colour Wall
-  "colour-wall-salt-red-large"        # Large Salt Colour Wall
-  "sand-chunk"                        # Sand Chunk
-  "sand-chunk-center"                 # Centered Sand Chunk
-  "sand-slab"                         # Sand Slab
-  "sandy-slab"                        # Sand Slab
-  "sand-slab-center"                  # Centered Sand Slab
-  "sandy-slab-center"                 # Centered Sand Slab
-  "sand-slope"                        # Sand Slope
-  "sandy-slope"                       # Sand Slope
-  "sand-stair"                        # Sand Stair
-  "sandy-stair"                       # Sand Stair
-  "sandy-wall"                        # Sand Wall
-  "zzec-sand-wall"                    # Sand Wall
-  "sandy-wall-large"                  # Large Sand Wall
-  "zzed-sand-wall-large"              # Large Sand Wall
-  "savannah-chunk"                    # Savannah Chunk
-  "savannah-chunk-center"             # Centered Savannah Chunk
-  "savannah-slab"                     # Savannah Slab
-  "savannah-slab-center"              # Centered Savannah Slab
-  "savannah-slope"                    # Savannah Slope
-  "savannah-stair"                    # Savannah Stair
-  "savannah-wall"                     # Savannah Wall
-  "savannah-wall-large"               # Large Savannah Wall
-  "snow-chunk"                        # Snow Chunk
-  "snow-chunk-center"                 # Centered Snow Chunk
-  "snow-slab"                         # Snow Slab
-  "snow-slab-center"                  # Centered Snow Slab
-  "snow-slope"                        # Snow Slope
-  "snow-stair"                        # Snow Stair
-  "snow-wall-2"                       # Snow Wall
-  "snow-wall-large"                   # Large Snow Wall
-  "colour-wall-snow-blue"             # Snow Bluetint Colour Wall
-  "colour-wall-snow-blue-large"       # Large Snow Bluetint Colour Wall
-  "colour-wall-snow"                  # Snow Colour Wall
-  "colour-wall-snow-large"            # Large Snow Colour Wall
-  "colour-wall-snow-green"            # Snow Greentint Colour Wall
-  "colour-wall-snow-green-large"      # Large Snow Greentint Colour Wall
-  "colour-wall-snow-red"              # Snow Redtint Colour Wall
-  "colour-wall-snow-red-large"        # Large Snow Redtint Colour Wall
-  "stone-chunk"                       # Stone Chunk
-  "stone-chunk-center"                # Centered Stone Chunk
-  "stone-slab"                        # Stone Slab
-  "stone-slab-center"                 # Centered Stone Slab
-  "stone-slope"                       # Stone Slope
-  "stone-stair"                       # Stone Stair
-  "stone-overgrown-wall"              # Overgrown Stone Wall
-  "stone-wall-2"                      # Stone Wall
-  "stone-overgrown-wall-large"        # Large Overgrown Stone Wall
-  "stone-wall-large"                  # Large Stone Wall
-  "colour-wall-stone-blue"            # Stone Bluetint Colour Wall
-  "colour-wall-stone-blue-large"      # Large Stone Bluetint Colour Wall
-  "colour-wall-stone"                 # Stone Colour Wall
-  "colour-wall-stone-large"           # Large Stone Colour Wall
-  "colour-wall-stone-green"           # Stone Greentint Colour Wall
-  "colour-wall-stone-green-large"     # Large Stone Greentint Colour Wall
-  "colour-wall-stone-red"             # Stone Redtint Colour Wall
-  "colour-wall-stone-red-large"       # Large Stone Redtint Colour Wall
-  "void-metal-chunk"                  # Void Metal Chunk
-  "void-metal-chunk-center"           # Centered Void Metal Chunk
-  "void-metal-slab"                   # Void Metal Slab
-  "void-metal-slab-center"            # Centered Void Metal Slab
-  "void-metal-slope"                  # Void Metal Slope
-  "void-metal-stair"                  # Void Metal Stair
-  "void-metal"                        # Void Metal Wall
-  "void-metal-large"                  # Large Void Metal Wall
-  "colour-wall-void-metal"            # Void Metal Colour Wall
-  "colour-wall-void-metal-blue"       # Void Metal Colour Wall
-  "colour-wall-void-metal-green"      # Void Metal Colour Wall
-  "colour-wall-void-metal-red"        # Void Metal Colour Wall
-  "colour-wall-void-metal-blue-large" # Large Void Metal Colour Wall
-  "colour-wall-void-metal-green-large" # Large Void Metal Colour Wall
-  "colour-wall-void-metal-large"      # Large Void Metal Colour Wall
-  "colour-wall-void-metal-red-large"  # Large Void Metal Colour Wall
-  "wooden-slab"                       # Wooden Slab
-  "wooden-slab-center"                # Centered Wooden Slab
-  "wooden-slope"                      # Wooden Slope
-  "wooden-stair"                      # Wooden Stair
-  "wood-wall"                         # Wood Wall
-  "wood-wall-large"                   # Large Wood Wall
-  "floor-blue"                        # Blue
-  "floor-cyan"                        # Cyan
-  "floor-emptiness"                   # Emptiness
-  "floor-green"                       # Green
-  "floor-magenta"                     # Magenta
-  "floor-red"                         # Red
-  "floor-red-sand"                    # Red Sand
-  "floor-sky"                         # Sky
-  "floor-sorter-1"                    # Sorter
-  "floor-sorter-2"                    # Sorter
-  "floor-sorter-3"                    # Sorter
-  "floor-sorter-4"                    # Sorter
-  "floor-sorter-5"                    # Sorter
-  "floor-stat-1"                      # Stat
-  "floor-stat-2"                      # Stat
-  "floor-stat-3"                      # Stat
-  "floor-void"                        # Void
-  "floor-white"                       # White
-  "floor-yellow"                      # Yellow
-  "overlay-black"                     # Black Overlay
-  "overlay-black-2"                   # Black Overlay Two
-  "overlay-blue"                      # Blue Overlay
-  "overlay-cyan"                      # Cyan Overlay
-  "overlay-emptiness"                 # No Overlay
-  "overlay-green"                     # Green Overlay
-  "overlay-magenta"                   # Magenta Overlay
-  "overlay-red"                       # Red Overlay
-  "overlay-white"                     # White Overlay
-  "overlay-white-2"                   # White Overlay Two
-  "overlay-yellow"                    # Yellow Overlay
-  "zfloor-corrupt"                    # Corruption
-  "zfloor-flesh"                      # Flesh
-  "zfloor-grid"                       # Grid
-  "zfloor-honeycomb"                  # Honeycomb
-  "zfloor-void-plating"               # Void Plating
-  "zzfloor-pillar"                    # Pillar
-  # --- Turret ---
-  "black-hole"                        # A Black Hole
-  "efx-partigen-colours"              # [UNFINISHED] Particle Gen Colours
-  "particle-generator-medium"         # [UNFINISHED] Particle Generator Medium
-  "particle-generator-tini"           # [UNFINISHED] Particle Gen Tini
-  "sfx-ping"                          # Ping SFX Block
-  "sfx-rain"                          # Rain SFX Block
-  "sfx-storm"                         # Storm SFX Block
-  "sfx-thunder"                       # Thunder SFX Block
-  "sfx-wind"                          # Wind SFX Block
-  # --- Units ---
-  "anthicus"                          # anthicus
-  "antumbra"                          # antumbra
-  "arkyid"                            # arkyid
-  "atrax"                             # atrax
-  "avert"                             # avert
-  "bryde"                             # bryde
-  "cleroi"                            # cleroi
-  "collaris"                          # collaris
-  "conquer"                           # conquer
-  "corvus"                            # corvus
-  "crawler"                           # crawler
-  "dagger"                            # dagger
-  "disrupt"                           # disrupt
-  "eclipse"                           # eclipse
-  "elude"                             # elude
-  "flare"                             # flare
-  "fortress"                          # fortress
-  "horizon"                           # horizon
-  "hypercane"                         # hypercane
-  "latum"                             # latum
-  "locus"                             # locus
-  "mace"                              # mace
-  "merui"                             # merui
-  "minke"                             # minke
-  "mono"                              # mono
-  "nova"                              # nova
-  "obviate"                           # obviate
-  "omni"                              # Omni
-  "omura"                             # omura
-  "precept"                           # precept
-  "pulsar"                            # pulsar
-  "quasar"                            # quasar
-  "quell"                             # quell
-  "reign"                             # reign
-  "renale"                            # renale
-  "risso"                             # risso
-  "rp"                                # Flea
-  "scepter"                           # scepter
-  "sei"                               # sei
-  "spiroct"                           # spiroct
-  "stell"                             # stell
-  "tecta"                             # tecta
-  "toxopid"                           # toxopid
-  "vanquish"                          # vanquish
-  "vela"                              # vela
-  "zenith"                            # zenith
+  "message",
+  "reinforced-message",
+  "highlight-wall",
+  "highlight-wall-large",
+  "highlight-wall-huge",
+  "door-huge",
+  "chunk-beryllium",
+  "chunk-center-beryllium",
+  "zzzz-beryllium-slab",
+  "slab-center-beryllium",
+  "slope-beryllium",
+  "zzzy-beryllium-stair",
+  "colossal-beryllium-wall",
+  "zzh-chiseled-beryllium-wall",
+  "chunk-black",
+  "chunk-center-black",
+  "slab-black",
+  "slab-center-black",
+  "slope-black",
+  "stair-black",
+  "black-wall",
+  "black-wall-large",
+  "colossal-black-wall",
+  "zzm-chiseled-black-wall",
+  "chunk-blue",
+  "chunk-center-blue",
+  "slab-blue",
+  "slab-center-blue",
+  "slope-blue",
+  "stair-blue",
+  "actual-blue-wall",
+  "actual-blue-wall-large",
+  "actual-blue-wall-huge",
+  "chunk-brown",
+  "chunk-center-brown",
+  "slab-brown",
+  "slab-center-brown",
+  "slope-brown",
+  "stair-brown",
+  "brown-wall",
+  "brown-wall-large",
+  "colossal-brown-wall",
+  "chunk-carbide",
+  "chunk-center-carbide",
+  "zzzz-carbide-slab",
+  "slab-center-carbide",
+  "slope-carbide",
+  "zzzy-carbide-stair",
+  "colossal-carbide-wall",
+  "zzk-chiseled-carbide-wall",
+  "colour-wall-basic",
+  "colour-wall-basic-large",
+  "colour-wall-basic-huge",
+  "zzza-colour-wall",
+  "colour-wall-large",
+  "colour-wall-huge",
+  "colour-wall-green",
+  "colour-wall-blue",
+  "colour-wall-green-large",
+  "colour-wall-green-huge",
+  "colour-wall-blue-large",
+  "colour-wall-blue-huge",
+  "chunk-copper",
+  "chunk-center-copper",
+  "zzzz-copper-slab",
+  "slab-center-copper",
+  "slope-copper",
+  "zzzy-copper-stair",
+  "colossal-copper-wall",
+  "zzb-chiseled-copper-wall",
+  "chunk-crimson",
+  "chunk-center-crimson",
+  "slab-crimson",
+  "slab-center-crimson",
+  "slope-crimson",
+  "stair-crimson",
+  "red-wall",
+  "red-wall-large",
+  "colossal-red-wall",
+  "chunk-cyan",
+  "chunk-center-cyan",
+  "slab-cyan",
+  "slab-center-cyan",
+  "slope-cyan",
+  "stair-cyan",
+  "cyan-wall",
+  "cyan-wall-large",
+  "colossal-cyan-wall",
+  "eclipse-blue-chunk",
+  "eclipse-blue-chunk-center",
+  "eclipse-blue-slab",
+  "eclipse-blue-slab-center",
+  "eclipse-blue-slope",
+  "eclipse-blue-stair",
+  "eclipse-blue-wall",
+  "eclipse-blue-wall-large",
+  "eclipse-blue-wall-huge",
+  "eclipse-green-chunk",
+  "eclipse-green-chunk-center",
+  "eclipse-green-slab",
+  "eclipse-green-slab-center",
+  "eclipse-green-slope",
+  "eclipse-green-stair",
+  "eclipse-green-wall",
+  "eclipse-green-wall-large",
+  "eclipse-green-wall-huge",
+  "eclipse-purple-chunk",
+  "eclipse-purple-chunk-center",
+  "eclipse-purple-slab",
+  "eclipse-purple-slab-center",
+  "eclipse-purple-slope",
+  "eclipse-purple-stair",
+  "eclipse-purple-wall",
+  "eclipse-purple-wall-large",
+  "eclipse-purple-wall-huge",
+  "eclipse-red-chunk",
+  "eclipse-red-chunk-center",
+  "eclipse-red-slab",
+  "eclipse-red-slab-center",
+  "eclipse-red-slope",
+  "eclipse-red-stair",
+  "eclipse-red-wall",
+  "eclipse-red-wall-large",
+  "eclipse-red-wall-huge",
+  "gay-wall",
+  "graphene-chunk",
+  "graphene-chunk-center",
+  "graphene-slab",
+  "graphene-slab-center",
+  "graphene-slope",
+  "graphene-stair",
+  "graphene-wall",
+  "graphene-wall-large",
+  "graphene-wall-huge",
+  "chunk-gray",
+  "chunk-center-gray",
+  "slab-gray",
+  "slab-center-gray",
+  "slope-gray",
+  "stair-gray",
+  "gray-wall",
+  "gray-wall-large",
+  "gray-wall-huge",
+  "green-chunk",
+  "green-chunk-center",
+  "green-slab",
+  "green-slab-center",
+  "green-slope",
+  "green-stair",
+  "green-wall",
+  "green-wall-large",
+  "green-wall-huge",
+  "hazel-chunk",
+  "hazel-chunk-center",
+  "hazel-slab",
+  "hazel-slab-center",
+  "hazel-slope",
+  "hazel-stair",
+  "hazel-wall",
+  "hazel-wall-large",
+  "hazel-wall-huge",
+  "chunk-light",
+  "chunk-center-light",
+  "slab-light",
+  "slab-center-light",
+  "slope-light",
+  "stair-light",
+  "light",
+  "large-light",
+  "colossal-light",
+  "chunk-logic",
+  "chunk-center-logic",
+  "slab-logic",
+  "slab-center-logic",
+  "slope-logic",
+  "stair-logic",
+  "logic-wall",
+  "logic-wall-large",
+  "logic-wall-huge",
+  "pink-wall",
+  "pink-wall-large",
+  "colossal-pink-wall",
+  "chunk-mechanical",
+  "chunk-center-mechanical",
+  "slab-mechanical",
+  "slab-center-mechanical",
+  "slope-mechanical",
+  "stair-mechanical",
+  "mechanical-wall",
+  "mechanical-wall-large",
+  "mechanical-wall-huge",
+  "mechanical-wall-brick",
+  "mechanical-wall-brick-full",
+  "chunk-metal",
+  "chunk-center-metal",
+  "slab-metal",
+  "slab-center-metal",
+  "slope-metal",
+  "stair-metal",
+  "metallic-wall",
+  "metallic-wall-large",
+  "metallic-wall-colossal",
+  "metallic-wall-gargantuan",
+  "chunk-navy",
+  "chunk-center-navy",
+  "slab-navy",
+  "slab-center-navy",
+  "slope-navy",
+  "stair-navy",
+  "blue-wall",
+  "blue-wall-large",
+  "colossal-blue-wall",
+  "chunk-omega",
+  "chunk-center-omega",
+  "slab-omega",
+  "slab-center-omega",
+  "slope-omega",
+  "stair-omega",
+  "omega-wall",
+  "omega-wall-large",
+  "omega-wall-huge",
+  "chunk-orange",
+  "chunk-center-orange",
+  "slab-orange",
+  "slab-center-orange",
+  "slope-orange",
+  "stair-orange",
+  "orange-wall",
+  "orange-wall-large",
+  "colossal-orange-wall",
+  "zzl-chiseled-orange-wall",
+  "pale-chunk",
+  "pale-chunk-center",
+  "pale-slab-center",
+  "pale-slope",
+  "pale-stair",
+  "pale-wall",
+  "pale-wall-large",
+  "pale-wall-huge",
+  "pastel-blue-chunk",
+  "pastel-blue-chunk-center",
+  "pastel-blue-slab",
+  "pastel-blue-slab-center",
+  "pastel-blue-slope",
+  "pastel-blue-stair",
+  "pastel-blue-wall",
+  "pastel-blue-wall-large",
+  "pastel-blue-wall-huge",
+  "pastel-cyan-chunk",
+  "pastel-cyan-chunk-center",
+  "pastel-cyan-slab",
+  "pastel-cyan-slab-center",
+  "pastel-cyan-slope",
+  "pastel-cyan-stair",
+  "pastel-cyan-wall",
+  "pastel-cyan-wall-large",
+  "pastel-cyan-wall-huge",
+  "pastel-green-chunk",
+  "pastel-green-chunk-center",
+  "pastel-green-slab",
+  "pastel-green-slab-center",
+  "pastel-green-slope",
+  "pastel-green-stair",
+  "pastel-green-wall",
+  "pastel-green-wall-large",
+  "pastel-green-wall-huge",
+  "pastel-red-chunk",
+  "pastel-red-chunk-center",
+  "pastel-red-slab",
+  "pastel-red-slab-center",
+  "pastel-red-slope",
+  "pastel-red-stair",
+  "pastel-red-wall",
+  "pastel-red-wall-large",
+  "pastel-red-wall-huge",
+  "chunk-phase",
+  "chunk-center-phase",
+  "zzzz-phase-slab",
+  "slab-center-phase",
+  "slope-phase",
+  "zzzy-phase-stair",
+  "colossal-phase-wall",
+  "zzf-chiseled-phase-wall",
+  "chunk-pink",
+  "chunk-center-pink",
+  "slab-pink",
+  "slab-center-pink",
+  "slope-pink",
+  "stair-pink",
+  "actual-pink-wall",
+  "actual-pink-wall-large",
+  "actual-pink-wall-huge",
+  "chunk-plastanium",
+  "chunk-center-plastanium",
+  "zzzz-plastanium-slab",
+  "slab-center-plastanium",
+  "slope-plastanium",
+  "zzzy-plastanium-stair",
+  "colossal-plastanium-wall",
+  "zzd-chiseled-plastanium-wall",
+  "chunk-purple",
+  "chunk-center-purple",
+  "slab-purple",
+  "slab-center-purple",
+  "slope-purple",
+  "stair-purple",
+  "purple-wall",
+  "purple-wall-large",
+  "purple-wall-huge",
+  "chunk-red",
+  "chunk-center-red",
+  "slab-red",
+  "slab-center-red",
+  "slope-red",
+  "stair-red",
+  "actual-red-wall",
+  "actual-red-wall-large",
+  "actual-red-wall-huge",
+  "rose-chunk",
+  "rose-chunk-center",
+  "rose-slab",
+  "rose-slab-center",
+  "rose-slope",
+  "rose-stair",
+  "rose-wall",
+  "rose-wall-large",
+  "rose-wall-huge",
+  "royal-chunk",
+  "royal-chunk-center",
+  "pale-slab",
+  "royal-slab",
+  "royal-slab-center",
+  "royal-slope",
+  "royal-stair",
+  "royal-wall",
+  "royal-wall-large",
+  "royal-wall-huge",
+  "salmon-chunk",
+  "salmon-chunk-center",
+  "salmon-slab",
+  "salmon-slab-center",
+  "salmon-slope",
+  "salmon-stair",
+  "salmon-wall",
+  "salmon-wall-large",
+  "salmon-wall-huge",
+  "zza-chiseled-scrap-wall",
+  "chunk-shade",
+  "chunk-center-shade",
+  "slab-shade",
+  "slab-center-shade",
+  "slope-shade",
+  "stair-shade",
+  "shade",
+  "large-shade",
+  "colossal-shade",
+  "chunk-spectral",
+  "chunk-center-spectral",
+  "slab-spectral",
+  "slab-center-spectral",
+  "slope-spectral",
+  "stair-spectral",
+  "spectral-wall",
+  "spectral-wall-large",
+  "colossal-spectral-wall",
+  "zzn-chiseled-spectral-wall",
+  "chunk-surge",
+  "chunk-center-surge",
+  "zzzz-surge-slab",
+  "slab-center-surge",
+  "slope-surge",
+  "slope-surge-reinforced",
+  "zzzy-surge-stair",
+  "zzzy-reinforced-surge-stair",
+  "colossal-surge-wall",
+  "colossal-reinforced-surge-wall",
+  "zzg-chiseled-surge-wall",
+  "zzj-chiseled-reinforced-surge-wall",
+  "teal-chunk",
+  "teal-chunk-center",
+  "teal-slab",
+  "teal-slab-center",
+  "teal-slope",
+  "teal-stair",
+  "teal-wall",
+  "teal-wall-large",
+  "teal-wall-huge",
+  "terracotta-chunk",
+  "terracotta-chunk-center",
+  "terracotta-slab",
+  "terracotta-slab-center",
+  "terracotta-slope",
+  "terracotta-stair",
+  "terracotta-wall",
+  "terracotta-wall-large",
+  "terracotta-wall-huge",
+  "chunk-thorium",
+  "chunk-center-thorium",
+  "zzzz-thorium-slab",
+  "slab-center-thorium",
+  "slope-thorium",
+  "zzzy-thorium-stair",
+  "colossal-thor-wall",
+  "zze-chiseled-thorium-wall",
+  "chunk-titanium",
+  "chunk-center-titanium",
+  "zzzz-titanium-slab",
+  "slab-center-titanium",
+  "slope-titanium",
+  "zzzy-titanium-stair",
+  "colossal-titanium-wall",
+  "zzc-chiseled-titanium-wall",
+  "translucent-chunk",
+  "translucent-chunk-center",
+  "translucent-slab",
+  "translucent-slab-center",
+  "translucent-slope",
+  "translucent-stair",
+  "translucent-wall",
+  "translucent-wall-large",
+  "translucent-wall-huge",
+  "chunk-tungsten",
+  "chunk-center-tungsten",
+  "slab-tungsten",
+  "slab-center-tungsten",
+  "slope-tungsten",
+  "stair-tungsten",
+  "colossal-tungsten-wall",
+  "zzi-chiseled-tungsten-wall",
+  "tyrian-chunk",
+  "tyrian-chunk-center",
+  "tyrian-slab",
+  "tyrian-slab-center",
+  "tyrian-slope",
+  "tyrian-stair",
+  "tyrian-wall",
+  "tyrian-wall-large",
+  "tyrian-wall-huge",
+  "violet-chunk",
+  "violet-chunk-center",
+  "violet-slab",
+  "violet-slab-center",
+  "violet-slope",
+  "violet-stair",
+  "violet-wall",
+  "violet-wall-large",
+  "violet-wall-huge",
+  "chunk-white",
+  "chunk-center-white",
+  "slab-white",
+  "slab-center-white",
+  "slope-white",
+  "stair-white",
+  "white-wall",
+  "white-wall-large",
+  "colossal-white-wall",
+  "yellow-chunk",
+  "yellow-chunk-center",
+  "yellow-slab",
+  "yellow-slab-center",
+  "yellow-slope",
+  "yellow-stair",
+  "yellow-wall",
+  "yellow-wall-large",
+  "yellow-wall-huge",
+  "config-bridge-conveyor",
+  "duct-connect-1",
+  "duct-connect-2",
+  "duct-connect-3",
+  "duct-connect-4",
+  "duct-connect-5",
+  "duct-connect-6",
+  "duct-connect-7",
+  "invis-conveyor",
+  "duct-bridge-inf",
+  "zzzzzzz-duct-router-chiseled-1",
+  "zzzzzzz-duct-router-chiseled-2",
+  "zzzzzzz-duct-router-chiseled-3",
+  "zzzzzzz-duct-router-chiseled-5",
+  "zzzzzzz-duct-router-chiseled-6",
+  "zzzzzzz-duct-router-chiseled-7",
+  "zzzzzzz-duct-router-chiseled-8",
+  "zzzzzzz-duct-router-chiseled-9",
+  "zzzzzzz-duct-router-chiseled-10",
+  "zzzzzzz-duct-router-chiseled-11",
+  "zzzzzzz-duct-router-chiseled-12",
+  "zzzzzzz-duct-router-chiseled-13",
+  "zzzzzzz-duct-router-chiseled-14",
+  "zzzzzzz-duct-router-chiseled-15",
+  "zzzzzzz-duct-router-chiseled-16",
+  "zzzzzzz-duct-router-chiseled-17",
+  "zzzzzzz-duct-router-chiseled-18",
+  "zzzzzzz-duct-router-chiseled-19",
+  "zzzzzzz-duct-router-chiseled-20",
+  "zzzzzzz-duct-router-chiseled-21",
+  "zzzzzzz-duct-router-chiseled-22",
+  "zzzzzzz-duct-router-chiseled-23",
+  "zzzzzzz-duct-router-chiseled-24",
+  "zzzzzzz-duct-router-chiseled-25",
+  "zzzzzzz-duct-router-chiseled-26",
+  "zzzzzzz-duct-router-chiseled-27",
+  "zzzzzzz-duct-router-chiseled-28",
+  "zzzzzzz-duct-router-chiseled-29",
+  "zzzzzzz-duct-router-chiseled-30",
+  "zzzzzzz-duct-router-chiseled-31",
+  "zzzzzzz-duct-router-chiseled-32",
+  "zzzzzzz-duct-router-chiseled-33",
+  "zzzzzzz-duct-router-chiseled-34",
+  "zzzzzzz-duct-router-chiseled-35",
+  "zzzzzzz-duct-router-chiseled-36",
+  "zzzzzzz-duct-router-chiseled-37",
+  "zzzzzzz-duct-router-chiseled-38",
+  "zzzzzzz-duct-router-chiseled-39",
+  "zzzzzzz-duct-router-chiseled-40",
+  "zzzzzzz-duct-router-chiseled-41",
+  "zzzzzzz-duct-router-chiseled-42",
+  "zzzzzzz-duct-router-chiseled-43",
+  "zzzzzzz-duct-router-chiseled-44",
+  "zzzzzzz-duct-router-chiseled-45",
+  "zzzzzzz-duct-router-chiseled-46",
+  "zzzzzzz-duct-router-chiseled-47",
+  "zzzzzzz-duct-router-chiseled-48",
+  "zzzzzzz-duct-router-chiseled-49",
+  "zzzzzzz-duct-router-chiseled-50",
+  "zzzzzzz-duct-router-chiseled-51",
+  "zzzzzzz-duct-router-chiseled-52",
+  "zzzzzzz-duct-router-chiseled-53",
+  "zzzzzzz-duct-router-chiseled-54",
+  "zzzzzzz-duct-router-chiseled-55",
+  "zzzzzzz-duct-router-chiseled-56",
+  "zzzzzzz-duct-router-chiseled-57",
+  "zzzzzzz-duct-router-chiseled-58",
+  "zzzzzzz-duct-router-chiseled-59",
+  "zzzzzzz-duct-router-chiseled-60",
+  "zzzzzzz-duct-router-chiseled-61",
+  "zzzzzzz-duct-router-chiseled-62",
+  "zzzzzzz-duct-router-chiseled-63",
+  "flat-duct-router",
+  "duct-router-large",
+  "bezeled-sorter-inverted",
+  "zzzo-chiseled-inverted-sorter-15",
+  "zzzp-chiseled-inverted-sorter-16",
+  "zzzq-chiseled-inverted-sorter-17",
+  "zzzr-chiseled-inverted-sorter-18",
+  "zzzs-chiseled-inverted-sorter-19",
+  "zzzt-chiseled-inverted-sorter-20",
+  "zzzu-chiseled-inverted-sorter-21",
+  "zzzv-chiseled-inverted-sorter-22",
+  "zzzw-chiseled-inverted-sorter-23",
+  "zzzh-chiseled-inverted-sorter-eight",
+  "zzzk-chiseled-inverted-sorter-eleven",
+  "zzza-chiseled-inverted-sorter-4",
+  "zzze-chiseled-inverted-sorter-five",
+  "zzzn-chiseled-inverted-sorter-fourteen",
+  "zzzi-chiseled-inverted-sorter-nine",
+  "zzza-chiseled-inverted-sorter-1",
+  "zzza-chiseled-inverted-sorter-one",
+  "zzza-chiseled-inverted-sorter-6",
+  "zzza-chiseled-inverted-sorter-7",
+  "zzza-chiseled-inverted-sorter-8",
+  "zzza-chiseled-inverted-sorter-9",
+  "zzza-chiseled-inverted-sorter-10",
+  "zzza-chiseled-inverted-sorter-11",
+  "zzza-chiseled-inverted-sorter-12",
+  "zzza-chiseled-inverted-sorter-13",
+  "zzza-chiseled-inverted-sorter-14",
+  "zzza-chiseled-inverted-sorter-15",
+  "zzza-chiseled-inverted-sorter-16",
+  "zzza-chiseled-inverted-sorter-17",
+  "zzza-chiseled-inverted-sorter-18",
+  "zzza-chiseled-inverted-sorter-19",
+  "zzza-chiseled-inverted-sorter-20",
+  "zzza-chiseled-inverted-sorter-21",
+  "zzza-chiseled-inverted-sorter-22",
+  "zzza-chiseled-inverted-sorter-23",
+  "zzza-chiseled-inverted-sorter-24",
+  "zzza-chiseled-inverted-sorter-25",
+  "zzza-chiseled-inverted-sorter-26",
+  "zzzg-chiseled-inverted-sorter-seven",
+  "zzza-chiseled-inverted-sorter-5",
+  "zzzf-chiseled-inverted-sorter-six",
+  "zzzj-chiseled-inverted-sorter-ten",
+  "zzzm-chiseled-inverted-sorter-thirteen",
+  "zzza-chiseled-inverted-sorter-3",
+  "zzzc-chiseled-inverted-sorter-three",
+  "zzzl-chiseled-inverted-sorter-twelve",
+  "zzza-chiseled-inverted-sorter-2",
+  "zzzb-chiseled-inverted-sorter-two",
+  "dark-sorter-inverted",
+  "false-sorter-inverted",
+  "flat-inverted-sorter",
+  "large-inverted-sorter",
+  "light-sorter-inverted",
+  "lined-invisorter",
+  "outlined-invisorter",
+  "item-antivoid",
+  "chiseled-item-antivoid-1",
+  "chiseled-item-antivoid-2",
+  "chiseled-item-antivoid-3",
+  "chiseled-item-antivoid-4",
+  "chiseled-item-antivoid-5",
+  "chiseled-item-antivoid-6",
+  "chiseled-item-antivoid-7",
+  "chiseled-item-antivoid-8",
+  "chiseled-item-antivoid-9",
+  "chiseled-item-antivoid-10",
+  "chiseled-item-antivoid-11",
+  "chiseled-item-antivoid-12",
+  "chiseled-item-antivoid-13",
+  "chiseled-item-antivoid-14",
+  "chiseled-item-antivoid-15",
+  "chiseled-item-antivoid-16",
+  "chiseled-item-antivoid-17",
+  "chiseled-item-antivoid-18",
+  "chiseled-item-antivoid-19",
+  "chiseled-item-antivoid-20",
+  "chiseled-item-antivoid-21",
+  "chiseled-item-antivoid-22",
+  "chiseled-item-antivoid-23",
+  "chiseled-item-antivoid-24",
+  "chiseled-item-antivoid-25",
+  "chiseled-item-antivoid-26",
+  "chiseled-item-antivoid-27",
+  "chiseled-item-antivoid-28",
+  "chiseled-item-antivoid-29",
+  "chiseled-item-antivoid-30",
+  "chiseled-item-antivoid-31",
+  "chiseled-item-antivoid-32",
+  "chiseled-item-antivoid-33",
+  "chiseled-item-antivoid-34",
+  "chiseled-item-antivoid-35",
+  "chiseled-item-antivoid-36",
+  "chiseled-item-antivoid-37",
+  "chiseled-item-antivoid-38",
+  "chiseled-item-antivoid-39",
+  "chiseled-item-antivoid-40",
+  "chiseled-item-antivoid-41",
+  "chiseled-item-antivoid-42",
+  "chiseled-item-antivoid-43",
+  "chiseled-item-antivoid-44",
+  "chiseled-item-antivoid-45",
+  "chiseled-item-antivoid-46",
+  "chiseled-item-antivoid-47",
+  "chiseled-item-antivoid-48",
+  "dark-antivoid",
+  "item-antivoid-false",
+  "flat-antivoid",
+  "light-antivoid",
+  "bezeled-source",
+  "item-source-black",
+  "item-source-blue",
+  "invis-source",
+  "item-source-cyan",
+  "dark-source",
+  "item-source-false",
+  "flat-source",
+  "item-source-green",
+  "large-item-source",
+  "light-source",
+  "item-source-magenta",
+  "item-source-red",
+  "item-source-transperant",
+  "item-source-white",
+  "config-junction",
+  "liquid-router-false",
+  "zzzzo-chiseled-source-15",
+  "zzzzp-chiseled-source-16",
+  "zzzzq-chiseled-source-17",
+  "zzzzr-chiseled-source-18",
+  "zzzzs-chiseled-source-19",
+  "zzzzt-chiseled-source-20",
+  "zzzzu-chiseled-source-21",
+  "zzzzv-chiseled-source-22",
+  "zzzzw-chiseled-source-23",
+  "zzzzh-chiseled-item-source-eight",
+  "zzzzk-chiseled-item-source-eleven",
+  "zzzza-chiseled-item-source-13",
+  "zzzza-chiseled-item-source-14",
+  "zzzze-chiseled-item-source-five",
+  "zzzzn-chiseled-item-source-fourteen",
+  "zzzzi-chiseled-item-source-nine",
+  "zzzza-chiseled-item-source-1",
+  "zzzza-chiseled-item-source-2",
+  "zzzza-chiseled-item-source-3",
+  "zzzza-chiseled-item-source-4",
+  "zzzza-chiseled-item-source-one",
+  "zzzza-chiseled-item-source-17",
+  "zzzza-chiseled-item-source-18",
+  "zzzza-chiseled-item-source-19",
+  "zzzza-chiseled-item-source-20",
+  "zzzza-chiseled-item-source-21",
+  "zzzza-chiseled-item-source-22",
+  "zzzza-chiseled-item-source-23",
+  "zzzza-chiseled-item-source-24",
+  "zzzza-chiseled-item-source-25",
+  "zzzza-chiseled-item-source-26",
+  "zzzzg-chiseled-item-source-seven",
+  "zzzza-chiseled-item-source-15",
+  "zzzza-chiseled-item-source-16",
+  "zzzzf-chiseled-item-source-six",
+  "zzzzj-chiseled-item-source-ten",
+  "zzzzm-chiseled-item-source-thirteen",
+  "zzzza-chiseled-item-source-9",
+  "zzzza-chiseled-item-source-10",
+  "zzzza-chiseled-item-source-11",
+  "zzzza-chiseled-item-source-12",
+  "zzzzc-chiseled-item-source-three",
+  "zzzzl-chiseled-item-source-twelve",
+  "zzzza-chiseled-item-source-5",
+  "zzzza-chiseled-item-source-6",
+  "zzzza-chiseled-item-source-7",
+  "zzzza-chiseled-item-source-8",
+  "zzzzb-chiseled-item-source-two",
+  "zzzzzza-chiseled-spectral-1",
+  "zzzzzza-chiseled-spectral-2",
+  "zzzzzza-chiseled-spectral-3",
+  "zzzzzza-chiseled-spectral-4",
+  "zzzzzza-chiseled-spectral-5",
+  "zzzzzza-chiseled-spectral-6",
+  "zzzzzza-chiseled-spectral-7",
+  "zzzzzza-chiseled-spectral-8",
+  "zzzzzza-chiseled-spectral-9",
+  "zzzzzza-chiseled-spectral-10",
+  "zzzzzza-chiseled-spectral-11",
+  "zzzzzza-chiseled-spectral-12",
+  "zzzzzza-chiseled-spectral-13",
+  "zzzzzza-chiseled-spectral-14",
+  "zzzzzza-chiseled-spectral-15",
+  "zzzzzza-chiseled-spectral-16",
+  "zzzzzza-chiseled-spectral-17",
+  "zzzzzza-chiseled-spectral-18",
+  "zzzzzza-chiseled-spectral-19",
+  "zzzzzza-chiseled-spectral-20",
+  "zzzzzza-chiseled-spectral-21",
+  "zzzzzza-chiseled-spectral-22",
+  "zzzzzza-chiseled-spectral-23",
+  "zzzzzza-chiseled-spectral-24",
+  "zzzzzza-chiseled-spectral-25",
+  "zzzzzza-chiseled-spectral-26",
+  "zzzzzzo-chiseled-spectralisis-15",
+  "zzzzzzp-chiseled-spectralisis-16",
+  "zzzzzzq-chiseled-spectralisis-17",
+  "zzzzzzr-chiseled-spectralisis-18",
+  "zzzzzzs-chiseled-spectralisis-19",
+  "zzzzzzt-chiseled-spectralisis-20",
+  "zzzzzzu-chiseled-spectralisis-21",
+  "zzzzzzv-chiseled-spectralisis-22",
+  "zzzzzzw-chiseled-spectralisis-23",
+  "zzzzzzh-chiseled-spectralisis-eight",
+  "zzzzzzk-chiseled-spectralisis-eleven",
+  "zzzzzze-chiseled-spectralisis-five",
+  "zzzzzzn-chiseled-spectralisis-fourteen",
+  "zzzzzzi-chiseled-spectralisis-nine",
+  "zzzzzza-chiseled-spectralisis-one",
+  "zzzzzzg-chiseled-spectralisis-seven",
+  "zzzzzzf-chiseled-spectralisis-six",
+  "zzzzzzj-chiseled-spectralisis-ten",
+  "zzzzzzm-chiseled-spectralisis-thirteen",
+  "zzzzzzc-chiseled-spectralisis-three",
+  "zzzzzzl-chiseled-spectralisis-twelve",
+  "zzzzzzb-chiseled-spectralisis-two",
+  "config-hyper-proc",
+  "config-logic-proc",
+  "config-memory",
+  "config-mender",
+  "config-message",
+  "config-micro-proc",
+  "config-node",
+  "config-pump",
+  "config-switch",
+  "false-conduit-connect-1",
+  "false-conduit-connect-2",
+  "false-conduit-connect-3",
+  "false-conduit-connect-4",
+  "false-conduit-connect-5",
+  "false-conduit-connect-6",
+  "config-overflow",
+  "config-phase",
+  "config-router",
+  "beveled-sorter",
+  "beveled-sorter-chisel-1",
+  "beveled-sorter-chisel-2",
+  "beveled-sorter-chisel-3",
+  "beveled-sorter-chisel-4",
+  "beveled-sorter-chisel-5",
+  "beveled-sorter-chisel-6",
+  "beveled-sorter-chisel-7",
+  "beveled-sorter-chisel-8",
+  "beveled-sorter-chisel-9",
+  "beveled-sorter-chisel-10",
+  "beveled-sorter-chisel-11",
+  "beveled-sorter-chisel-12",
+  "beveled-sorter-chisel-13",
+  "beveled-sorter-chisel-14",
+  "beveled-sorter-chisel-15",
+  "beveled-sorter-chisel-16",
+  "beveled-sorter-chisel-17",
+  "beveled-sorter-chisel-18",
+  "beveled-sorter-chisel-19",
+  "beveled-sorter-chisel-20",
+  "beveled-sorter-chisel-21",
+  "beveled-sorter-chisel-22",
+  "beveled-sorter-chisel-23",
+  "beveled-sorter-chisel-24",
+  "beveled-sorter-chisel-25",
+  "beveled-sorter-chisel-26",
+  "beveled-sorter-chisel-27",
+  "beveled-sorter-chisel-28",
+  "beveled-sorter-chisel-29",
+  "beveled-sorter-chisel-30",
+  "beveled-sorter-chisel-31",
+  "beveled-sorter-chisel-32",
+  "beveled-sorter-chisel-33",
+  "beveled-sorter-chisel-34",
+  "beveled-sorter-chisel-35",
+  "beveled-sorter-chisel-36",
+  "beveled-sorter-chisel-37",
+  "beveled-sorter-chisel-38",
+  "beveled-sorter-chisel-39",
+  "beveled-sorter-chisel-40",
+  "beveled-sorter-chisel-41",
+  "beveled-sorter-chisel-42",
+  "beveled-sorter-chisel-43",
+  "beveled-sorter-chisel-44",
+  "beveled-sorter-chisel-45",
+  "beveled-sorter-chisel-46",
+  "beveled-sorter-chisel-47",
+  "beveled-sorter-chisel-48",
+  "bezeled-sorter",
+  "borderless-sorter-tint-blue",
+  "borderless-sorter",
+  "zza-chiseled-sorter-1",
+  "zza-chiseled-sorter-2",
+  "zza-chiseled-sorter-3",
+  "zza-chiseled-sorter-4",
+  "zza-chiseled-sorter-5",
+  "zza-chiseled-sorter-6",
+  "zza-chiseled-sorter-7",
+  "zza-chiseled-sorter-8",
+  "zza-chiseled-sorter-9",
+  "zza-chiseled-sorter-10",
+  "zza-chiseled-sorter-11",
+  "zza-chiseled-sorter-12",
+  "zza-chiseled-sorter-13",
+  "zza-chiseled-sorter-14",
+  "zza-chiseled-sorter-15",
+  "zza-chiseled-sorter-16",
+  "zza-chiseled-sorter-17",
+  "zza-chiseled-sorter-18",
+  "zza-chiseled-sorter-19",
+  "zza-chiseled-sorter-20",
+  "zza-chiseled-sorter-21",
+  "zza-chiseled-sorter-22",
+  "zza-chiseled-sorter-23",
+  "zza-chiseled-sorter-24",
+  "zza-chiseled-sorter-25",
+  "zza-chiseled-sorter-26",
+  "zzo-chiseled-sorter-15",
+  "zzp-chiseled-sorter-16",
+  "zzq-chiseled-sorter-17",
+  "zzr-chiseled-sorter-18",
+  "zzs-chiseled-sorter-19",
+  "zzt-chiseled-sorter-20",
+  "zzu-chiseled-sorter-21",
+  "zzv-chiseled-sorter-22",
+  "zzw-chiseled-sorter-23",
+  "zzh-chiseled-sorter-eight",
+  "zzk-chiseled-sorter-eleven",
+  "zze-chiseled-sorter-five",
+  "zzn-chiseled-sorter-fourteen",
+  "zzi-chiseled-sorter-nine",
+  "zza-chiseled-sorter-one",
+  "zzg-chiseled-sorter-seven",
+  "zzf-chiseled-sorter-six",
+  "zzj-chiseled-sorter-ten",
+  "zzm-chiseled-sorter-thirteen",
+  "zzc-chiseled-sorter-three",
+  "zzl-chiseled-sorter-twelve",
+  "zzb-chiseled-sorter-two",
+  "bezeled-sorter-chiseled-1",
+  "bezeled-sorter-chiseled-2",
+  "bezeled-sorter-chiseled-3",
+  "bezeled-sorter-chiseled-5",
+  "bezeled-sorter-chiseled-6",
+  "bezeled-sorter-chiseled-7",
+  "bezeled-sorter-chiseled-8",
+  "bezeled-sorter-chiseled-9",
+  "bezeled-sorter-chiseled-10",
+  "bezeled-sorter-chiseled-11",
+  "bezeled-sorter-chiseled-12",
+  "bezeled-sorter-chiseled-13",
+  "bezeled-sorter-chiseled-14",
+  "bezeled-sorter-chiseled-15",
+  "bezeled-sorter-chiseled-16",
+  "bezeled-sorter-chiseled-17",
+  "bezeled-sorter-chiseled-18",
+  "bezeled-sorter-chiseled-19",
+  "bezeled-sorter-chiseled-20",
+  "bezeled-sorter-chiseled-21",
+  "bezeled-sorter-chiseled-22",
+  "bezeled-sorter-chiseled-23",
+  "bezeled-sorter-chiseled-24",
+  "bezeled-sorter-chiseled-25",
+  "bezeled-sorter-chiseled-26",
+  "bezeled-sorter-chiseled-27",
+  "bezeled-sorter-chiseled-28",
+  "bezeled-sorter-chiseled-29",
+  "bezeled-sorter-chiseled-30",
+  "bezeled-sorter-chiseled-31",
+  "bezeled-sorter-chiseled-32",
+  "bezeled-sorter-chiseled-33",
+  "bezeled-sorter-chiseled-34",
+  "dark-sorter",
+  "dark-sorter-borderless",
+  "sorter-false",
+  "flat-sorter",
+  "flat-beveled-sorter",
+  "flat-bezeled-sorter-1",
+  "flat-bezeled-sorter-2",
+  "flat-highlight-sorter",
+  "borderless-sorter-glow",
+  "borderless-sorter-tint-green",
+  "highlight-sorter",
+  "highlight-sorter-chisel-1",
+  "highlight-sorter-chisel-2",
+  "highlight-sorter-chisel-3",
+  "highlight-sorter-chisel-4",
+  "highlight-sorter-chisel-5",
+  "highlight-sorter-chisel-6",
+  "highlight-sorter-chisel-7",
+  "highlight-sorter-chisel-8",
+  "highlight-sorter-chisel-9",
+  "highlight-sorter-chisel-10",
+  "highlight-sorter-chisel-11",
+  "highlight-sorter-chisel-12",
+  "highlight-sorter-chisel-13",
+  "highlight-sorter-chisel-14",
+  "highlight-sorter-chisel-15",
+  "highlight-sorter-chisel-16",
+  "highlight-sorter-chisel-17",
+  "highlight-sorter-chisel-18",
+  "highlight-sorter-chisel-19",
+  "highlight-sorter-chisel-20",
+  "highlight-sorter-chisel-21",
+  "highlight-sorter-chisel-22",
+  "highlight-sorter-chisel-23",
+  "highlight-sorter-chisel-24",
+  "highlight-sorter-chisel-25",
+  "highlight-sorter-chisel-26",
+  "highlight-sorter-chisel-27",
+  "highlight-sorter-chisel-28",
+  "highlight-sorter-chisel-29",
+  "highlight-sorter-chisel-30",
+  "highlight-sorter-chisel-31",
+  "highlight-sorter-chisel-32",
+  "highlight-sorter-chisel-33",
+  "highlight-sorter-chisel-34",
+  "highlight-sorter-chisel-35",
+  "highlight-sorter-chisel-36",
+  "highlight-sorter-chisel-37",
+  "highlight-sorter-chisel-38",
+  "highlight-sorter-chisel-39",
+  "highlight-sorter-chisel-40",
+  "highlight-sorter-chisel-41",
+  "highlight-sorter-chisel-42",
+  "highlight-sorter-chisel-43",
+  "highlight-sorter-chisel-44",
+  "highlight-sorter-chisel-45",
+  "highlight-sorter-chisel-46",
+  "highlight-sorter-chisel-47",
+  "highlight-sorter-chisel-48",
+  "borderless-sorter-huge",
+  "sorter-test",
+  "large-sorter",
+  "bezeled-sorter-large",
+  "light-sorter",
+  "light-sorter-borderless",
+  "mini-borsorter",
+  "borderless-sorter-tint-red",
+  "borderless-sorter-semilarge",
+  "static",
+  "zzzzzz-spectralisis",
+  "bezeled-sorter-spectral",
+  "false-spectral",
+  "flat-spectral-sorter",
+  "light-spectral",
+  "chiseled-surge-router-1",
+  "chiseled-surge-router-2",
+  "chiseled-surge-router-3",
+  "chiseled-surge-router-4",
+  "chiseled-surge-router-5",
+  "chiseled-surge-router-6",
+  "chiseled-surge-router-7",
+  "chiseled-surge-router-8",
+  "chiseled-surge-router-9",
+  "chiseled-surge-router-10",
+  "chiseled-surge-router-11",
+  "chiseled-surge-router-12",
+  "chiseled-surge-router-13",
+  "chiseled-surge-router-14",
+  "chiseled-surge-router-15",
+  "chiseled-surge-router-16",
+  "chiseled-surge-router-17",
+  "chiseled-surge-router-18",
+  "chiseled-surge-router-19",
+  "chiseled-surge-router-20",
+  "chiseled-surge-router-21",
+  "chiseled-surge-router-22",
+  "chiseled-surge-router-23",
+  "chiseled-surge-router-24",
+  "chiseled-surge-router-25",
+  "chiseled-surge-router-26",
+  "chiseled-surge-router-27",
+  "chiseled-surge-router-28",
+  "chiseled-surge-router-29",
+  "chiseled-surge-router-30",
+  "chiseled-surge-router-31",
+  "chiseled-surge-router-32",
+  "chiseled-surge-router-33",
+  "chiseled-surge-router-34",
+  "chiseled-surge-router-35",
+  "chiseled-surge-router-36",
+  "chiseled-surge-router-37",
+  "chiseled-surge-router-38",
+  "chiseled-surge-router-39",
+  "chiseled-surge-router-40",
+  "chiseled-surge-router-41",
+  "chiseled-surge-router-42",
+  "chiseled-surge-router-43",
+  "chiseled-surge-router-44",
+  "chiseled-surge-router-45",
+  "chiseled-surge-router-46",
+  "chiseled-surge-router-47",
+  "flat-surge-router",
+  "transorter-borderless",
+  "transorter-hex",
+  "mini-hex-transorter",
+  "transorter-semilarge-hex",
+  "lined-transorter",
+  "mini-transorter",
+  "outlined-transorter",
+  "borderless-transorter-semilarge",
+  "config-underflow",
+  "unloader-two",
+  "chiseled-unloader-1",
+  "chiseled-unloader-2",
+  "chiseled-unloader-3",
+  "chiseled-unloader-4",
+  "chiseled-unloader-5",
+  "chiseled-unloader-6",
+  "chiseled-unloader-7",
+  "chiseled-unloader-8",
+  "chiseled-unloader-9",
+  "chiseled-unloader-10",
+  "chiseled-unloader-11",
+  "chiseled-unloader-12",
+  "chiseled-unloader-13",
+  "chiseled-unloader-14",
+  "chiseled-unloader-15",
+  "chiseled-unloader-16",
+  "chiseled-unloader-17",
+  "chiseled-unloader-18",
+  "chiseled-unloader-19",
+  "chiseled-unloader-20",
+  "chiseled-unloader-21",
+  "chiseled-unloader-22",
+  "chiseled-unloader-23",
+  "chiseled-unloader-24",
+  "chiseled-unloader-25",
+  "chiseled-unloader-26",
+  "chiseled-unloader-27",
+  "chiseled-unloader-28",
+  "chiseled-unloader-29",
+  "chiseled-unloader-30",
+  "chiseled-unloader-31",
+  "chiseled-unloader-32",
+  "chiseled-unloader-33",
+  "chiseled-unloader-34",
+  "chiseled-unloader-35",
+  "chiseled-unloader-36",
+  "chiseled-unloader-37",
+  "chiseled-unloader-38",
+  "chiseled-unloader-39",
+  "chiseled-unloader-40",
+  "chiseled-unloader-41",
+  "chiseled-unloader-42",
+  "chiseled-unloader-43",
+  "chiseled-unloader-44",
+  "chiseled-unloader-45",
+  "chiseled-unloader-46",
+  "chiseled-unloader-47",
+  "chiseled-unloader-48",
+  "chiseled-unloader-two-1",
+  "chiseled-unloader-two-2",
+  "chiseled-unloader-two-3",
+  "chiseled-unloader-two-4",
+  "chiseled-unloader-two-5",
+  "chiseled-unloader-two-6",
+  "chiseled-unloader-two-7",
+  "chiseled-unloader-two-8",
+  "chiseled-unloader-two-9",
+  "chiseled-unloader-two-10",
+  "chiseled-unloader-two-11",
+  "chiseled-unloader-two-12",
+  "chiseled-unloader-two-13",
+  "chiseled-unloader-two-14",
+  "chiseled-unloader-two-15",
+  "chiseled-unloader-two-16",
+  "chiseled-unloader-two-17",
+  "chiseled-unloader-two-18",
+  "chiseled-unloader-two-19",
+  "chiseled-unloader-two-20",
+  "chiseled-unloader-two-21",
+  "chiseled-unloader-two-22",
+  "chiseled-unloader-two-23",
+  "chiseled-unloader-two-24",
+  "chiseled-unloader-two-25",
+  "chiseled-unloader-two-26",
+  "chiseled-unloader-two-27",
+  "chiseled-unloader-two-28",
+  "chiseled-unloader-two-29",
+  "chiseled-unloader-two-30",
+  "chiseled-unloader-two-31",
+  "chiseled-unloader-two-32",
+  "chiseled-unloader-two-33",
+  "chiseled-unloader-two-34",
+  "chiseled-unloader-two-35",
+  "chiseled-unloader-two-36",
+  "chiseled-unloader-two-37",
+  "chiseled-unloader-two-38",
+  "chiseled-unloader-two-39",
+  "chiseled-unloader-two-40",
+  "chiseled-unloader-two-41",
+  "chiseled-unloader-two-42",
+  "chiseled-unloader-two-43",
+  "chiseled-unloader-two-44",
+  "chiseled-unloader-two-45",
+  "chiseled-unloader-two-46",
+  "chiseled-unloader-two-47",
+  "chiseled-unloader-two-48",
+  "dark-unloader",
+  "flat-unloader",
+  "light-unloader",
+  "abominable2-chain-left",
+  "abominable2-chain-right",
+  "abominable-chain-left",
+  "abominable-chain-right",
+  "chain-angled-1",
+  "chain-angled-2",
+  "chain-angled-3",
+  "chain-angled-4",
+  "chain-angled-5",
+  "chain-angled-6",
+  "chain-angled-7",
+  "chain-angled-8",
+  "chain-angled-9",
+  "chain-corner-diagonal",
+  "chain-half-y-left",
+  "chain-half-y-right",
+  "chain-link",
+  "chain-v1",
+  "chain-v2",
+  "chain-v3",
+  "chain-v4",
+  "chain-v5",
+  "chain-v6",
+  "chain-y",
+  "line-link",
+  "rope",
+  "true-light",
+  "illumination-2",
+  "illumination-3",
+  "illumination-4",
+  "illumination-5",
+  "illuminator-omega",
+  "illuminator-ultra",
+  "vial",
+  "vial-full",
+  "vial-open",
+  "vial-item",
+  "vial-item-full",
+  "vial-item-open",
+  "vial-lid",
+  "pastel-wall",
+  "pastel-wall-colossal",
+  "pastel-wall-large",
+  "d20",
+  "dice",
+  "ritual-circle",
+  "true-colour",
+  "true-colour-hex",
+  "true-shade",
+  "unloader-large",
+  "zzb-anvil",
+  "black",
+  "bright-gray",
+  "brighter-gray",
+  "white",
+  "zþ1b-sorter-gray-5",
+  "zþ-sorter-gray-0",
+  "zd-clear",
+  "zzþ3-gray1",
+  "zzþ3-gray2",
+  "zzþ3-gray3",
+  "zzþ3-gray4",
+  "zzþ3-gray5",
+  "zzþ4-nura-white",
+  "zzþ4-skintone-black",
+  "zzþ4-skintone-white",
+  "zzþ7-steel-0",
+  "zzþ7-steel-1",
+  "zzþ7-steel-2",
+  "zzþ7-steel-3",
+  "zzþ7-steel-4",
+  "zzþ-sorter-gray-1",
+  "zzþ-sorter-gray-2",
+  "zzþ-sorter-gray-3",
+  "zza-canvas-black",
+  "zzh-canvas-white",
+  "crimson",
+  "middle-red",
+  "orange",
+  "pink",
+  "red",
+  "redishpurple",
+  "yellow",
+  "zþ-lilac",
+  "zzþ1-nh",
+  "zzþ5-tac-gold",
+  "zzþ7-salmon-1",
+  "zzþ7-salmon-3",
+  "zzþ7-yellow-1",
+  "zzþ7-yellow-2",
+  "zzþ7-yellow-3",
+  "zzþ9-command-1",
+  "zzþ9-command-2",
+  "zzþ9-orange-1",
+  "zzþ9-orange-3",
+  "zzþ9-yellow-2",
+  "zzþ-source-yellow-1",
+  "zzþ-source-yellow-2",
+  "zzþ-source-yellow-3",
+  "zzb-canvas-red",
+  "zzc-canvas-orange",
+  "zzd-canvas-yellow",
+  "dark-green",
+  "green",
+  "middle-green",
+  "zþ1b-olive-green-2",
+  "zzþ8-eclipse-green-1",
+  "zzþ8-eclipse-green-2",
+  "zzþ8-eclipse-green-3",
+  "zzþ8-green-1",
+  "zzþ8-green-2",
+  "zzþ8-green-3",
+  "zzg-canvas-green",
+  "blue",
+  "cyan",
+  "cyan2",
+  "navy",
+  "zþ1a-pastel-cyan1",
+  "zþ1a-pastel-cyan2",
+  "zþ1a-teal1",
+  "zþ1a-teal2",
+  "zþ1a-teal3",
+  "zþ-atmospheric",
+  "zzþ7-nautical-blue-1",
+  "zzþ7-nautical-blue-2",
+  "zzþ9-command-3",
+  "zzþ9-command-5",
+  "zzþ9-cyan-2",
+  "zzþ9-cyan-3",
+  "zze-canvas-blue",
+  "zzf-canvas-teal",
+  "purple",
+  "zþ1a-eclipse-purple1",
+  "zþ1a-eclipse-purple2",
+  "zþ1a-eclipse-purple3",
+  "zþ-rose",
+  "zzþ9-purple-2",
+  "zzþ9-purple-3",
+  "zzþ-logic-purple-1",
+  "zzþ-logic-purple-2",
+  "zzþ-logic-purple-3",
+  "zzþ8-mechanical-1",
+  "zzþ8-mechanical-2",
+  "zzþ8-mechanical-3",
+  "zzþ9-command-4",
+  "zzþ4-skintone-african",
+  "zzþ4-skintone-asian",
+  "cortexian",
+  "crab",
+  "spectral",
+  "urog",
+  "zþ1a-cobalt1",
+  "zþ1a-cobalt2",
+  "zþ1a-cobalt3",
+  "zþ1a-crab1",
+  "zþ1a-crab2",
+  "zþ1a-translucent1",
+  "zþ1a-translucent2",
+  "zþ1a-translucent3",
+  "zþ1b-nura-blue",
+  "zþ1b-nura-green",
+  "zþ1b-nura-red",
+  "zþ-denim",
+  "za-spectralisisone",
+  "zb-spectralisistwo",
+  "zc-spectralisisthree",
+  "zzþ2-wood",
+  "zzþ6-cryo",
+  "zzþ6-slag",
+  "zzþ6-water",
+  "zzþ7-salmon-2",
+  "zzþ8-eclipse-1",
+  "zzþ8-eclipse-2",
+  "zzþ8-eclipse-3",
+  "blank-liquid-source",
+  "large-liquid-source",
+  "liquid-antivoid",
+  "liquid-antivoid-false",
+  "liquid-block",
+  "liquid-router-source",
+  "liquid-source-false",
+  "liquid-void-borderless",
+  "cyan-liquid",
+  "green-liquid",
+  "magenta-liquid",
+  "red-liquid",
+  "white-liquid",
+  "yellow-liquid",
+  "zza-oxygen",
+  "zzb-ectoplasm",
+  "zzc-purple",
+  "zzzz-light",
+  "zzzz-smoke",
+  "zzzzz-brown",
+  "borderless-display",
+  "micro-borderless-display",
+  "micro-display",
+  "mini-borderless-display",
+  "mini-display",
+  "projector-1-display",
+  "projector-2-display",
+  "projector-3-display",
+  "projector-4-display",
+  "projector-5-display",
+  "projector-7-display",
+  "projector-10-display",
+  "projector-20-display",
+  "screen-5px",
+  "screen-7px",
+  "screen-8px",
+  "screen-16px",
+  "screen-24px",
+  "screen-32px",
+  "8x-canvas-borderless-canvas",
+  "8x-canvas-micro-borderless-canvas",
+  "16x-canvas-borderless-canvas",
+  "16x-canvas-micro-borderless-canvas",
+  "32x-canvas-borderless-canvas",
+  "32x-canvas-micro-borderless-canvas",
+  "micro-canvas",
+  "replicanvas",
+  "replicanvas-large",
+  "black-message",
+  "blue-message",
+  "cyan-message",
+  "darkgreen-message",
+  "green-message",
+  "infini-message",
+  "large-black-message",
+  "large-blue-message",
+  "large-cyan-message",
+  "large-darkgreen-message",
+  "large-green-message",
+  "large-message",
+  "large-orange-message",
+  "large-pink-message",
+  "large-purple-message",
+  "large-red-message",
+  "large-reinforced-message",
+  "large-spectral-message",
+  "large-white-message",
+  "large-yellow-message",
+  "message-invis",
+  "message-omega",
+  "message-omega-large",
+  "message-slate",
+  "message-slate-large",
+  "orange-message",
+  "pink-message",
+  "purple-message",
+  "red-message",
+  "rimmed-message",
+  "rimmed-message-omega",
+  "rimmed-message-reinforced",
+  "rimmed-message-slate",
+  "spectral-message",
+  "void-message",
+  "void-message-omega",
+  "void-message-reinforced",
+  "void-message-slate",
+  "white-message",
+  "yellow-message",
+  "zza-chiseled-message-square",
+  "zzb-chiseled-message-circle",
+  "zzc-chiseled-message-rhombus",
+  "zzd-chiseled-message-diamond",
+  "zze-chiseled-message-bar",
+  "zzf-chiseled-message-plant",
+  "zzg-chiseled-message-factory",
+  "zzh-chiseled-message-admin",
+  "zzi-chiseled-message-drill",
+  "zzj-chiseled-message-turret",
+  "zzk-chiseled-message-logic",
+  "zzl-chiseled-message-unit",
+  "zzm-chiseled-message-power",
+  "zzn-chiseled-message-wall",
+  "zzo-chiseled-message-liquid",
+  "zzp-chiseled-message-distribution",
+  "zzq-chiseled-message-skull",
+  "zzr-chiseled-message-void",
+  "zzs-chiseled-message-blank",
+  "zzta-chiseled-message-one",
+  "zztb-chiseled-message-two",
+  "zztc-chiseled-message-three",
+  "zztd-chiseled-message-four",
+  "zzte-chiseled-message-five",
+  "zztf-chiseled-message-six",
+  "zztg-chiseled-message-seven",
+  "zzth-chiseled-message-eight",
+  "zzti-chiseled-message-nine",
+  "zztj-chiseled-message-zero",
+  "zzza-chiseled-message-house",
+  "zzzb-chiseled-message-rules",
+  "zzzc-chiseled-message-core",
+  "zzzd-chiseled-message-techtree",
+  "zzze-chiseled-message-image",
+  "zzzf-chiseled-message-list",
+  "zzzg-chiseled-message-waves",
+  "zzzh-chiseled-message-trashcan",
+  "zzzi-chiseled-message-landscape",
+  "zzzj-chiseled-message-floors",
+  "zzzk-chiseled-message-pause",
+  "zzzl-chiseled-message-play",
+  "zzzm-chiseled-message-pencil",
+  "zzzn-chiseled-message-eraser",
+  "zzzo-chiseled-message-cross",
+  "zzzp-chiseled-message-cross-diagonal",
+  "zzzq-chiseled-message-hammer",
+  "zzzr-chiseled-message-map",
+  "zzzs-chiseled-message-box",
+  "zzzt-chiseled-message-gear",
+  "zzzu-chiseled-message-up-arrow",
+  "zzzv-chiseled-message-down-arrow",
+  "zzzw-chiseled-message-left-arrow",
+  "zzzx-chiseled-message-right-arrow",
+  "zzzy-chiseled-message-gun",
+  "zzzz-chiseled-message-sword",
+  "book",
+  "book-blood",
+  "book-blue",
+  "book-cyan",
+  "book-doom",
+  "book-doubt",
+  "book-dread",
+  "book-green",
+  "book-leather",
+  "book-life",
+  "book-light",
+  "book-magenta",
+  "book-omega",
+  "book-red",
+  "book-reinforced",
+  "book-romance",
+  "book-slate",
+  "book-void",
+  "book-yellow",
+  "processor-invis",
+  "processor-invis-hyper",
+  "processor-invis-logic",
+  "processor-invis-micro",
+  "ultra-micro-processor",
+  "world-processor-invis",
+  "item-config-cell",
+  "memory-cell-invis",
+  "path-cell",
+  "switch-invis",
+  "power-source-invis",
+  "powerline-blocker",
+  "ash-chunk",
+  "ash-chunk-center",
+  "ash-slab",
+  "ash-slab-center",
+  "ash-slope",
+  "ash-stair",
+  "ash-wall",
+  "ash-wall-large",
+  "coal-chunk",
+  "coal-chunk-center",
+  "coal-slab",
+  "coal-slab-center",
+  "coal-slope",
+  "coal-stair",
+  "zzfb-coal-wall",
+  "zzfc-coal-wall-large",
+  "cobalt-chunk",
+  "cobalt-chunk-center",
+  "cobalt-slab",
+  "cobalt-slab-center",
+  "cobalt-slope",
+  "cobalt-stair",
+  "cobalt-wall",
+  "cobalt-wall-large",
+  "corrupt-chunk",
+  "corrupt-chunk-center",
+  "corrupt-slab",
+  "corrupt-slab-center",
+  "corrupt-slope",
+  "corrupt-stair",
+  "corrupt-wall",
+  "corrupt-wall-large",
+  "dark-metal-chunk",
+  "dark-metal-chunk-center",
+  "dark-metal-slab",
+  "dark-metal-slab-center",
+  "dark-metal-slope",
+  "dark-metal-stair",
+  "dark-metal-2",
+  "dark-metal-large",
+  "colour-wall-dark-metal",
+  "colour-wall-dark-metal-large",
+  "colour-wall-dark-metal-red",
+  "colour-wall-dark-metal-red-large",
+  "colour-wall-dark-metal-green",
+  "colour-wall-dark-metal-green-large",
+  "colour-wall-dark-metal-blue",
+  "colour-wall-dark-metal-blue-large",
+  "dirt-chunk",
+  "dirt-chunk-center",
+  "dirt-slab",
+  "dirt-slab-center",
+  "dirt-slope",
+  "dirt-stair",
+  "dirt-wall-2",
+  "dirt-wall-large",
+  "colour-wall-dirt",
+  "colour-wall-dirt-large",
+  "colour-wall-dirt-red",
+  "colour-wall-dirt-red-large",
+  "colour-wall-dirt-green",
+  "colour-wall-dirt-green-large",
+  "colour-wall-dirt-blue",
+  "colour-wall-dirt-blue-large",
+  "dune-chunk",
+  "dune-chunk-center",
+  "dune-slab",
+  "dune-slab-center",
+  "dune-slope",
+  "dune-stair",
+  "dune-wall-2",
+  "dune-wall-large",
+  "colour-wall-dune",
+  "colour-wall-dune-large",
+  "colour-wall-dune-red",
+  "colour-wall-dune-red-large",
+  "colour-wall-dune-green",
+  "colour-wall-dune-green-large",
+  "colour-wall-dune-blue",
+  "colour-wall-dune-blue-large",
+  "flesh-slab",
+  "flesh-slab-center",
+  "flesh-slope",
+  "flesh-stair",
+  "flesh-wall",
+  "flesh-wall-large",
+  "colour-wall-flesh",
+  "colour-wall-flesh-large",
+  "colour-wall-flesh-red",
+  "colour-wall-flesh-red-large",
+  "colour-wall-flesh-green",
+  "colour-wall-flesh-green-large",
+  "colour-wall-flesh-blue",
+  "colour-wall-flesh-blue-large",
+  "foliage-slab",
+  "foliage-slab-center",
+  "foliage-slope",
+  "foliage-stair",
+  "foliage-wall-large",
+  "foliage-wall",
+  "foliage-blooming-wall",
+  "foliage-blooming-wall-large",
+  "colour-wall-foliage",
+  "colour-wall-foliage-large",
+  "colour-wall-foliage-red",
+  "colour-wall-foliage-red-large",
+  "colour-wall-foliage-green",
+  "colour-wall-foliage-green-large",
+  "colour-wall-foliage-blue",
+  "colour-wall-foliage-blue-large",
+  "grass-chunk",
+  "grass-chunk-center",
+  "grass-slab",
+  "grass-slab-center",
+  "grass-slope",
+  "grass-stair",
+  "grass-wall-2",
+  "grass-wall-large",
+  "honeycomb-chunk",
+  "honeycomb-chunk-center",
+  "honeycomb-slab",
+  "honeycomb-slab-center",
+  "honeycomb-slope",
+  "honeycomb-stair",
+  "honeycomb-wall",
+  "honeycomb-wall-large",
+  "ice-chunk",
+  "ice-chunk-center",
+  "ice-slab",
+  "ice-slab-center",
+  "ice-slope",
+  "ice-stair",
+  "ice-wall-2",
+  "ice-wall-large",
+  "colour-wall-ice-blue",
+  "colour-wall-ice-blue-large",
+  "colour-wall-ice",
+  "colour-wall-ice-large",
+  "colour-wall-ice-green",
+  "colour-wall-ice-green-large",
+  "colour-wall-ice-red",
+  "colour-wall-ice-red-large",
+  "carbon-igneous-wall",
+  "carbon-igneous-wall-large",
+  "red-sand-chunk",
+  "red-sand-chunk-center",
+  "red-sand-slab",
+  "red-sandy-slab",
+  "red-sand-slab-center",
+  "red-sandy-slab-center",
+  "red-sand-slope",
+  "red-sandy-slope",
+  "red-sand-stair",
+  "red-sandy-stair",
+  "red-sand-wall",
+  "red-sandy-wall",
+  "red-sand-wall-large",
+  "red-sandy-wall-large",
+  "salt-chunk",
+  "salt-chunk-center",
+  "salt-slab",
+  "salt-slab-center",
+  "salt-slope",
+  "salt-stair",
+  "salt-wall-2",
+  "salt-wall-large",
+  "colour-wall-salt",
+  "colour-wall-salt-large",
+  "colour-wall-salt-red",
+  "colour-wall-salt-red-large",
+  "colour-wall-salt-green",
+  "colour-wall-salt-green-large",
+  "colour-wall-salt-blue",
+  "colour-wall-salt-blue-large",
+  "sand-chunk",
+  "sand-chunk-center",
+  "sand-slab",
+  "sandy-slab",
+  "sand-slab-center",
+  "sandy-slab-center",
+  "sand-slope",
+  "sandy-slope",
+  "sand-stair",
+  "sandy-stair",
+  "sandy-wall",
+  "zzec-sand-wall",
+  "sandy-wall-large",
+  "zzed-sand-wall-large",
+  "savannah-chunk",
+  "savannah-chunk-center",
+  "savannah-slab",
+  "savannah-slab-center",
+  "savannah-slope",
+  "savannah-stair",
+  "savannah-wall",
+  "savannah-wall-large",
+  "snow-chunk",
+  "snow-chunk-center",
+  "snow-slab",
+  "snow-slab-center",
+  "snow-slope",
+  "snow-stair",
+  "snow-wall-2",
+  "snow-wall-large",
+  "colour-wall-snow",
+  "colour-wall-snow-large",
+  "colour-wall-snow-red",
+  "colour-wall-snow-red-large",
+  "colour-wall-snow-green",
+  "colour-wall-snow-green-large",
+  "colour-wall-snow-blue",
+  "colour-wall-snow-blue-large",
+  "stone-chunk",
+  "stone-chunk-center",
+  "stone-slab",
+  "stone-slab-center",
+  "stone-slope",
+  "stone-stair",
+  "stone-wall-2",
+  "stone-wall-large",
+  "stone-overgrown-wall",
+  "stone-overgrown-wall-large",
+  "colour-wall-stone",
+  "colour-wall-stone-large",
+  "colour-wall-stone-red",
+  "colour-wall-stone-red-large",
+  "colour-wall-stone-green",
+  "colour-wall-stone-green-large",
+  "colour-wall-stone-blue",
+  "colour-wall-stone-blue-large",
+  "void-metal-chunk",
+  "void-metal-chunk-center",
+  "void-metal-slab",
+  "void-metal-slab-center",
+  "void-metal-slope",
+  "void-metal-stair",
+  "void-metal",
+  "void-metal-large",
+  "colour-wall-void-metal",
+  "colour-wall-void-metal-large",
+  "colour-wall-void-metal-red",
+  "colour-wall-void-metal-red-large",
+  "colour-wall-void-metal-green",
+  "colour-wall-void-metal-green-large",
+  "colour-wall-void-metal-blue",
+  "colour-wall-void-metal-blue-large",
+  "wooden-slab",
+  "wooden-slab-center",
+  "wooden-slope",
+  "wooden-stair",
+  "wood-wall",
+  "wood-wall-large",
+  "floor-blue",
+  "floor-cyan",
+  "floor-emptiness",
+  "floor-green",
+  "floor-magenta",
+  "floor-red",
+  "floor-red-sand",
+  "floor-sky",
+  "floor-sorter-1",
+  "floor-sorter-2",
+  "floor-sorter-3",
+  "floor-sorter-4",
+  "floor-sorter-5",
+  "floor-stat-1",
+  "floor-stat-2",
+  "floor-stat-3",
+  "floor-void",
+  "floor-white",
+  "floor-yellow",
+  "overlay-black",
+  "overlay-black-2",
+  "overlay-blue",
+  "overlay-cyan",
+  "overlay-emptiness",
+  "overlay-green",
+  "overlay-magenta",
+  "overlay-red",
+  "overlay-white",
+  "overlay-white-2",
+  "overlay-yellow",
+  "zfloor-corrupt",
+  "zfloor-flesh",
+  "zfloor-grid",
+  "zfloor-honeycomb",
+  "zfloor-void-plating",
+  "zzfloor-pillar",
+  "black-hole",
+  "efx-partigen-colours",
+  "particle-generator-medium",
+  "particle-generator-tini",
+  "sfx-ping",
+  "sfx-rain",
+  "sfx-storm",
+  "sfx-thunder",
+  "sfx-wind",
+  "anthicus",
+  "antumbra",
+  "arkyid",
+  "atrax",
+  "avert",
+  "bryde",
+  "cleroi",
+  "collaris",
+  "conquer",
+  "corvus",
+  "crawler",
+  "dagger",
+  "disrupt",
+  "eclipse",
+  "elude",
+  "flare",
+  "fortress",
+  "horizon",
+  "hypercane",
+  "latum",
+  "locus",
+  "mace",
+  "merui",
+  "minke",
+  "mono",
+  "nova",
+  "obviate",
+  "omni",
+  "omura",
+  "precept",
+  "pulsar",
+  "quasar",
+  "quell",
+  "reign",
+  "renale",
+  "risso",
+  "rp",
+  "scepter",
+  "sei",
+  "spiroct",
+  "stell",
+  "tecta",
+  "toxopid",
+  "vanquish",
+  "vela",
+  "zenith",
 ]
