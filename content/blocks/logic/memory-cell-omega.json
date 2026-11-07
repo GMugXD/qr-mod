@@ -1,0 +1,14 @@
+{    
+    "type": "MemoryBlock",
+    "name": "Omega Memory Cell",
+    "health": 600,
+    "size": 1,
+    "variants": 1,
+    "memoryCapacity": 4096,
+    "alwaysUnlocked": true,
+    "requirements": [],
+    "category": "logic",
+    "research": {
+    
+    }
+}
