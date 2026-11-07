@@ -17,4 +17,4 @@ Timer.schedule(()=>{Colors.get("grayscaling").fromHsv(0, 0, (Mathf.sin(Mathf.deg
 
 // item colour test
 let item = Items.copper;
-Timer.schedule(()=>{item.color.fromHsv(Vars.state.tick, 1, 1)},0,0.01)
+Timer.schedule(()=>{item.color.fromHsv(Vars.state.tick, 1, 1)},0,0.01);
