@@ -1,10 +1,10 @@
 {    
     "type": "MemoryBlock",
-    "name": "Invis Cell",
+    "name": "Omega Memory Cell",
     "health": 600,
     "size": 1,
     "variants": 1,
-    "memoryCapacity": 2048,
+    "memoryCapacity": 4096,
     "alwaysUnlocked": true,
     "requirements": [],
     "category": "logic",
